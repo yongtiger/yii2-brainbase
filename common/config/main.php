@@ -9,17 +9,6 @@ return [
     'language' => 'zh-CN',
 
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
-
-    'modules' => [
-
-        ///[yii2-brainbase v0.2.0 (setting)]
-        'setting' => [
-            'class' => 'yongtiger\setting\Module',
-        ],
-        ///[http://www.brainbook.cc]
-        
-    ],
-
     'components' => [
         'cache' => [
             'class' => 'yii\caching\FileCache',

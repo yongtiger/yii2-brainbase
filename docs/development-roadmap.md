@@ -1,12 +1,5 @@
 # Development roadmap
 
-## v0.2.0 (setting)
-
-Features of this version:
-
-* Internationalization
-
-
 ## v0.1.0 (i18n)
 
 Features of this version:

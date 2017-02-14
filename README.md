@@ -7,8 +7,9 @@
 
 Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Template](https://github.com/yiisoft/yii2-app-advanced) best for developing complex Web applications with multiple tiers.
 
+
 ## FEATURES
-* Internationalization
+
 * Perfect code annotation
 * Sample of extensions directory structure. `docs`, etc.
 * `README.md`
