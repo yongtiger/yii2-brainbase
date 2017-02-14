@@ -47,6 +47,7 @@ php composer.phar install
 2. Run command `init` to initialize the application with a specific environment.
 3. Create a new database and adjust the `components['db']` configuration in common/config/main-local.php accordingly.
 4. Apply migrations with console command `yii migrate`. This will create tables needed for the application to work.
+5. Example username/password: `admin/123456`.
 
 
 ## USAGES

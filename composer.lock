@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "38867685368485c776b5b447b334f86c",
+    "content-hash": "1c3d9197002196f302a2364709f3093c",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -259,7 +259,7 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2016-12-11T13:37:11+00:00"
+            "time": "2016-12-11 13:37:11"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -304,6 +304,57 @@
                 "html"
             ],
             "time": "2016-07-16T12:58:58+00:00"
+        },
+        {
+            "name": "sergeymakinen/yii2-php-file-cache",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergeymakinen/yii2-php-file-cache.git",
+                "reference": "f13667f094e01c97d4d50d96f21a847981cd3c8f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergeymakinen/yii2-php-file-cache/zipball/f13667f094e01c97d4d50d96f21a847981cd3c8f",
+                "reference": "f13667f094e01c97d4d50d96f21a847981cd3c8f",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.1"
+            },
+            "require-dev": {
+                "sergeymakinen/yii2-tests": "^1.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "classmap": [
+                    "src/PhpFileCache.php",
+                    "src/ValueWithBootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Makinen",
+                    "email": "sergey@makinen.ru",
+                    "homepage": "https://makinen.ru"
+                }
+            ],
+            "description": "Yii 2 PHP file cache",
+            "homepage": "https://github.com/sergeymakinen/yii2-php-file-cache",
+            "keywords": [
+                "cache",
+                "caching",
+                "file",
+                "php",
+                "yii",
+                "yii2",
+                "yii2-php-file-cache"
+            ],
+            "time": "2017-01-03T18:33:10+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -357,7 +408,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-02-13T09:07:58+00:00"
+            "time": "2017-02-13 09:07:58"
         },
         {
             "name": "yiisoft/yii2",
@@ -365,12 +416,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "55cbe844b641f712bfe5c9bb8ef675e6ef287b4c"
+                "reference": "eb7d683ac7f3908bd8a27944738450d974d1750e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/55cbe844b641f712bfe5c9bb8ef675e6ef287b4c",
-                "reference": "55cbe844b641f712bfe5c9bb8ef675e6ef287b4c",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/eb7d683ac7f3908bd8a27944738450d974d1750e",
+                "reference": "eb7d683ac7f3908bd8a27944738450d974d1750e",
                 "shasum": ""
             },
             "require": {
@@ -457,7 +508,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-02-11T20:19:06+00:00"
+            "time": "2017-02-14 09:50:39"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -507,7 +558,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2017-01-30T22:58:04+00:00"
+            "time": "2017-01-30 22:58:04"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -557,7 +608,7 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2016-12-20T13:33:37+00:00"
+            "time": "2016-12-20 13:33:37"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -608,6 +659,53 @@
                 "yii2"
             ],
             "time": "2016-11-30T11:55:45+00:00"
+        },
+        {
+            "name": "yongtiger/yii2-setting",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yongtiger/yii2-setting.git",
+                "reference": "13e89cccd1ed22578f6eaedc0740157ca1f7b4fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yongtiger/yii2-setting/zipball/13e89cccd1ed22578f6eaedc0740157ca1f7b4fc",
+                "reference": "13e89cccd1ed22578f6eaedc0740157ca1f7b4fc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yongtiger\\setting\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yong Tiger",
+                    "email": "tigeryang.brainbook@outlook.com",
+                    "homepage": "http://www.branbook.cc/yongtiger"
+                }
+            ],
+            "description": "Simple and efficient setup. All settings are read from DB or cache into a static array at frontend. Updates specified setting category at backend.",
+            "homepage": "http://www.branbook.cc",
+            "keywords": [
+                "config",
+                "extension",
+                "setting",
+                "setup",
+                "yii2"
+            ],
+            "time": "2017-01-03 19:34:33"
         }
     ],
     "packages-dev": [
@@ -933,12 +1031,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "5f17a79615bd36d52d3b3ce44075aec02605d8bf"
+                "reference": "662ca4c076d56de355f423c1fa0fa7b51c224e17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/5f17a79615bd36d52d3b3ce44075aec02605d8bf",
-                "reference": "5f17a79615bd36d52d3b3ce44075aec02605d8bf",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/662ca4c076d56de355f423c1fa0fa7b51c224e17",
+                "reference": "662ca4c076d56de355f423c1fa0fa7b51c224e17",
                 "shasum": ""
             },
             "require": {
@@ -990,7 +1088,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2016-11-02T14:11:11+00:00"
+            "time": "2017-02-14T19:21:36+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1664,7 +1762,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2016-12-08T20:27:08+00:00"
+            "time": "2016-12-08 20:27:08"
         },
         {
             "name": "psr/http-message",
@@ -1807,70 +1905,6 @@
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
             "time": "2016-12-06T20:05:00+00:00"
-        },
-        {
-            "name": "sebastian/comparator",
-            "version": "1.2.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
-                "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "sebastian/diff": "~1.2",
-                "sebastian/exporter": "~1.2 || ~2.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.4"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Jeff Welch",
-                    "email": "whatthejeff@gmail.com"
-                },
-                {
-                    "name": "Volker Dusch",
-                    "email": "github@wallbash.com"
-                },
-                {
-                    "name": "Bernhard Schussek",
-                    "email": "bschussek@2bepublished.at"
-                },
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de"
-                }
-            ],
-            "description": "Provides the functionality to compare PHP values for equality",
-            "homepage": "http://www.github.com/sebastianbergmann/comparator",
-            "keywords": [
-                "comparator",
-                "compare",
-                "equality"
-            ],
-            "time": "2017-01-29T09:50:25+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -2090,7 +2124,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2016-10-03T07:46:22+00:00"
+            "time": "2016-10-03 07:46:22"
         },
         {
             "name": "sebastian/object-enumerator",
@@ -2339,12 +2373,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "28698ac32c2694d4a3de8b17bf02fab2b7598ce0"
+                "reference": "a7804f7e6f5d01646857da602fc3fe84888d3a85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/28698ac32c2694d4a3de8b17bf02fab2b7598ce0",
-                "reference": "28698ac32c2694d4a3de8b17bf02fab2b7598ce0",
+                "url": "https://api.github.com/repos/symfony/console/zipball/a7804f7e6f5d01646857da602fc3fe84888d3a85",
+                "reference": "a7804f7e6f5d01646857da602fc3fe84888d3a85",
                 "shasum": ""
             },
             "require": {
@@ -2399,7 +2433,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-06T12:04:42+00:00"
+            "time": "2017-02-14T16:35:24+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -2452,7 +2486,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02T20:33:09+00:00"
+            "time": "2017-01-02 20:33:09"
         },
         {
             "name": "symfony/debug",
