@@ -39,14 +39,12 @@ php composer.phar install
 ```
 
 
-## CONFIGURATION
+## GETTING STARTED
 
 1. Configure environments: `\yii2-brainbase\environments\dev\common\config\main-local.php`, `\yii2-brainbase\environments\prod\common\config\main-local.php`.
 2. Run command `init` to initialize the application with a specific environment.
 3. Create a new database and adjust the `components['db']` configuration in common/config/main-local.php accordingly.
 4. Apply migrations with console command `yii migrate`. This will create tables needed for the application to work.
-
-## GETTING STARTED
 
 
 ## USAGES
