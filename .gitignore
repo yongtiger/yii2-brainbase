@@ -1,1 +1,4 @@
 /vendor/*
+/frontend/runtime/*
+/backend/runtime/*
+/console/runtime/*

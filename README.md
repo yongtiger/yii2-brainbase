@@ -1,13 +1,15 @@
-# yii2-brainbase v0.0.0 (initial commit)
+# yii2-brainbase v0.1.0 (i18n)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
 [![Latest Unstable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/unstable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![License](https://poser.pugx.org/yongtiger/yii2-brainbase/license)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 
+Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Template](https://github.com/yiisoft/yii2-app-advanced) best for developing complex Web applications with multiple tiers.
 
 ## FEATURES
-
+* Internationalization
+* Perfect code annotation
 * Sample of extensions directory structure. `docs`, etc.
 * `README.md`
 * `composer.json`

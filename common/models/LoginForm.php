@@ -31,6 +31,20 @@ class LoginForm extends Model
         ];
     }
 
+    ///[yii2-brainbase v0.1.0 (i18n)]
+    /**
+     * @inheritdoc
+     */
+    public function attributeLabels()
+    {
+        return [
+            'username' => Yii::t('common', 'Username'),
+            'password' => Yii::t('common', 'Password'),
+            'rememberMe' => Yii::t('common', 'Remember Me'),
+        ];
+    }
+    ///[http://www.brainbook.cc]
+
     /**
      * Validates the password.
      * This method serves as the inline validation for password.
@@ -43,7 +57,7 @@ class LoginForm extends Model
         if (!$this->hasErrors()) {
             $user = $this->getUser();
             if (!$user || !$user->validatePassword($this->password)) {
-                $this->addError($attribute, 'Incorrect username or password.');
+                $this->addError($attribute, Yii::t('common', 'Incorrect username or password.'));
             }
         }
     }

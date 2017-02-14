@@ -16,7 +16,6 @@ class ContactForm extends Model
     public $body;
     public $verifyCode;
 
-
     /**
      * @inheritdoc
      */
@@ -32,15 +31,21 @@ class ContactForm extends Model
         ];
     }
 
+    ///[yii2-brainbase v0.1.0 (i18n)]
     /**
      * @inheritdoc
      */
     public function attributeLabels()
     {
         return [
-            'verifyCode' => 'Verification Code',
+            'verifyCode' => Yii::t('common', 'Verification Code'),
+            'name' => Yii::t('app', 'Name'),
+            'email' => Yii::t('common', 'Email'),
+            'subject' => Yii::t('app', 'Subject'),
+            'body' => Yii::t('app', 'Body'),
         ];
     }
+    ///[http://www.brainbook.cc]
 
     /**
      * Sends an email to the specified email address using the information collected by this model.

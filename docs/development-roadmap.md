@@ -1,5 +1,13 @@
 # Development roadmap
 
+
+## v0.1.0 (i18n)
+
+Features of this version:
+
+* Internationalization
+
+
 ## v0.0.0 (initial commit)
 
 Features of this version:
