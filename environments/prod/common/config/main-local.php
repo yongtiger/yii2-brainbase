@@ -3,9 +3,13 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=yii2advanced',
-            'username' => 'root',
-            'password' => '',
+            
+            ///[yii2-brainbase v0.0.0 (initial commit)]
+            'dsn' => 'mysql:host=localhost;dbname=yii2brainbase',
+            'username' => 'yii2root',
+            'password' => '123456',
+            ///[http://www.brainbook.cc]
+
             'charset' => 'utf8',
         ],
         'mailer' => [

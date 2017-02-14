@@ -6,7 +6,7 @@
 [![License](https://poser.pugx.org/yongtiger/yii2-brainbase/license)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 
 
-## Features
+## FEATURES
 
 * Sample of extensions directory structure. `docs`, etc.
 * `README.md`
@@ -14,14 +14,15 @@
 * `development-roadmap.md`
 
 
-## Dependences
+## REQUIREMENTS
 
-* [Yii2 Advanced Template](https://github.com/yiisoft/yii2-app-advanced)
+* PHP 5.4.0+
+* Yii2 2.0.6+
 
 
-## Installation   
+## INSTALLATION   
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+The preferred way to install this project is through [composer](http://getcomposer.org/download/).
 
 Either run
 
@@ -38,29 +39,29 @@ php composer.phar install
 ```
 
 
-## Configuration
+## CONFIGURATION
 
 
-## Usages
+## USAGES
 
 
-## Notes
+## NOTES
 
 
-## Documents
+## DOCUMENTS
 
 
-## References
+## REFERENCES
 
 
-## See also
+## SEE ALSO
 
 
 ## TBD
 
 
-## [Development roadmap](docs/development-roadmap.md)
+## [DEVELOPMENT ROADMAP](docs/development-roadmap.md)
 
 
-## License 
+## LICENSE 
 **yii2-brainbase** is released under the MIT license, see [LICENSE](https://opensource.org/licenses/MIT) file for details.
