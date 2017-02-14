@@ -1,5 +1,13 @@
 # Development roadmap
 
+## v0.2.0 (setting)
+
+Features of this version:
+
+* All settings are read from DB or cache into a static array at frontend. Updates specified setting category at backend.
+* Internationalization
+
+
 ## v0.1.0 (i18n)
 
 Features of this version:

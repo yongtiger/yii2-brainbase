@@ -1,4 +1,4 @@
-# yii2-brainbase v0.1.0 (i18n)
+# yii2-brainbase v0.2.0 (setting)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
@@ -10,6 +10,8 @@ Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Templ
 
 ## FEATURES
 
+* All settings are read from DB or cache into a static array at frontend. Updates specified setting category at backend.
+* Internationalization
 * Perfect code annotation
 * Sample of extensions directory structure. `docs`, etc.
 * `README.md`
@@ -21,6 +23,8 @@ Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Templ
 
 * PHP 5.4.0+
 * Yii2 2.0.6+
+* Yii2 extension: [sergeymakinen/yii2-php-file-cache](https://github.com/sergeymakinen/yii2-php-file-cache)
+* Yii2 extension: [yongtiger/yii2-setting](https://github.com/yongtiger/yii2-setting)
 
 
 ## INSTALLATION   
