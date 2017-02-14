@@ -64,6 +64,8 @@ php composer.phar install
 
 ## SEE ALSO
 
+- [i18n:Long Text Translation](docs/i18n-long-text-translation.md)
+
 
 ## TBD
 
