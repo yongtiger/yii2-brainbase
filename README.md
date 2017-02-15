@@ -13,10 +13,6 @@ Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Templ
 * All settings are read from DB or cache into a static array at frontend. Updates specified setting category at backend.
 * Internationalization
 * Perfect code annotation
-* Sample of extensions directory structure. `docs`, etc.
-* `README.md`
-* `composer.json`
-* `development-roadmap.md`
 
 
 ## REQUIREMENTS
