@@ -11,13 +11,12 @@ return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
 
     'modules' => [
-
-        ///[yii2-brainbase v0.2.0 (setting)]
-        'setting' => [
-            'class' => 'yongtiger\setting\Module',
+        ///[yii2-brainbase v0.3.0 (admin:rbac)]
+        'admin' => [
+            'class' => 'mdm\admin\Module',
+            'layout' => 'left-menu',    ///[yii2-brainbase v0.3.0 (admin:menu)]
         ],
-        ///[http://www.brainbook.cc]
-        
+
     ],
 
     'components' => [
@@ -40,5 +39,33 @@ return [
         ],
         ///[http://www.brainbook.cc]
 
+        ///[yii2-brainbase v0.3.0 (admin:rbac)]
+        'authManager' => [
+            'class' => 'yii\rbac\DbManager', // or use 'yii\rbac\PhpManager'
+            "defaultRoles" => ["guest"],    ///[yii2-brainbase v0.3.0 (admin:defaultRoles)]
+        ]
+        ///[http://www.brainbook.cc]
+
     ],
+
+    ///[yii2-brainbase v0.3.0 (admin:rbac)]
+    'as access' => [
+        'class' => 'mdm\admin\components\AccessControl',
+
+        ///Here is the action that allows everyone (including guests) to visit
+        'allowActions' => [
+            //'some-controller/some-action',
+
+            // 'admin/*' should not appear here in the production, of course.
+            // But in the earlier stages of your development, you may probably want to
+            // add a lot of actions here until you finally completed setting up rbac,
+            // otherwise you may not even take a first step.
+            ///'admin/*',
+
+            // '*' means to allow all users (including guests). Note: After setting RBAC commented out!
+            // '*'
+        ]
+    ],
+    ///[http://www.brainbook.cc]
+
 ];

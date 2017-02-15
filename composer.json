@@ -20,7 +20,8 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0",
 
         "sergeymakinen/yii2-php-file-cache": "^1.0",
-        "yongtiger/yii2-setting": "*"
+        "yongtiger/yii2-setting": "*",
+        "mdmsoft/yii2-admin": "~2.0"
 
     },
     "require-dev": {

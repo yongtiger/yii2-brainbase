@@ -12,7 +12,17 @@ return [
     'name' => 'Yii Brainbase',  ///[yii2-brainbase]
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+
+    'modules' => [
+
+        ///[yii2-brainbase v0.2.0 (setting)]
+        'setting' => [
+            'class' => 'yongtiger\setting\Module',
+        ],
+
+    ],
+    ///[http://www.brainbook.cc]
+
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',

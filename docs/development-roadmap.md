@@ -1,5 +1,12 @@
 # Development roadmap
 
+## v0.3.0 (admin:rbac, menu, defaultRoles)
+
+Features of this version:
+
+* Admin: rbac, menu, defaultRoles
+
+
 ## v0.2.0 (setting)
 
 Features of this version:
