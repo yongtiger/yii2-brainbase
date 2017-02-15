@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-$this->title = Yii::t('app', 'My Yii Application');
+$this->title = \yongtiger\setting\Setting::get('site', 'name', Yii::t('app', 'My Yii Application'));
 ?>
 <div class="site-index">
 

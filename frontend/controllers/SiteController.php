@@ -117,7 +117,7 @@ class SiteController extends Controller
     {
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-            if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+            if ($model->sendEmail(\yongtiger\setting\Setting::get('site', 'adminEmail', Yii::$app->params['adminEmail']))) {
                 Yii::$app->session->setFlash(Yii::t('app', 'success'), Yii::t('app', 'Thank you for contacting us. We will respond to you as soon as possible.'));
             } else {
                 Yii::$app->session->setFlash(Yii::t('app', 'error'), Yii::t('app', 'There was an error sending your message.'));

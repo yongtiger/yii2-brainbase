@@ -2,3 +2,6 @@
 /frontend/runtime/*
 /backend/runtime/*
 /console/runtime/*
+.setting
+.buildpath
+.project
