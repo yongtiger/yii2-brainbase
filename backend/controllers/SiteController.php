@@ -62,7 +62,7 @@ class SiteController extends Controller
      */
     public function actionError()
     {
-        return $this->goHome()->send();
+        $this->goHome()->send();
     }
     ///[http://www.brainbook.cc]
 
@@ -86,6 +86,17 @@ class SiteController extends Controller
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
+
+        ///[yii2-brainbase v0.3.2 (admin:permission_access_backend)]
+        Yii::$app->user->on(yii\web\User::EVENT_BEFORE_LOGIN, function ($event) {
+            Yii::$app->user->setIdentity($event->identity);
+            if (!Yii::$app->user->can('permission_access_backend')) {
+                $this->goHome()->send();
+                $event->handled = true;
+                Yii::$app->getSession()->setFlash('error', Yii::t('app', 'Error! No permission to access backend.'));
+                Yii::$app->end();   ///exit immediately and terminate subsequent code execution
+            }
+        });
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {

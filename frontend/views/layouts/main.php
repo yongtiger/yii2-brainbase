@@ -28,8 +28,8 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => Yii::$app->name,
-        'brandUrl' => Yii::$app->homeUrl,
+        'brandLabel' => \yongtiger\setting\Setting::get('site', 'name', Yii::$app->name),
+        'brandUrl' => \yongtiger\setting\Setting::get('site', 'homeUrl', Yii::$app->homeUrl),
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
@@ -70,7 +70,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; <?= Yii::$app->name ?> <?= date('Y') ?></p>
+        <p class="pull-left">&copy; <?= \yongtiger\setting\Setting::get('site', 'name', Yii::$app->name) ?> <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>

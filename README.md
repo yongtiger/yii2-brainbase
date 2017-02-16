@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.3.1 (admin:return home when guest accesses an invalid route)
+# Yii2 Brainbase v0.3.2 (admin:permission_access_backend)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
@@ -10,10 +10,12 @@ Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Templ
 
 ## FEATURES
 
-* Admin: rbac, menu, defaultRoles
-* All settings are read from DB or cache into a static array at frontend. Updates specified setting category at backend.
 * Internationalization
 * Perfect code annotation
+* All settings are read from DB or cache into a static array at frontend. Updates specified setting category at backend
+* Admin: rbac, menu, defaultRoles
+  - fix: should return home when guest access an invalid route, but not to show `#404` error
+  - fix: users without `permission_access_backend` should not login backend (`#403` error)
 
 
 ## REQUIREMENTS

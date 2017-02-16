@@ -3,6 +3,13 @@
 return [
 
 	/**
+	 * Controllers
+	 */
+	///\backend\controllers\SiteController.php
+	'Error! No permission to access backend.' => '没有登陆后台权限',
+
+
+	/**
 	 * Views
 	 */
 	///\backend\views\site\index.php

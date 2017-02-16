@@ -1,10 +1,17 @@
 # Development roadmap
 
+## v0.3.2 (admin:permission_access_backend)
+
+Features of this version:
+
+* fix: users without `permission_access_backend` should not login backend (`#403` error)
+
+
 ## v0.3.1 (admin:return home when guest accesses an invalid route)
 
 Features of this version:
 
-* Return home when guest accesses an invalid route
+* fix: should return home when guest access an invalid route, but not to show `#404` error
 
 
 ## v0.3.0 (admin:rbac, menu, defaultRoles)

@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-02-14 17:15:13
+Date: 2017-02-16 00:46:19
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -39,6 +39,6 @@ CREATE TABLE `setting` (
 -- Records of setting
 -- ----------------------------
 INSERT INTO `setting` VALUES ('1', 'site', 'name', 'My Application', 'string', 'textInput', null, '', '', 'Setup <b>site name</b>.', '');
-INSERT INTO `setting` VALUES ('2', 'site', 'url', 'http://www.brainbook.cc', 'string', 'textInput', null, '', '', 'Setup <b>site url</b>.', '');
+INSERT INTO `setting` VALUES ('2', 'site', 'homeUrl', 'http://www.brainbook.cc', 'string', 'textInput', null, '', '', 'Setup <b>site home url</b>.', '');
 INSERT INTO `setting` VALUES ('3', 'site', 'adminEmail', 'admin@example.com', 'string', 'textInput', null, null, null, 'Setup <b>admin email</b>.', null);
 INSERT INTO `setting` VALUES ('4', 'site', 'serviceEmail', 'service@example.com', 'string', 'textInput', null, null, null, 'Setup <b>service email</b>.', null);
