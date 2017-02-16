@@ -41,17 +41,30 @@ class SiteController extends Controller
         ];
     }
 
+    ///[yii2-brainbase v0.3.1 (admin:return home when guest accesses an invalid route)] @see http://www.yiiframework.com/doc-2.0/guide-runtime-handling-errors.html#using-error-actions
+    ///When guest users access invalid page (#404), return to the home page, and login users still can see the error message.
     /**
      * @inheritdoc
      */
     public function actions()
     {
-        return [
+        return Yii::$app->user->isGuest ? [] : [
             'error' => [
                 'class' => 'yii\web\ErrorAction',
             ],
         ];
     }
+
+    /**
+     * Displays error page.
+     *
+     * @return string
+     */
+    public function actionError()
+    {
+        return $this->goHome()->send();
+    }
+    ///[http://www.brainbook.cc]
 
     /**
      * Displays homepage.

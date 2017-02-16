@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.3.0 (admin:rbac, menu, defaultRoles)
+# Yii2 Brainbase v0.3.1 (admin:return home when guest accesses an invalid route)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
@@ -72,6 +72,7 @@ php composer.phar install
 
 - https://github.com/mdmsoft/yii2-admin
 - https://github.com/mdmsoft/yii2-admin/pull/309/
+- http://www.yiiframework.com/doc-2.0/guide-runtime-handling-errors.html#using-error-actions
 
 ## SEE ALSO
 

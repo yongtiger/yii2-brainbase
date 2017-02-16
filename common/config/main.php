@@ -55,9 +55,10 @@ return [
         ///Here is the action that allows everyone (including guests) to visit
         'allowActions' => [
             //'some-controller/some-action',
-            'error/*',
-            'debug/*',  ///[yii2-brainbase v0.3.0 (admin:rbac):fix Yii debug disappear] @see https://github.com/mdmsoft/yii2-admin/issues/219
-            
+
+            ///[yii2-brainbase v0.3.0 (admin:rbac):fix Yii debug disappear] @see https://github.com/mdmsoft/yii2-admin/issues/219
+            'debug/*',
+
             // 'admin/*' should not appear here in the production, of course.
             // But in the earlier stages of your development, you may probably want to
             // add a lot of actions here until you finally completed setting up rbac,

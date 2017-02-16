@@ -1,5 +1,12 @@
 # Development roadmap
 
+## v0.3.1 (admin:return home when guest accesses an invalid route)
+
+Features of this version:
+
+* Return home when guest accesses an invalid route
+
+
 ## v0.3.0 (admin:rbac, menu, defaultRoles)
 
 Features of this version:
@@ -7,6 +14,7 @@ Features of this version:
 * Admin: rbac, menu, defaultRoles
   - Note: fixed multi app (frontend/backend) @see https://github.com/mdmsoft/yii2-admin/pull/309/
   - Note: fixed Yii debug disappear in route
+
 
 ## v0.2.0 (setting)
 
