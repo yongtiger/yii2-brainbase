@@ -23,7 +23,9 @@ Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Templ
 * Yii2 extension: [sergeymakinen/yii2-php-file-cache](https://github.com/sergeymakinen/yii2-php-file-cache) (optional but very useful!)
 * Yii2 extension: [yongtiger/yii2-setting](https://github.com/yongtiger/yii2-setting)
 * Yii2 extension: [mdmsoft/yii2-admin](https://github.com/mdmsoft/yii2-admin)
-*** Note: fixed multi app (frontend/backend) @see https://github.com/mdmsoft/yii2-admin/pull/309/
+  - Note: fixed multi app (frontend/backend) @see https://github.com/mdmsoft/yii2-admin/pull/309/
+  - Note: fixed Yii debug disappear in route
+
 
 
 ## INSTALLATION   
@@ -58,6 +60,9 @@ php composer.phar install
 
 
 ## NOTES
+
+- fixed multi app (frontend/backend) @see https://github.com/mdmsoft/yii2-admin/pull/309/
+- fixed Yii debug disappear in route
 
 
 ## DOCUMENTS
