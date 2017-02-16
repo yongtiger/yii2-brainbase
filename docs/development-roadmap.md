@@ -1,5 +1,12 @@
 # Development roadmap
 
+## v0.4.3 (admin:fix# menu display order)
+
+Features of this version:
+
+* FIX# menu display order
+
+
 ## v0.4.2 (admin:fix# autocomplete parent of creating&updating menu)
 
 Features of this version:
