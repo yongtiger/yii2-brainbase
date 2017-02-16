@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.3.2 (admin:permission_access_backend)
+# Yii2 Brainbase v0.4.0 (admin:login layout)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
@@ -27,7 +27,6 @@ Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Templ
 * Yii2 extension: [mdmsoft/yii2-admin](https://github.com/mdmsoft/yii2-admin)
   - Note: fixed multi app (frontend/backend) @see https://github.com/mdmsoft/yii2-admin/pull/309/
   - Note: fixed Yii debug disappear in route
-
 
 
 ## INSTALLATION   

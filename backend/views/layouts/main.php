@@ -26,43 +26,56 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
-    <?php
-    NavBar::begin([
-        'brandLabel' => \yongtiger\setting\Setting::get('site', 'name', Yii::$app->name),
-        'brandUrl' => \yongtiger\setting\Setting::get('site', 'homeUrl', Yii::$app->homeUrl),
-        'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
-        ],
-    ]);
-    $menuItems = [
-        ['label' => Yii::t('common', 'Home'), 'url' => ['/site/index']],
-    ];
-    if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => Yii::t('common', 'Login'), 'url' => ['/site/login']];
-    } else {
-        $menuItems[] = '<li>'
-            . Html::beginForm(['/site/logout'], 'post')
-            . Html::submitButton(
-                Yii::t('common', 'Logout') . ' (' . Yii::$app->user->identity->username . ')',
-                ['class' => 'btn btn-link logout']
-            )
-            . Html::endForm()
-            . '</li>';
-    }
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
-        'items' => $menuItems,
-    ]);
-    NavBar::end();
-    ?>
 
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= Alert::widget() ?>
-        <?= $content ?>
-    </div>
+    <!--///[yii2-brainbase v0.4.0 (admin:login layout)]-->
+    <?php if (Yii::$app->controller->action->id === 'login'): ?> 
+
+        <div class="container">
+            <?= $content ?>
+        </div>
+
+    <?php else: ?> 
+    <!--///[http://www.brainbook.cc]-->
+        <?php
+        NavBar::begin([
+            'brandLabel' => \yongtiger\setting\Setting::get('site', 'name', Yii::$app->name),
+            'brandUrl' => \yongtiger\setting\Setting::get('site', 'homeUrl', Yii::$app->homeUrl),
+            'options' => [
+                'class' => 'navbar-inverse navbar-fixed-top',
+            ],
+        ]);
+        $menuItems = [
+            ['label' => Yii::t('common', 'Home'), 'url' => ['/site/index']],
+        ];
+        if (Yii::$app->user->isGuest) {
+            $menuItems[] = ['label' => Yii::t('common', 'Login'), 'url' => ['/site/login']];
+        } else {
+            $menuItems[] = '<li>'
+                . Html::beginForm(['/site/logout'], 'post')
+                . Html::submitButton(
+                    Yii::t('common', 'Logout') . ' (' . Yii::$app->user->identity->username . ')',
+                    ['class' => 'btn btn-link logout']
+                )
+                . Html::endForm()
+                . '</li>';
+        }
+        echo Nav::widget([
+            'options' => ['class' => 'navbar-nav navbar-right'],
+            'items' => $menuItems,
+        ]);
+        NavBar::end();
+        ?>
+
+        <div class="container">
+            <?= Breadcrumbs::widget([
+                'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+            ]) ?>
+            <?= Alert::widget() ?>
+            <?= $content ?>
+        </div>
+
+    <?php endif; ?> <!--///[yii2-brainbase v0.4.0 (admin:login layout)]-->
+
 </div>
 
 <footer class="footer">

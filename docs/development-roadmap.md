@@ -1,5 +1,12 @@
 # Development roadmap
 
+## v0.4.0 (admin:login layout)
+
+Features of this version:
+
+* login layout
+
+
 ## v0.3.2 (admin:permission_access_backend)
 
 Features of this version:
