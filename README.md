@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.4.1 (admin:fix# menu autocomplete when using mdmsoft/yii2-admin multi app)
+# Yii2 Brainbase v0.4.2 (admin:fix# autocomplete parent of creating&updating menu)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
@@ -16,6 +16,7 @@ Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Templ
 * Admin: rbac, menu, defaultRoles
   - FIX# should return home when guest access an invalid route, but not to show `#404` error
   - FIX# users without `permission_access_backend` should not login backend (`#403` error)
+  - FIX# menu display order
 
 
 ## REQUIREMENTS
@@ -29,6 +30,7 @@ Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Templ
   - Note: UPG# mdmsoft/yii2-admin multi app @see https://github.com/mdmsoft/yii2-admin/pull/309/
   - Note: FIX# Yii debug disappear in route when using mdmsoft/yii2-admin multi app
   - Note: FIX# menu autocomplete when using mdmsoft/yii2-admin multi app
+  - Note: FIX# autocomplete parent of creating&updating menu
 
 
 ## INSTALLATION   
@@ -65,7 +67,8 @@ php composer.phar install
 ## NOTES
 
 - UPG# mdmsoft/yii2-admin multi app @see https://github.com/mdmsoft/yii2-admin/pull/309/
-- FIX# Yii debug disappear in route
+- FIX# Yii debug disappear in route when using mdmsoft/yii2-admin multi app
+- FIX# menu autocomplete when using mdmsoft/yii2-admin multi app
 
 
 ## DOCUMENTS

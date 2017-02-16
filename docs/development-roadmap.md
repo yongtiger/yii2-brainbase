@@ -1,5 +1,12 @@
 # Development roadmap
 
+## v0.4.2 (admin:fix# autocomplete parent of creating&updating menu)
+
+Features of this version:
+
+* FIX# autocomplete parent of creating&updating menu
+
+
 ## v0.4.1 (admin:fix# menu autocomplete when using mdmsoft/yii2-admin multi app)
 
 Features of this version:
