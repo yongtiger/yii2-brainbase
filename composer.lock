@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e8860ebb94cdc8cc663631ed206534a3",
+    "content-hash": "04df49fa616667b09c73e0c90040026f",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -85,6 +85,31 @@
                 "jquery",
                 "library"
             ]
+        },
+        {
+            "name": "bower-asset/jquery-ui",
+            "version": "1.11.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jqueryui.git",
+                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jqueryui/zipball/c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
+                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.6"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "jquery-ui.js"
+                ],
+                "bower-asset-ignore": []
+            }
         },
         {
             "name": "bower-asset/jquery.inputmask",
@@ -474,12 +499,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "f6c739b580981fd88ed77cbe652ccc0aa36e980e"
+                "reference": "6ccc24282157ff9aca4756792932bd37e75da8cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f6c739b580981fd88ed77cbe652ccc0aa36e980e",
-                "reference": "f6c739b580981fd88ed77cbe652ccc0aa36e980e",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/6ccc24282157ff9aca4756792932bd37e75da8cc",
+                "reference": "6ccc24282157ff9aca4756792932bd37e75da8cc",
                 "shasum": ""
             },
             "require": {
@@ -566,7 +591,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-02-14 22:33:23"
+            "time": "2017-02-16 15:07:52"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -669,6 +694,56 @@
             "time": "2016-12-20 13:33:37"
         },
         {
+            "name": "yiisoft/yii2-jui",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-jui.git",
+                "reference": "8f6611d112af8c45f854ec7e38d28b81a4a34344"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/8f6611d112af8c45f854ec7e38d28b81a4a34344",
+                "reference": "8f6611d112af8c45f854ec7e38d28b81a4a34344",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery-ui": "1.11.*@stable",
+                "yiisoft/yii2": "~2.0.4"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                },
+                "asset-installer-paths": {
+                    "npm-asset-library": "vendor/npm",
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\jui\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com"
+                }
+            ],
+            "description": "The Jquery UI extension for the Yii framework",
+            "keywords": [
+                "jQuery UI",
+                "yii2"
+            ],
+            "time": "2017-02-04 13:08:20"
+        },
+        {
             "name": "yiisoft/yii2-swiftmailer",
             "version": "dev-master",
             "source": {
@@ -724,12 +799,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-setting.git",
-                "reference": "fc2224015a469f5509ce7eab72d213bdadcd08d9"
+                "reference": "ef5b909512d4c220a1a76544d1bf79559eca77ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-setting/zipball/fc2224015a469f5509ce7eab72d213bdadcd08d9",
-                "reference": "fc2224015a469f5509ce7eab72d213bdadcd08d9",
+                "url": "https://api.github.com/repos/yongtiger/yii2-setting/zipball/ef5b909512d4c220a1a76544d1bf79559eca77ca",
+                "reference": "ef5b909512d4c220a1a76544d1bf79559eca77ca",
                 "shasum": ""
             },
             "require": {
@@ -763,7 +838,7 @@
                 "setup",
                 "yii2"
             ],
-            "time": "2017-02-15 02:01:17"
+            "time": "2017-02-15 02:38:17"
         }
     ],
     "packages-dev": [
@@ -985,12 +1060,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "68099b02b60bbf3b088ff5cb67bf506770ef9cac"
+                "reference": "5acd2bd8c2b600ad5cc4c9180ebf0a930604d6a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/68099b02b60bbf3b088ff5cb67bf506770ef9cac",
-                "reference": "68099b02b60bbf3b088ff5cb67bf506770ef9cac",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/5acd2bd8c2b600ad5cc4c9180ebf0a930604d6a5",
+                "reference": "5acd2bd8c2b600ad5cc4c9180ebf0a930604d6a5",
                 "shasum": ""
             },
             "require": {
@@ -1031,7 +1106,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2017-01-23 09:23:06"
+            "time": "2017-02-16 16:15:51"
         },
         {
             "name": "fzaninotto/faker",
@@ -1687,12 +1762,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1dfbf1837691adb6bd8e01f4c1b3a8ba968f96a4"
+                "reference": "184bc0918ff5fb0b2014486a1925ad1105403b65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1dfbf1837691adb6bd8e01f4c1b3a8ba968f96a4",
-                "reference": "1dfbf1837691adb6bd8e01f4c1b3a8ba968f96a4",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/184bc0918ff5fb0b2014486a1925ad1105403b65",
+                "reference": "184bc0918ff5fb0b2014486a1925ad1105403b65",
                 "shasum": ""
             },
             "require": {
@@ -1761,7 +1836,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-02-12 17:16:01"
+            "time": "2017-02-16 10:06:27"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -2495,12 +2570,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "a7804f7e6f5d01646857da602fc3fe84888d3a85"
+                "reference": "60c9e716dc715f308b52872c9974856d4441f840"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/a7804f7e6f5d01646857da602fc3fe84888d3a85",
-                "reference": "a7804f7e6f5d01646857da602fc3fe84888d3a85",
+                "url": "https://api.github.com/repos/symfony/console/zipball/60c9e716dc715f308b52872c9974856d4441f840",
+                "reference": "60c9e716dc715f308b52872c9974856d4441f840",
                 "shasum": ""
             },
             "require": {
@@ -2555,7 +2630,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-14 16:35:24"
+            "time": "2017-02-16 14:18:56"
         },
         {
             "name": "symfony/css-selector",
@@ -2616,12 +2691,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "6a980cb6c9c02f2b5313945de4d5567df2a4ef77"
+                "reference": "897f7e81a6d987380ce0955874dfafff7eb1a804"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/6a980cb6c9c02f2b5313945de4d5567df2a4ef77",
-                "reference": "6a980cb6c9c02f2b5313945de4d5567df2a4ef77",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/897f7e81a6d987380ce0955874dfafff7eb1a804",
+                "reference": "897f7e81a6d987380ce0955874dfafff7eb1a804",
                 "shasum": ""
             },
             "require": {
@@ -2664,7 +2739,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-12 19:33:56"
+            "time": "2017-02-16 15:37:45"
         },
         {
             "name": "symfony/dom-crawler",

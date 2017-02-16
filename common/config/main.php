@@ -11,11 +11,20 @@ return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
 
     'modules' => [
+    
         ///[yii2-brainbase v0.3.0 (admin:rbac)]
         'admin' => [
             'class' => 'mdm\admin\Module',
-            'layout' => 'left-menu',    ///[yii2-brainbase v0.3.0 (admin:menu)]
+
+            ///[yii2-brainbase v0.3.0 (admin:menu)]
+            // it can be '@path/to/your/layout'.
+            // defaults to null, using the application's layout without the menu
+            // other available values are 'right-menu' and 'top-menu'
+            // @see https://github.com/mdmsoft/yii2-admin/blob/master/docs/guide/basic-usage.md
+            'layout' => 'left-menu',
+
         ],
+        ///[http://www.brainbook.cc]
 
     ],
 

@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.4.0 (admin:login layout)
+# Yii2 Brainbase v0.4.1 (admin:fix# menu autocomplete when using mdmsoft/yii2-admin multi app)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
@@ -14,19 +14,21 @@ Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Templ
 * Perfect code annotation
 * All settings are read from DB or cache into a static array at frontend. Updates specified setting category at backend
 * Admin: rbac, menu, defaultRoles
-  - fix: should return home when guest access an invalid route, but not to show `#404` error
-  - fix: users without `permission_access_backend` should not login backend (`#403` error)
+  - FIX# should return home when guest access an invalid route, but not to show `#404` error
+  - FIX# users without `permission_access_backend` should not login backend (`#403` error)
 
 
 ## REQUIREMENTS
 
 * PHP 5.4.0+
 * Yii2 2.0.6+
-* Yii2 extension: [sergeymakinen/yii2-php-file-cache](https://github.com/sergeymakinen/yii2-php-file-cache) (optional but very useful!)
+* Yii2 extension(optional but very useful!): [sergeymakinen/yii2-php-file-cache](https://github.com/sergeymakinen/yii2-php-file-cache)
 * Yii2 extension: [yongtiger/yii2-setting](https://github.com/yongtiger/yii2-setting)
+* Yii2 extension(optional but very useful!): [yiisoft/yii2-jui](https://github.com/yiisoft/yii2-jui), [JUI Extension for Yii 2](http://www.yiiframework.com/doc-2.0/ext-jui-index.html)
 * Yii2 extension: [mdmsoft/yii2-admin](https://github.com/mdmsoft/yii2-admin)
-  - Note: fixed multi app (frontend/backend) @see https://github.com/mdmsoft/yii2-admin/pull/309/
-  - Note: fixed Yii debug disappear in route
+  - Note: UPG# mdmsoft/yii2-admin multi app @see https://github.com/mdmsoft/yii2-admin/pull/309/
+  - Note: FIX# Yii debug disappear in route when using mdmsoft/yii2-admin multi app
+  - Note: FIX# menu autocomplete when using mdmsoft/yii2-admin multi app
 
 
 ## INSTALLATION   
@@ -62,8 +64,8 @@ php composer.phar install
 
 ## NOTES
 
-- fixed multi app (frontend/backend) @see https://github.com/mdmsoft/yii2-admin/pull/309/
-- fixed Yii debug disappear in route
+- UPG# mdmsoft/yii2-admin multi app @see https://github.com/mdmsoft/yii2-admin/pull/309/
+- FIX# Yii debug disappear in route
 
 
 ## DOCUMENTS
@@ -74,6 +76,7 @@ php composer.phar install
 - https://github.com/mdmsoft/yii2-admin
 - https://github.com/mdmsoft/yii2-admin/pull/309/
 - http://www.yiiframework.com/doc-2.0/guide-runtime-handling-errors.html#using-error-actions
+
 
 ## SEE ALSO
 
