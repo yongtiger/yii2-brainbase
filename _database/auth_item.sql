@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-02-16 00:45:49
+Date: 2017-02-17 00:26:42
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -39,6 +39,9 @@ CREATE TABLE `auth_item` (
 INSERT INTO `auth_item` VALUES ('@app-backend/*', '2', null, null, null, '1487147800', '1487147800');
 INSERT INTO `auth_item` VALUES ('@app-backend/admin/default/*', '2', null, null, null, '1487149138', '1487149138');
 INSERT INTO `auth_item` VALUES ('@app-backend/admin/user/*', '2', null, null, null, '1487149138', '1487149138');
+INSERT INTO `auth_item` VALUES ('@app-backend/debug/default/index', '2', null, null, null, '1487275204', '1487275204');
+INSERT INTO `auth_item` VALUES ('@app-backend/gii/*', '2', null, null, null, '1487237749', '1487237749');
+INSERT INTO `auth_item` VALUES ('@app-backend/gii/default/index', '2', null, null, null, '1487274736', '1487274736');
 INSERT INTO `auth_item` VALUES ('@app-backend/site/*', '2', null, null, null, '1487149138', '1487149138');
 INSERT INTO `auth_item` VALUES ('@app-frontend/*', '2', null, null, null, '1487147641', '1487147641');
 INSERT INTO `auth_item` VALUES ('guest', '1', null, null, null, '1487146242', '1487146242');

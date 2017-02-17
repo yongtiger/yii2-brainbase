@@ -14,7 +14,7 @@ return [
     
         ///[yii2-brainbase v0.3.0 (admin:rbac)]
         'admin' => [
-            'class' => 'mdm\admin\Module',
+            'class' => 'yongtiger\admin\Module',
 
             ///[yii2-brainbase v0.3.0 (admin:menu)]
             // it can be '@path/to/your/layout'.
@@ -59,7 +59,7 @@ return [
 
     ///[yii2-brainbase v0.3.0 (admin:rbac)]
     'as access' => [
-        'class' => 'mdm\admin\components\AccessControl',
+        'class' => 'yongtiger\admin\components\AccessControl',
 
         ///Here is the action that allows everyone (including guests) to visit
         'allowActions' => [

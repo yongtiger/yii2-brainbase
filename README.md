@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.4.4 (admin:fix# mdmsoft/yii2-admin multi app)
+# Yii2 Brainbase v0.5.0 (yongtiger/yii2-admin)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
@@ -14,10 +14,6 @@ Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Templ
 * Perfect code annotation
 * All settings are read from DB or cache into a static array at frontend. Updates specified setting category at backend
 * Admin: rbac, menu, defaultRoles
-  - FIX# should return home when guest access an invalid route, but not to show `#404` error
-  - FIX# users without `permission_access_backend` should not login backend (`#403` error)
-  - FIX# autocomplete parent of creating&updating menu
-  - FIX# menu display order
 
 
 ## REQUIREMENTS
@@ -27,11 +23,8 @@ Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Templ
 * Yii2 extension(optional but very useful!): [sergeymakinen/yii2-php-file-cache](https://github.com/sergeymakinen/yii2-php-file-cache)
 * Yii2 extension: [yongtiger/yii2-setting](https://github.com/yongtiger/yii2-setting)
 * Yii2 extension(optional but very useful!): [yiisoft/yii2-jui](https://github.com/yiisoft/yii2-jui), [JUI Extension for Yii 2](http://www.yiiframework.com/doc-2.0/ext-jui-index.html)
-* Yii2 extension: [mdmsoft/yii2-admin](https://github.com/mdmsoft/yii2-admin)
-* UPG# [mdmsoft/yii2-admin multi app](https://github.com/mdmsoft/yii2-admin/pull/309/)
-  - FIX# Yii debug disappear in route when using mdmsoft/yii2-admin multi app
-  - FIX# menu autocomplete when using mdmsoft/yii2-admin multi app
-  - FIX# mdmsoft/yii2-admin multi app
+* Yii2 extension: [yongtiger/yii2-admin](https://github.com/yongtiger/yii2-admin)
+
 
 
 ## INSTALLATION   
@@ -72,10 +65,6 @@ php composer.phar install
 
 
 ## REFERENCES
-
-- https://github.com/mdmsoft/yii2-admin
-- https://github.com/mdmsoft/yii2-admin/pull/309/
-- http://www.yiiframework.com/doc-2.0/guide-runtime-handling-errors.html#using-error-actions
 
 
 ## SEE ALSO

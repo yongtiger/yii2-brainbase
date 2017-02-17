@@ -1,5 +1,11 @@
 # Development roadmap
 
+## v0.5.0 (yongtiger/yii2-admin)
+
+Features of this version:
+
+* Using yongtiger/yii2-admin
+
 
 ## v0.4.4 (admin:fix# mdmsoft/yii2-admin multi app)
 

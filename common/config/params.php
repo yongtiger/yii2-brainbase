@@ -10,7 +10,7 @@ return [
     'serviceEmail' => 'service.brainbook.cc@gmail.com',
 
     ///[yii2-brainbase v0.3.0 (admin:rbac):fix Added multi app (frontend/backend)]@see https://github.com/mdmsoft/yii2-admin/pull/309/
-	'mdm.admin.configs' => [
+	'yongtiger.admin.configs' => [
         'advanced' => [
             'app-backend' => [
                 '@common/config/main.php',

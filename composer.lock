@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "04df49fa616667b09c73e0c90040026f",
+    "content-hash": "8c76c5648d39381dd403e4a6ad4b6044",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -331,64 +331,6 @@
             "time": "2016-07-16T12:58:58+00:00"
         },
         {
-            "name": "mdmsoft/yii2-admin",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mdmsoft/yii2-admin.git",
-                "reference": "13de4624a0e46d8341d3461f81046f39a6459836"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mdmsoft/yii2-admin/zipball/13de4624a0e46d8341d3461f81046f39a6459836",
-                "reference": "13de4624a0e46d8341d3461f81046f39a6459836",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.7"
-            },
-            "require-dev": {
-                "yiisoft/yii2-codeception": "~2.0"
-            },
-            "suggest": {
-                "yiisoft/yii2-bootstrap": "Used when using layout 'left-menu', 'right-menu' or 'top-menu'"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.0.master": "1.0.x-dev",
-                    "dev-master": "2.x-dev"
-                },
-                "asset-installer-paths": {
-                    "npm-asset-library": "vendor/npm",
-                    "bower-asset-library": "vendor/bower"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "mdm\\admin\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Misbahul Munir",
-                    "email": "misbahuldmunir@gmail.com"
-                }
-            ],
-            "description": "RBAC Auth manager for Yii2 ",
-            "keywords": [
-                "admin",
-                "auth",
-                "rbac",
-                "yii"
-            ],
-            "time": "2016-12-01 03:31:21"
-        },
-        {
             "name": "sergeymakinen/yii2-php-file-cache",
             "version": "v1.1.0",
             "source": {
@@ -499,12 +441,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "6ccc24282157ff9aca4756792932bd37e75da8cc"
+                "reference": "90706a928cfb9daf812893304fe7b795c80986cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/6ccc24282157ff9aca4756792932bd37e75da8cc",
-                "reference": "6ccc24282157ff9aca4756792932bd37e75da8cc",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/90706a928cfb9daf812893304fe7b795c80986cf",
+                "reference": "90706a928cfb9daf812893304fe7b795c80986cf",
                 "shasum": ""
             },
             "require": {
@@ -591,7 +533,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-02-16 15:07:52"
+            "time": "2017-02-17 07:38:22"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -794,17 +736,66 @@
             "time": "2016-11-30T11:55:45+00:00"
         },
         {
+            "name": "yongtiger/yii2-admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yongtiger/yii2-admin.git",
+                "reference": "f2df7dfe6ff9076ce31a1979d19db1f88402e71c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yongtiger/yii2-admin/zipball/f2df7dfe6ff9076ce31a1979d19db1f88402e71c",
+                "reference": "f2df7dfe6ff9076ce31a1979d19db1f88402e71c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "suggest": {
+                "yiisoft/yii2-bootstrap": "Used when using layout 'left-menu', 'right-menu' or 'top-menu'"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yongtiger\\admin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yong Tiger",
+                    "email": "tigeryang.brainbook@outlook.com",
+                    "homepage": "http://www.branbook.cc/yongtiger"
+                }
+            ],
+            "description": "GUI manager for RABC (Role Base Access Control) Yii2. Easy to manage authorization of user",
+            "homepage": "http://www.branbook.cc",
+            "keywords": [
+                "admin",
+                "extension",
+                "rbac",
+                "yii2"
+            ],
+            "time": "2017-02-17 09:27:35"
+        },
+        {
             "name": "yongtiger/yii2-setting",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-setting.git",
-                "reference": "ef5b909512d4c220a1a76544d1bf79559eca77ca"
+                "reference": "9a8ab1f0785e8a5ba6e09e489e399eba80a1ce21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-setting/zipball/ef5b909512d4c220a1a76544d1bf79559eca77ca",
-                "reference": "ef5b909512d4c220a1a76544d1bf79559eca77ca",
+                "url": "https://api.github.com/repos/yongtiger/yii2-setting/zipball/9a8ab1f0785e8a5ba6e09e489e399eba80a1ce21",
+                "reference": "9a8ab1f0785e8a5ba6e09e489e399eba80a1ce21",
                 "shasum": ""
             },
             "require": {
@@ -838,7 +829,7 @@
                 "setup",
                 "yii2"
             ],
-            "time": "2017-02-15 02:38:17"
+            "time": "2017-02-16 17:56:42"
         }
     ],
     "packages-dev": [
@@ -2974,12 +2965,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "6095f9750f91c544920eb1344a6f7d2e4e15d8ad"
+                "reference": "218d7c335fa776f597f2e12108677f58bc3faae6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/6095f9750f91c544920eb1344a6f7d2e4e15d8ad",
-                "reference": "6095f9750f91c544920eb1344a6f7d2e4e15d8ad",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/218d7c335fa776f597f2e12108677f58bc3faae6",
+                "reference": "218d7c335fa776f597f2e12108677f58bc3faae6",
                 "shasum": ""
             },
             "require": {
@@ -3021,7 +3012,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-10 14:48:44"
+            "time": "2017-02-16 22:50:29"
         },
         {
             "name": "webmozart/assert",

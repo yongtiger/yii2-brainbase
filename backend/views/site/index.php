@@ -4,7 +4,7 @@
 
 $this->title = \yongtiger\setting\Setting::get('site', 'name', Yii::t('app', 'My Yii Application'));
 
-use mdm\admin\components\MenuHelper;
+use yongtiger\admin\components\MenuHelper;
 use yii\bootstrap\Nav;
 
 echo Nav::widget([
