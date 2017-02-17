@@ -1,5 +1,13 @@
 # Development roadmap
 
+
+## v0.4.4 (admin:fix# mdmsoft/yii2-admin multi app)
+
+Features of this version:
+
+* FIX# mdmsoft/yii2-admin multi app
+
+
 ## v0.4.3 (admin:fix# menu display order)
 
 Features of this version:

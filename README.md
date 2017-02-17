@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.4.3 (admin:fix# menu display order)
+# Yii2 Brainbase v0.4.4 (admin:fix# mdmsoft/yii2-admin multi app)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
@@ -28,9 +28,10 @@ Yii2 brainbase is a skeleton Yii 2 application based on the [Yii2 Advanced Templ
 * Yii2 extension: [yongtiger/yii2-setting](https://github.com/yongtiger/yii2-setting)
 * Yii2 extension(optional but very useful!): [yiisoft/yii2-jui](https://github.com/yiisoft/yii2-jui), [JUI Extension for Yii 2](http://www.yiiframework.com/doc-2.0/ext-jui-index.html)
 * Yii2 extension: [mdmsoft/yii2-admin](https://github.com/mdmsoft/yii2-admin)
-  - Note: UPG# mdmsoft/yii2-admin multi app @see https://github.com/mdmsoft/yii2-admin/pull/309/
-  - Note: FIX# Yii debug disappear in route when using mdmsoft/yii2-admin multi app
-  - Note: FIX# menu autocomplete when using mdmsoft/yii2-admin multi app
+* UPG# [mdmsoft/yii2-admin multi app](https://github.com/mdmsoft/yii2-admin/pull/309/)
+  - FIX# Yii debug disappear in route when using mdmsoft/yii2-admin multi app
+  - FIX# menu autocomplete when using mdmsoft/yii2-admin multi app
+  - FIX# mdmsoft/yii2-admin multi app
 
 
 ## INSTALLATION   
