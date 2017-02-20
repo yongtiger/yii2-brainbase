@@ -1,5 +1,12 @@
 # Development roadmap
 
+## v0.6.0 (backend:layout & menu)
+
+Features of this version:
+
+* backend:layout & menu
+
+
 ## v0.5.0 (yongtiger/yii2-admin)
 
 Features of this version:

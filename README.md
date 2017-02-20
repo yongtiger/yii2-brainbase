@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.5.0 (yongtiger/yii2-admin)
+# Yii2 Brainbase v0.6.0 (backend:layout & menu)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
