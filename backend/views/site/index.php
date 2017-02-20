@@ -7,9 +7,6 @@ $this->title = \yongtiger\setting\Setting::get('site', 'name', Yii::t('app', 'My
 use yongtiger\admin\components\MenuHelper;
 use yii\bootstrap\Nav;
 
-echo Nav::widget([
-    'items' => MenuHelper::getAssignedMenu(Yii::$app->user->id)
-]);
 ?>
 <div class="site-index">
 
