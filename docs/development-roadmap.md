@@ -1,5 +1,12 @@
 # Development roadmap
 
+## v0.7.1 (backend:admin config theme pathMap)
+
+Features of this version:
+
+* backend:admin reconstruction
+
+
 ## v0.7.0 (backend:admin reconstruction)
 
 Features of this version:
