@@ -61,8 +61,8 @@ return [
         'view' => [
              'theme' => [
                  'pathMap' => [ ///?????'pathMap' is empty : $pathMap = [Yii::$app->getBasePath() => [$basePath]];
-                    '@backend/views' => '@vendor/yongtiger/yii2-admin/src/views',   ///[yii2-admin release version 1.2.0 (Layout:main, main-login)]
-                    // '@backend/views' => '@vendor/yongtiger/yii2-adminlte-asset/src/views',   ///[yii2-adminlte-asset]
+                    // '@backend/views' => '@vendor/yongtiger/admin/views',   ///[yii2-admin release version 1.2.0 (Layout:main, main-login)]
+                    '@backend/views' => '@yongtiger/adminlteasset/views',   ///[yii2-adminlte-asset]
                     // ...
                  ],
              ],
