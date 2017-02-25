@@ -15,16 +15,6 @@ return [
         ///[yii2-brainbase v0.3.0 (admin:rbac)]
         'admin' => [
             'class' => 'yongtiger\admin\Module',
-
-            ///[yii2-brainbase v0.3.0 (admin:menu)]
-            // it can be '@path/to/your/layout'.
-            // defaults to null, using the application's layout without the menu
-            // other available values are 'right-menu' and 'top-menu'
-            // @see https://github.com/mdmsoft/yii2-admin/blob/master/docs/guide/basic-usage.md
-            'layout' => 'left-menu',
-            
-            'defaultRoute' => 'route',
-
         ],
         ///[http://www.brainbook.cc]
 
@@ -78,7 +68,7 @@ return [
             ///'admin/*',
 
             // '*' means to allow all users (including guests). Note: After setting RBAC commented out!
-            '*'
+            // '*'
         ]
     ],
     ///[http://www.brainbook.cc]

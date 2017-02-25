@@ -1,5 +1,12 @@
 # Development roadmap
 
+## v0.7.0 (backend:admin reconstruction)
+
+Features of this version:
+
+* backend:admin reconstruction
+
+
 ## v0.6.0 (backend:layout & menu)
 
 Features of this version:

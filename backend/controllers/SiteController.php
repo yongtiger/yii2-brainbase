@@ -60,6 +60,12 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        ///[yii2-adminlte-asset]Sets the params parameter `bodyClass` for the current view.
+        Yii::$app->view->params['bodyClass'] = 'skin-blue sidebar-mini';
+
+        ///[yii2-adminlte-asset]Sets the params parameter `userAvatar` for the current view.
+        // Yii::$app->view->params['userAvatar'] = '/img/user2-160x160.jpg';
+
         return $this->render('index');
     }
 
@@ -79,7 +85,7 @@ class SiteController extends Controller
             return $this->goBack();
         } else {
             return $this->render('login', [
-                'model' => $model,
+                'model' => $model
             ]);
         }
     }

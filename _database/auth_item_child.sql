@@ -4,13 +4,13 @@ Navicat MySQL Data Transfer
 Source Server         : MySQL55
 Source Server Version : 50523
 Source Host           : localhost:3399
-Source Database       : yii2-brainbase
+Source Database       : 1_admin
 
 Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-02-16 00:45:58
+Date: 2017-02-24 22:57:49
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -32,7 +32,7 @@ CREATE TABLE `auth_item_child` (
 -- Records of auth_item_child
 -- ----------------------------
 INSERT INTO `auth_item_child` VALUES ('permission_admin', '@app-backend/*');
-INSERT INTO `auth_item_child` VALUES ('permission_super_moderator', '@app-backend/admin/user/*');
+INSERT INTO `auth_item_child` VALUES ('permission_super_moderator', '@app-backend/admin/assignment/*');
 INSERT INTO `auth_item_child` VALUES ('permission_moderator', '@app-backend/site/*');
 INSERT INTO `auth_item_child` VALUES ('permission_super_moderator', '@app-backend/site/*');
 INSERT INTO `auth_item_child` VALUES ('permission_admin', '@app-frontend/*');
