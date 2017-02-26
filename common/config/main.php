@@ -60,6 +60,7 @@ return [
             ///[yii2-brainbase v0.3.0 (admin:rbac):fix Yii debug disappear] @see https://github.com/mdmsoft/yii2-admin/issues/219
             'debug/*',
             'error/*',
+            ///[Yii2 Brainbase v0.7.2 (yongtiger\admin\components\AccessControl\allowActions:'user/security/captcha')]
             'user/security/captcha',
 
             // 'admin/*' should not appear here in the production, of course.
