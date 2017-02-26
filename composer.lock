@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "65984870cf84f981265a439e2c3ed55a",
+    "content-hash": "df9d131acd578c6e961c23cadcdf6dc0",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -624,12 +624,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "63e255f87adea8015ecdf1b22d222020a3cb08ab"
+                "reference": "e9875fcb4421ad37620e49c289b9298e9d1479ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/63e255f87adea8015ecdf1b22d222020a3cb08ab",
-                "reference": "63e255f87adea8015ecdf1b22d222020a3cb08ab",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/e9875fcb4421ad37620e49c289b9298e9d1479ac",
+                "reference": "e9875fcb4421ad37620e49c289b9298e9d1479ac",
                 "shasum": ""
             },
             "require": {
@@ -716,7 +716,55 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-02-25 07:25:28"
+            "time": "2017-02-25 11:41:02"
+        },
+        {
+            "name": "yiisoft/yii2-authclient",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-authclient.git",
+                "reference": "9929acc03d61d96e6eabbb5e31b02d6f9faab10d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-authclient/zipball/9929acc03d61d96e6eabbb5e31b02d6f9faab10d",
+                "reference": "9929acc03d61d96e6eabbb5e31b02d6f9faab10d",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2-httpclient": "~2.0.1"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\authclient\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "External authentication via OAuth and OpenID for the Yii framework",
+            "keywords": [
+                "OpenId",
+                "api",
+                "auth",
+                "oauth",
+                "yii2"
+            ],
+            "time": "2017-02-15T14:34:51+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -724,12 +772,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "cd6b7463b3f6ead4a9901e162a57e7d40d270b72"
+                "reference": "6c46dce6217c022b18ecfbede7a9dd9a3b91e9e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/cd6b7463b3f6ead4a9901e162a57e7d40d270b72",
-                "reference": "cd6b7463b3f6ead4a9901e162a57e7d40d270b72",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/6c46dce6217c022b18ecfbede7a9dd9a3b91e9e5",
+                "reference": "6c46dce6217c022b18ecfbede7a9dd9a3b91e9e5",
                 "shasum": ""
             },
             "require": {
@@ -766,7 +814,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2017-01-30 22:58:04"
+            "time": "2017-02-25 21:12:18"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -817,6 +865,53 @@
                 "yii2"
             ],
             "time": "2016-12-20 13:33:37"
+        },
+        {
+            "name": "yiisoft/yii2-httpclient",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-httpclient.git",
+                "reference": "1153df649a711608b80db09b9e32d942c6d28001"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/1153df649a711608b80db09b9e32d942c6d28001",
+                "reference": "1153df649a711608b80db09b9e32d942c6d28001",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\httpclient\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "HTTP client extension for the Yii framework",
+            "keywords": [
+                "curl",
+                "http",
+                "httpclient",
+                "yii2"
+            ],
+            "time": "2017-02-15 14:28:44"
         },
         {
             "name": "yiisoft/yii2-jui",
@@ -924,12 +1019,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-admin.git",
-                "reference": "aa67c2d17bf9c566ed267a4a313274330d1252f3"
+                "reference": "fc358cae55f93e8d2a0f3152b489df38c7e5c58e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-admin/zipball/aa67c2d17bf9c566ed267a4a313274330d1252f3",
-                "reference": "aa67c2d17bf9c566ed267a4a313274330d1252f3",
+                "url": "https://api.github.com/repos/yongtiger/yii2-admin/zipball/fc358cae55f93e8d2a0f3152b489df38c7e5c58e",
+                "reference": "fc358cae55f93e8d2a0f3152b489df38c7e5c58e",
                 "shasum": ""
             },
             "require": {
@@ -963,7 +1058,7 @@
                 "rbac",
                 "yii2"
             ],
-            "time": "2017-02-25 08:08:50"
+            "time": "2017-02-26 03:55:14"
         },
         {
             "name": "yongtiger/yii2-adminlte-asset",
@@ -971,12 +1066,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-adminlte-asset.git",
-                "reference": "9d7434cb5a6b2dfd38d2de257ad2863aa55e9a84"
+                "reference": "ec22eb8aa92aed5e07236383c6783c970e23d0cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-adminlte-asset/zipball/9d7434cb5a6b2dfd38d2de257ad2863aa55e9a84",
-                "reference": "9d7434cb5a6b2dfd38d2de257ad2863aa55e9a84",
+                "url": "https://api.github.com/repos/yongtiger/yii2-adminlte-asset/zipball/ec22eb8aa92aed5e07236383c6783c970e23d0cb",
+                "reference": "ec22eb8aa92aed5e07236383c6783c970e23d0cb",
                 "shasum": ""
             },
             "require": {
@@ -1018,7 +1113,123 @@
                 "theme",
                 "yii2"
             ],
-            "time": "2017-02-25 08:29:47"
+            "time": "2017-02-26 03:16:09"
+        },
+        {
+            "name": "yongtiger/yii2-authclient",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yongtiger/yii2-authclient.git",
+                "reference": "3f67158cc7bba7cf8dff800d71db0b1c6cb73898"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yongtiger/yii2-authclient/zipball/3f67158cc7bba7cf8dff800d71db0b1c6cb73898",
+                "reference": "3f67158cc7bba7cf8dff800d71db0b1c6cb73898",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-authclient": "~2.1.0",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yongtiger\\authclient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yong Tiger",
+                    "email": "tigeryang.brainbook@outlook.com",
+                    "homepage": "http://www.branbook.cc/yongtiger"
+                }
+            ],
+            "homepage": "http://www.branbook.cc",
+            "keywords": [
+                "Authentication",
+                "amazon",
+                "auth",
+                "authclient",
+                "extension",
+                "facebook",
+                "github",
+                "google",
+                "instagram",
+                "linkedin",
+                "live",
+                "oauth",
+                "qq",
+                "reddit",
+                "renren",
+                "social",
+                "twitter",
+                "vkontakte",
+                "wechat",
+                "weibo",
+                "weixin",
+                "yahoo",
+                "yandex",
+                "yii2"
+            ],
+            "time": "2017-01-25 01:43:52"
+        },
+        {
+            "name": "yongtiger/yii2-cropper-avatar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yongtiger/yii2-cropper-avatar.git",
+                "reference": "c37ec3c045693ab72fa4ec4df1444686c2ad5c0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yongtiger/yii2-cropper-avatar/zipball/c37ec3c045693ab72fa4ec4df1444686c2ad5c0b",
+                "reference": "c37ec3c045693ab72fa4ec4df1444686c2ad5c0b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yongtiger\\cropperavatar\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yong Tiger",
+                    "email": "tigeryang.brainbook@outlook.com",
+                    "homepage": "http://www.branbook.cc/yongtiger"
+                }
+            ],
+            "homepage": "http://www.branbook.cc",
+            "keywords": [
+                "avatar",
+                "crop",
+                "cropper",
+                "extension",
+                "file",
+                "image",
+                "upload",
+                "webuploader",
+                "yii2"
+            ],
+            "time": "2017-02-12 20:50:49"
         },
         {
             "name": "yongtiger/yii2-setting",
@@ -1066,6 +1277,57 @@
                 "yii2"
             ],
             "time": "2017-02-16 17:56:42"
+        },
+        {
+            "name": "yongtiger/yii2-user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yongtiger/yii2-user.git",
+                "reference": "98fe2d2bc47dcaad2d23f2fd4637642f750b0f84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/98fe2d2bc47dcaad2d23f2fd4637642f750b0f84",
+                "reference": "98fe2d2bc47dcaad2d23f2fd4637642f750b0f84",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-bootstrap": "*",
+                "yongtiger/yii2-authclient": "*",
+                "yongtiger/yii2-cropper-avatar": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yongtiger\\user\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yong Tiger",
+                    "email": "tigeryang.brainbook@outlook.com",
+                    "homepage": "http://www.branbook.cc/yongtiger"
+                }
+            ],
+            "homepage": "http://www.branbook.cc",
+            "keywords": [
+                "Authentication",
+                "extension",
+                "oauth",
+                "profile",
+                "rbac",
+                "social",
+                "user",
+                "yii2"
+            ],
+            "time": "2017-02-26 05:50:44"
         }
     ],
     "packages-dev": [
@@ -1448,7 +1710,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-02-21T01:20:32+00:00"
+            "time": "2017-02-21 01:20:32"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1737,7 +1999,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2017-02-24T13:43:11+00:00"
+            "time": "2017-02-24 13:43:11"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1800,7 +2062,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-02-23T07:38:02+00:00"
+            "time": "2017-02-23 07:38:02"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -1981,7 +2243,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-02-25T07:46:05+00:00"
+            "time": "2017-02-25 07:46:05"
         },
         {
             "name": "phpunit/phpunit",
@@ -2063,7 +2325,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-02-20T14:35:00+00:00"
+            "time": "2017-02-20 14:35:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -2264,7 +2526,7 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "time": "2017-02-24T14:52:15+00:00"
+            "time": "2017-02-24 14:52:15"
         },
         {
             "name": "sebastian/comparator",
@@ -2548,7 +2810,106 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2017-02-23T14:11:06+00:00"
+            "time": "2017-02-23 14:11:06"
+        },
+        {
+            "name": "sebastian/object-enumerator",
+            "version": "2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/object-enumerator.git",
+                "reference": "ec4f51199e45f0e5685dc7cc2be5131cc32c4714"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/ec4f51199e45f0e5685dc7cc2be5131cc32c4714",
+                "reference": "ec4f51199e45f0e5685dc7cc2be5131cc32c4714",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0",
+                "sebastian/recursion-context": "^2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Traverses array structures and object graphs to enumerate all referenced objects",
+            "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
+            "time": "2017-02-18 16:04:11"
+        },
+        {
+            "name": "sebastian/recursion-context",
+            "version": "2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/recursion-context.git",
+                "reference": "2c3ba150cbec723aa057506e73a8d33bdb286c9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/2c3ba150cbec723aa057506e73a8d33bdb286c9a",
+                "reference": "2c3ba150cbec723aa057506e73a8d33bdb286c9a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net"
+                }
+            ],
+            "description": "Provides functionality to recursively process PHP variables",
+            "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
+            "time": "2016-11-19 07:33:16"
         },
         {
             "name": "sebastian/resource-operations",
@@ -2690,7 +3051,7 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-21T10:07:34+00:00"
+            "time": "2017-02-21 10:07:34"
         },
         {
             "name": "symfony/console",
@@ -2758,7 +3119,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-21T14:51:50+00:00"
+            "time": "2017-02-21 14:51:50"
         },
         {
             "name": "symfony/css-selector",
@@ -2811,7 +3172,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-21T10:07:34+00:00"
+            "time": "2017-02-21 10:07:34"
         },
         {
             "name": "symfony/debug",
@@ -2923,7 +3284,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-21T10:07:34+00:00"
+            "time": "2017-02-21 10:07:34"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -2986,7 +3347,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-21T10:07:34+00:00"
+            "time": "2017-02-21 10:07:34"
         },
         {
             "name": "symfony/finder",
@@ -3035,7 +3396,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-21T10:07:34+00:00"
+            "time": "2017-02-21 10:07:34"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -3149,7 +3510,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-21T14:51:50+00:00"
+            "time": "2017-02-21 14:51:50"
         },
         {
             "name": "webmozart/assert",
@@ -3246,7 +3607,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2017-02-22T13:47:31+00:00"
+            "time": "2017-02-22 13:47:31"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -3301,12 +3662,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "253a3355290bc65efe46b8fe0bdcf43de43c8e4a"
+                "reference": "5182458848359f08505b21ab71c0bd05c74617a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/253a3355290bc65efe46b8fe0bdcf43de43c8e4a",
-                "reference": "253a3355290bc65efe46b8fe0bdcf43de43c8e4a",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/5182458848359f08505b21ab71c0bd05c74617a5",
+                "reference": "5182458848359f08505b21ab71c0bd05c74617a5",
                 "shasum": ""
             },
             "require": {
@@ -3346,7 +3707,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2017-02-22T23:18:10+00:00"
+            "time": "2017-02-25 23:13:18"
         }
     ],
     "aliases": [],

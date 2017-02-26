@@ -1,10 +1,9 @@
 # Development roadmap
 
+## v0.7.2 (yongtiger\admin\components\AccessControl\allowActions:'user/security/captcha')
+
+
 ## v0.7.1 (backend:admin config theme pathMap)
-
-Features of this version:
-
-* backend:admin reconstruction
 
 
 ## v0.7.0 (backend:admin reconstruction)

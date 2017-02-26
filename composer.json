@@ -23,7 +23,8 @@
         "yongtiger/yii2-setting": "*",
         "yiisoft/yii2-jui": "~2.0.0",
         "yongtiger/yii2-admin": "*",
-        "yongtiger/yii2-adminlte-asset": "*"
+        "yongtiger/yii2-adminlte-asset": "*",
+        "yongtiger/yii2-user": "*"
 
     },
     "require-dev": {
