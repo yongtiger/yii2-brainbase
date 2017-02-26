@@ -57,7 +57,7 @@ return [
             // 'enableLoginValidateOnBlur' => false,
             // 'enableLoginValidateOnSubmit' => false,
 
-            // 'enableLoginWithCaptcha' => false,
+            'enableLoginWithCaptcha' => false,   ///[yii2-adminlte-asset:login layout]
 
             // ///[Yii2 uesr:recovery]
             'enableRecoveryPassword' => false,  ///[v0.9.7 (backend:enableRecoveryPassword)]
@@ -142,8 +142,8 @@ return [
             //     'cancelUrl' => new \yii\helpers\ReplaceArrayValue(['user/security/login']),
             // ]
 
-            'layout' => '@yongtiger/admin/views/layouts/main.php',
-            // 'layout' => '@yongtiger/adminlteasset/views/layouts/main.php',
+            // 'layout' => '@yongtiger/admin/views/layouts/main.php',   ///[yii2-admin:login layout]
+            'layout' => '@yongtiger/adminlteasset/views/layouts/main.php',  ///[yii2-adminlte-asset:login layout]
 
         ],
     ],
@@ -187,26 +187,23 @@ return [
         ],
         */
 
-        ///[yii2-admin][yii2-adminlte-asset]
         'view' => [
             'params' => [
-                ///[yii2-adminlte-asset]
-                'bodyClass' => 'skin-blue sidebar-mini',
 
                 ///[yii2-admin release version 2.2.0 (view params)]///[yii2-adminlte-asset v0.0.8 (view params)]
                 'logoutUrl' => ['/user/security/logout'],
+
+                'bodyClass' => 'skin-blue sidebar-mini',    ///[yii2-adminlte-asset]
+
             ],
 
             'theme' => [
-                'pathMap' => [ ///?????'pathMap' is empty : $pathMap = [Yii::$app->getBasePath() => [$basePath]];
+                'pathMap' => [
 
-                    '@backend/views' => '@yongtiger/admin/views',   ///[yii2-admin release version 1.2.0 (Layout:main, main-login)]
-                    // '@backend/views' => '@yongtiger/adminlteasset/views',   ///[yii2-adminlte-asset]
+                    // '@backend/views' => '@yongtiger/admin/views',   ///[yii2-admin:login layout]
+                    '@backend/views' => '@yongtiger/adminlteasset/views',   ///[yii2-adminlte-asset:login layout]
+                    '@yongtiger/user/views/security' => '@yongtiger/adminlteasset/views/site',  ///[yii2-adminlte-asset:login layout]Note: 'enableLoginWithCaptcha' must be false!
 
-                    // '@yongtiger/user/views/security' => '@yongtiger/admin/views/site',
-                    // '@yongtiger/user/views/security' => '@yongtiger/adminlteasset/views/site',
-
-                    // ...
                 ],
             ],
         ],

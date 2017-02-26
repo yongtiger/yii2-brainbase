@@ -1019,12 +1019,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-admin.git",
-                "reference": "fc358cae55f93e8d2a0f3152b489df38c7e5c58e"
+                "reference": "7d963d7aae162556303b76ebbf744b15035eb9d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-admin/zipball/fc358cae55f93e8d2a0f3152b489df38c7e5c58e",
-                "reference": "fc358cae55f93e8d2a0f3152b489df38c7e5c58e",
+                "url": "https://api.github.com/repos/yongtiger/yii2-admin/zipball/7d963d7aae162556303b76ebbf744b15035eb9d6",
+                "reference": "7d963d7aae162556303b76ebbf744b15035eb9d6",
                 "shasum": ""
             },
             "require": {
@@ -1058,7 +1058,7 @@
                 "rbac",
                 "yii2"
             ],
-            "time": "2017-02-26 03:55:14"
+            "time": "2017-02-26 07:00:13"
         },
         {
             "name": "yongtiger/yii2-adminlte-asset",
@@ -1284,12 +1284,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-user.git",
-                "reference": "98fe2d2bc47dcaad2d23f2fd4637642f750b0f84"
+                "reference": "4664342b527b0f9f2fc8e051c72c417b2cea7d11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/98fe2d2bc47dcaad2d23f2fd4637642f750b0f84",
-                "reference": "98fe2d2bc47dcaad2d23f2fd4637642f750b0f84",
+                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/4664342b527b0f9f2fc8e051c72c417b2cea7d11",
+                "reference": "4664342b527b0f9f2fc8e051c72c417b2cea7d11",
                 "shasum": ""
             },
             "require": {
@@ -1327,7 +1327,7 @@
                 "user",
                 "yii2"
             ],
-            "time": "2017-02-26 05:50:44"
+            "time": "2017-02-26 06:50:13"
         }
     ],
     "packages-dev": [
