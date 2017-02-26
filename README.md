@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.7.3 (backend:login layout)
+# Yii2 Brainbase v0.7.4 (backend:config user module)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 

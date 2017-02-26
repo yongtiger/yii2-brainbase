@@ -1284,12 +1284,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-user.git",
-                "reference": "4664342b527b0f9f2fc8e051c72c417b2cea7d11"
+                "reference": "c5e1a7107c329483ee1b18a302231dfe62ac9225"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/4664342b527b0f9f2fc8e051c72c417b2cea7d11",
-                "reference": "4664342b527b0f9f2fc8e051c72c417b2cea7d11",
+                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/c5e1a7107c329483ee1b18a302231dfe62ac9225",
+                "reference": "c5e1a7107c329483ee1b18a302231dfe62ac9225",
                 "shasum": ""
             },
             "require": {
@@ -1327,7 +1327,7 @@
                 "user",
                 "yii2"
             ],
-            "time": "2017-02-26 06:50:13"
+            "time": "2017-02-26 08:43:24"
         }
     ],
     "packages-dev": [
