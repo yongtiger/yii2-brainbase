@@ -4,13 +4,13 @@ Navicat MySQL Data Transfer
 Source Server         : MySQL55
 Source Server Version : 50523
 Source Host           : localhost:3399
-Source Database       : 1_admin
+Source Database       : yii2-brainbase
 
 Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-02-24 22:57:40
+Date: 2017-03-01 00:48:50
 */
 
 SET FOREIGN_KEY_CHECKS=0;

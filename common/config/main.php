@@ -12,9 +12,11 @@ return [
 
     'modules' => [
     
-        ///[yii2-brainbase v0.3.0 (admin:rbac)]
+        ///[yii2-brainbase v0.8.0 (admin&user:code reconstruction)]
         'admin' => [
             'class' => 'yongtiger\admin\Module',
+            'alertClassName' => 'yongtiger\fontawesomealert\widgets\Alert',    ///[yii2-fontawesome-alert]
+            // 'alertClassName' => 'yongtiger\popupalert\widgets\Alert',    ///[yii2-popup-alert]
         ],
         ///[http://www.brainbook.cc]
 
@@ -70,7 +72,7 @@ return [
             ///'admin/*',
 
             // '*' means to allow all users (including guests). Note: After setting RBAC commented out!
-            // '*'
+            '*'
         ]
     ],
     ///[http://www.brainbook.cc]

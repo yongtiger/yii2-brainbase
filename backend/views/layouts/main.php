@@ -14,9 +14,9 @@ AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>">
+<html lang="<?= \Yii::$app->language ?>">
 <head>
-    <meta charset="<?= Yii::$app->charset ?>">
+    <meta charset="<?= \Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
@@ -28,7 +28,7 @@ AppAsset::register($this);
 <div class="wrap">
 
     <!--///[yii2-brainbase v0.4.0 (admin:login layout)]-->
-    <?php if (Yii::$app->controller->action->id === 'login'): ?> 
+    <?php if (\Yii::$app->controller->action->id === 'login'): ?> 
 
         <div class="container">
             <?= $content ?>
@@ -38,22 +38,22 @@ AppAsset::register($this);
     <!--///[http://www.brainbook.cc]-->
         <?php
         NavBar::begin([
-            'brandLabel' => \yongtiger\setting\Setting::get('site', 'name', Yii::$app->name),
-            'brandUrl' => \yongtiger\setting\Setting::get('site', 'homeUrl', Yii::$app->homeUrl),
+            'brandLabel' => \yongtiger\setting\Setting::get('site', 'name', \Yii::$app->name),
+            'brandUrl' => \yongtiger\setting\Setting::get('site', 'homeUrl', \Yii::$app->homeUrl),
             'options' => [
                 'class' => 'navbar-inverse navbar-fixed-top',
             ],
         ]);
         $menuItems = [
-            ['label' => Yii::t('common', 'Home'), 'url' => ['/site/index']],
+            ['label' => \Yii::t('common', 'Home'), 'url' => ['/site/index']],
         ];
-        if (Yii::$app->user->isGuest) {
-            $menuItems[] = ['label' => Yii::t('common', 'Login'), 'url' => ['/site/login']];
+        if (\Yii::$app->user->isGuest) {
+            $menuItems[] = ['label' => \Yii::t('common', 'Login'), 'url' => ['/site/login']];
         } else {
             $menuItems[] = '<li>'
                 . Html::beginForm(['/site/logout'], 'post')
                 . Html::submitButton(
-                    Yii::t('common', 'Logout') . ' (' . Yii::$app->user->identity->username . ')',
+                    \Yii::t('common', 'Logout') . ' (' . \Yii::$app->user->identity->username . ')',
                     ['class' => 'btn btn-link logout']
                 )
                 . Html::endForm()
@@ -80,9 +80,9 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; <?= \yongtiger\setting\Setting::get('site', 'name', Yii::$app->name) ?> <?= date('Y') ?></p>
+        <p class="pull-left">&copy; <?= \yongtiger\setting\Setting::get('site', 'name', \Yii::$app->name) ?> <?= date('Y') ?></p>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <p class="pull-right"><?= \Yii::powered() ?></p>
     </div>
 </footer>
 

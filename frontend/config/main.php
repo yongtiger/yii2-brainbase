@@ -54,12 +54,14 @@ return [
             // 'enableLoginWithCaptcha' => false,
 
             // ///[Yii2 uesr:recovery]
-            'recoveryPasswordExpire' => 3600,
+            // 'enableRecoveryPassword' => false,  ///[v0.9.7 (backend:enableRecoveryPassword)]
+            // 'recoveryPasswordExpire' => 0,
             // 'recoveryPasswordComposeHtml' => '@yongtiger/user/mail/recover-password-html',
             // 'recoveryPasswordComposeText' => '@yongtiger/user/mail/recover-password-text',
             // 'recoveryPasswordSetFrom' => ['support@brainbook.cc' => 'My Application robot'],
 
             // ///[Yii2 uesr:account]
+            // 'enableAccount' => false,
             // 'enableAccountChangeWithPassword' => false,
             // 'enableAccountChangePasswordWithRepassword' => false,
             // 'accountVerificatonExpire' => 600,
@@ -75,6 +77,7 @@ return [
             // 'enableAccountChangeWithCaptcha' => false,
 
             // ///[Yii2 uesr:token]
+            // 'enableSendToken' => false,
             // 'enableSendTokenWithoutLoad' => false,
             // 'enableSendTokenAjaxValidation' => false,
             // 'enableSendTokenClientValidation' => false,
@@ -147,7 +150,7 @@ return [
             'identityClass' => 'yongtiger\user\models\User',
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity-frontend', 'httpOnly' => true],
-            'loginUrl' => ['user/security/login'],
+            'loginUrl' => ['/user/security/login'],
         ],
 
         'session' => [
@@ -298,7 +301,13 @@ return [
 
             ],
         ],
-        
+
+        'view' => [
+            'params' => [
+                'logoutUrl' => ['/user/security/logout'],
+            ],
+        ],
+
     ],
     'params' => $params,
 ];

@@ -4,13 +4,13 @@ Navicat MySQL Data Transfer
 Source Server         : MySQL55
 Source Server Version : 50523
 Source Host           : localhost:3399
-Source Database       : 1_admin
+Source Database       : yii2-brainbase
 
 Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-02-24 22:57:49
+Date: 2017-03-01 00:48:42
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -38,9 +38,13 @@ INSERT INTO `auth_item_child` VALUES ('permission_super_moderator', '@app-backen
 INSERT INTO `auth_item_child` VALUES ('permission_admin', '@app-frontend/*');
 INSERT INTO `auth_item_child` VALUES ('permission_guest', '@app-frontend/*');
 INSERT INTO `auth_item_child` VALUES ('permission_super_moderator', '@app-frontend/*');
-INSERT INTO `auth_item_child` VALUES ('role_admin', 'permission_access_backend');
-INSERT INTO `auth_item_child` VALUES ('role_moderator', 'permission_access_backend');
-INSERT INTO `auth_item_child` VALUES ('role_super_moderator', 'permission_access_backend');
+INSERT INTO `auth_item_child` VALUES ('role_admin', 'permission_access_app-backend');
+INSERT INTO `auth_item_child` VALUES ('role_moderator', 'permission_access_app-backend');
+INSERT INTO `auth_item_child` VALUES ('role_super_moderator', 'permission_access_app-backend');
+INSERT INTO `auth_item_child` VALUES ('guest', 'permission_access_app-frontend');
+INSERT INTO `auth_item_child` VALUES ('role_admin', 'permission_access_app-frontend');
+INSERT INTO `auth_item_child` VALUES ('role_moderator', 'permission_access_app-frontend');
+INSERT INTO `auth_item_child` VALUES ('role_super_moderator', 'permission_access_app-frontend');
 INSERT INTO `auth_item_child` VALUES ('role_admin', 'permission_admin');
 INSERT INTO `auth_item_child` VALUES ('guest', 'permission_guest');
 INSERT INTO `auth_item_child` VALUES ('role_moderator', 'permission_moderator');

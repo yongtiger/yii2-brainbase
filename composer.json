@@ -21,11 +21,11 @@
 
         "sergeymakinen/yii2-php-file-cache": "^1.0",
         "yongtiger/yii2-setting": "*",
-        "yiisoft/yii2-jui": "~2.0.0",
-        "yongtiger/yii2-admin": "*",
         "yongtiger/yii2-adminlte-asset": "*",
-        "yongtiger/yii2-user": "*"
+        "yongtiger/yii2-user": "*",
 
+        "yongtiger/yii2-fontawesome-alert": "*",
+        "yongtiger/yii2-popup-alert": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
