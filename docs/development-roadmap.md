@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.8.1 ($this->params['alertClassName'] callable)
+
+
 ## v0.8.0 (admin&user:code reconstruction)
 
 

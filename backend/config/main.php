@@ -108,6 +108,12 @@ return [
 
                 'bodyClass' => 'skin-blue sidebar-mini',    ///[yii2-adminlte-asset]
 
+                ///[Yii2 Brainbase v0.8.1 ($this->params['alertClassName'] callable)]
+                ///[Yii2 admin release version 2.6.1 (call_user_func([$alertClassName, 'widget']))]
+                ///[yii2-adminlte-asset v0.0.11 (call_user_func([$alertClassName, 'widget']))]
+                // 'alertClassName' => 'yongtiger\fontawesomealert\widgets\Alert',    ///[yii2-fontawesome-alert]
+                'alertClassName' => 'yongtiger\popupalert\widgets\Alert',    ///[yii2-popup-alert]
+
             ],
 
             'theme' => [
