@@ -37,8 +37,8 @@ AppAsset::register($this);
     <!--///[http://www.brainbook.cc]-->
         <?php
         NavBar::begin([
-            'brandLabel' => \yongtiger\setting\Setting::get('site', 'name', \Yii::$app->name),
-            'brandUrl' => \yongtiger\setting\Setting::get('site', 'homeUrl', \Yii::$app->homeUrl),
+        'brandLabel' => isset(\Yii::$app->params['brandLabel']) ? \Yii::$app->params['brandLabel'] : \Yii::$app->name,
+        'brandUrl' => isset(\Yii::$app->params['brandUrl']) ? \Yii::$app->params['brandUrl'] : \Yii::$app->homeUrl,
             'options' => [
                 'class' => 'navbar-inverse navbar-fixed-top',
             ],
@@ -79,7 +79,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; <?= \yongtiger\setting\Setting::get('site', 'name', \Yii::$app->name) ?> <?= date('Y') ?></p>
+        <p class="pull-left">&copy; <?= \Yii::$app->name ?> <?= date('Y') ?></p>
 
         <p class="pull-right"><?= \Yii::powered() ?></p>
     </div>

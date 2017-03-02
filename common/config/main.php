@@ -70,7 +70,7 @@ return [
             ///'admin/*',
 
             // '*' means to allow all users (including guests). Note: After setting RBAC commented out!
-            '*'
+            // '*'
         ]
     ],
     ///[http://www.brainbook.cc]

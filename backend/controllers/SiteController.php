@@ -53,6 +53,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+
         ///[yii2-adminlte-asset]Sets the params parameter `bodyClass` for the current view.
         // Yii::$app->view->params['bodyClass'] = 'skin-blue sidebar-mini';
 

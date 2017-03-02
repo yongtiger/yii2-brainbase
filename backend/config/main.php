@@ -9,7 +9,7 @@ $params = array_merge(
 return [
     'id' => 'app-backend',
     'basePath' => dirname(__DIR__),
-    'name' => 'Yii Brainbase',  ///[yii2-brainbase]
+    'name' => 'My Application',  ///[yii2-brainbase]
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
 

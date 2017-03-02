@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-03-01 00:49:05
+Date: 2017-03-02 13:41:01
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -43,4 +43,3 @@ CREATE TABLE `oauth` (
 -- ----------------------------
 -- Records of oauth
 -- ----------------------------
-INSERT INTO `oauth` VALUES ('72', '285', 'google', '113544724474573231306', 'service.brainbook.cc@gmail.com', 'service brainbook', 'service', 'brainbook', null, 'zh_CN', 'https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50', null, '1485497544', '1485497544');

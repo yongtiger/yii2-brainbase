@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.9.0 (configure from db after application instantiation)
+
+
 ## v0.8.1 ($this->params['alertClassName'] callable)
 
 

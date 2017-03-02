@@ -8,7 +8,7 @@ $params = array_merge(
 
 return [
     'id' => 'app-frontend',
-    'name' => 'Yii Brainbase',  ///[yii2-brainbase]
+    'name' => 'My Application',  ///[yii2-brainbase]
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
@@ -84,7 +84,7 @@ return [
             // 'enableSendTokenValidateOnBlur' => false,
             // 'enableSendTokenValidateOnSubmit' => false,
 
-            'enableSendTokenWithCaptcha' => false,
+            // 'enableSendTokenWithCaptcha' => false,
 
             // ///[Yii2 uesr:captcha]
             // 'captcha' => [
@@ -305,6 +305,7 @@ return [
         'view' => [
             'params' => [
                 'logoutUrl' => ['/user/security/logout'],
+                'signupUrl' => ['/user/registration/signup'],
 
                 ///[Yii2 Brainbase v0.8.1 ($this->params['alertClassName'] callable)]
                 ///[Yii2 admin release version 2.6.1 (call_user_func([$alertClassName, 'widget']))]

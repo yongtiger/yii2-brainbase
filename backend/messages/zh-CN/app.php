@@ -13,7 +13,7 @@ return [
 	 * Views
 	 */
 	///\backend\views\site\index.php
-	'My Yii Application' => '我的Yii应用',
+	'My Application' => '我的应用',
 	'Congratulations!' => '恭喜您！',
 	'You have successfully created your Yii-powered application.' => '您已经成功创建了您的Yii应用。',
 	'Get started with Yii' => '开始了解Yii',

@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-03-01 00:48:34
+Date: 2017-03-02 13:40:17
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -44,6 +44,7 @@ INSERT INTO `auth_item` VALUES ('@app-backend/debug/default/index', '2', null, n
 INSERT INTO `auth_item` VALUES ('@app-backend/gii/*', '2', null, null, null, '1487237749', '1487237749');
 INSERT INTO `auth_item` VALUES ('@app-backend/gii/default/index', '2', null, null, null, '1487274736', '1487274736');
 INSERT INTO `auth_item` VALUES ('@app-backend/site/*', '2', null, null, null, '1487149138', '1487149138');
+INSERT INTO `auth_item` VALUES ('@app-backend/user/user/index', '2', null, null, null, '1488486928', '1488486928');
 INSERT INTO `auth_item` VALUES ('@app-frontend/*', '2', null, null, null, '1487147641', '1487147641');
 INSERT INTO `auth_item` VALUES ('guest', '1', null, null, null, '1487146242', '1487146242');
 INSERT INTO `auth_item` VALUES ('permission_access_app-backend', '2', null, null, null, '1487232722', '1488228172');

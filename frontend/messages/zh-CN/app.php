@@ -52,7 +52,7 @@ return [
 	'Please contact us if you think this is a server error. Thank you.' => '如果您认为是服务器错误，请联系我们。谢谢！',
 
 	///\frontend\views\site\index.php
-	'My Yii Application' => '我的Yii应用',
+	'My Application' => '我的应用',
 	'Congratulations!' => '恭喜您！',
 	'You have successfully created your Yii-powered application.' => '您已经成功创建了您的Yii应用。',
 	'Get started with Yii' => '开始了解Yii',
