@@ -43,4 +43,9 @@ return [
 	'Hello' => '您好，',
 	'Follow the link below to reset your password:' => '请点击下面的链接重置密码：',
 
+	///\frontend\views\layouts\main.php
+	'Account' => '账户信息',
+	'Verify' => '验证信息',
+	'Profile' => '个人资料',
+
 ];

@@ -1,8 +1,6 @@
 <?php
-
 /* @var $this \yii\web\View */
 /* @var $content string */
-
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
@@ -10,8 +8,9 @@ use yii\bootstrap\Dropdown;
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 
-?>
+AppAsset::register($this);
 
+?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= \Yii::$app->language ?>">
@@ -50,8 +49,10 @@ use frontend\assets\AppAsset;
             . '<a href="#" data-toggle="dropdown" class="dropdown-toggle">' . \Yii::$app->user->identity->username . '<b class="caret"></b></a>'    ///?????caret
             . Dropdown::widget([
                 'items' => [
-                    ['label' => 'DropdownA', 'url' => '/'],
-                    ['label' => 'DropdownB', 'url' => '#'],
+                    ['label' => \Yii::t('common', 'Account'), 'url' => ['/user/account']],
+                    ['label' => \Yii::t('common', 'Verify'), 'url' => ['/user/verify/update', 'id' => \Yii::$app->user->id]],
+                    ['label' => \Yii::t('common', 'Profile'), 'url' => ['/user/profile/update', 'id' => \Yii::$app->user->id]],
+                    
                     '<li class="divider"></li>',
                     '<li>'
                     . Html::a(
