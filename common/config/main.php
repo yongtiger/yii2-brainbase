@@ -42,7 +42,12 @@ return [
 
         ///[yii2-brainbase v0.3.0 (admin:rbac)]
         'authManager' => [
-            'class' => 'yii\rbac\DbManager', // or use 'yii\rbac\PhpManager'
+        
+            ///[yii2-brainbase v0.3.0 (admin:rbac)]
+            // 'class' => 'yii\rbac\DbManager', // or use 'yii\rbac\PhpManager'
+            'class' => 'yongtiger\admin\components\DbManager',
+            'cache' => 'cache',
+
             "defaultRoles" => ["guest"],    ///[yii2-brainbase v0.3.0 (admin:defaultRoles)]
         ]
         ///[http://www.brainbook.cc]

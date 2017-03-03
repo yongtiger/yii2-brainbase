@@ -46,11 +46,10 @@ AppAsset::register($this);
         ///@see http://www.yiiframework.com/doc-2.0/yii-bootstrap-dropdown.html
         ///@see http://v3.bootcss.com/components/#dropdowns
         $menuItems[] = '<li class="dropdown">'
-            . '<a href="#" data-toggle="dropdown" class="dropdown-toggle">' . \Yii::$app->user->identity->username . '<b class="caret"></b></a>'    ///?????caret
+            . '<a href="#" data-toggle="dropdown" class="dropdown-toggle">(' . \Yii::$app->user->identity->username . ')<b class="caret"></b></a>'    ///?????caret
             . Dropdown::widget([
                 'items' => [
                     ['label' => \Yii::t('common', 'Account'), 'url' => ['/user/account']],
-                    ['label' => \Yii::t('common', 'Verify'), 'url' => ['/user/verify/update', 'id' => \Yii::$app->user->id]],
                     ['label' => \Yii::t('common', 'Profile'), 'url' => ['/user/profile/update', 'id' => \Yii::$app->user->id]],
                     
                     '<li class="divider"></li>',
