@@ -55,8 +55,8 @@ return [
             'enableOauth' => false,
 
             ///Choose one in `yongtiger/admin` and `yongtiger/adminlteasset`:
-            'layout' => '@yongtiger/admin/views/layouts/main.php',   ///[yii2-admin:login layout]
-            // 'layout' => '@yongtiger/adminlteasset/views/layouts/main.php',  ///[yii2-adminlte-asset:login layout]
+            // 'layout' => '@yongtiger/admin/views/layouts/main.php',   ///[yii2-admin:login layout]
+            'layout' => '@yongtiger/adminlteasset/views/layouts/main.php',  ///[yii2-adminlte-asset:login layout]
 
         ],
     ],
@@ -120,9 +120,9 @@ return [
                 'pathMap' => [
 
                     ///Choose one in `yongtiger/admin` and `yongtiger/adminlteasset`:
-                    '@backend/views' => '@yongtiger/admin/views',   ///[yii2-admin:login layout]
-                    // '@backend/views' => '@yongtiger/adminlteasset/views',   ///[yii2-adminlte-asset:login layout]
-                    // '@yongtiger/user/views/security' => '@yongtiger/adminlteasset/views/site',  ///[yii2-adminlte-asset:login layout]Note: 'enableLoginWithCaptcha' must be false!
+                    // '@backend/views' => '@yongtiger/admin/views',   ///[yii2-admin:login layout]
+                    '@backend/views' => '@yongtiger/adminlteasset/views',   ///[yii2-adminlte-asset:login layout]
+                    '@yongtiger/user/views/security' => '@yongtiger/adminlteasset/views/site',  ///[yii2-adminlte-asset:login layout]Note: 'enableLoginWithCaptcha' must be false!
 
                 ],
             ],

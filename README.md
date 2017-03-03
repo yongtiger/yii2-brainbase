@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.9.1 (customize application)
+# Yii2 Brainbase v0.9.2 (frontend\views\layouts\main.php:Dropdown Logout by `a` tag)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 

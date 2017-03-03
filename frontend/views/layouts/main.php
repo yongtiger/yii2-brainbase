@@ -6,11 +6,12 @@
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
+use yii\bootstrap\Dropdown;
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 
-AppAsset::register($this);
 ?>
+
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= \Yii::$app->language ?>">
@@ -42,13 +43,26 @@ AppAsset::register($this);
         $menuItems[] = ['label' => \Yii::t('common', 'Signup'), 'url' => isset($this->params['signupUrl']) ? $this->params['signupUrl'] : ['/user/registration/signup']];
         $menuItems[] = ['label' => \Yii::t('common', 'Login'), 'url' => \Yii::$app->user->loginUrl];
     } else {
-        $menuItems[] = '<li>'
-            . Html::beginForm(isset($this->params['logoutUrl']) ? $this->params['logoutUrl'] : ['/site/logout'], 'post')
-            . Html::submitButton(
-                \Yii::t('common', 'Logout') . ' (' . \Yii::$app->user->identity->username . ')',
-                ['class' => 'btn btn-link logout']
-            )
-            . Html::endForm()
+        ///[v0.9.2 (frontend\views\layouts\main.php:Dropdown Logout by `a` tag)]
+        ///@see http://www.yiiframework.com/doc-2.0/yii-bootstrap-dropdown.html
+        ///@see http://v3.bootcss.com/components/#dropdowns
+        $menuItems[] = '<li class="dropdown">'
+            . '<a href="#" data-toggle="dropdown" class="dropdown-toggle">' . \Yii::$app->user->identity->username . '<b class="caret"></b></a>'    ///?????caret
+            . Dropdown::widget([
+                'items' => [
+                    ['label' => 'DropdownA', 'url' => '/'],
+                    ['label' => 'DropdownB', 'url' => '#'],
+                    '<li class="divider"></li>',
+                    '<li>'
+                    . Html::a(
+                        \Yii::t('common', 'Logout'),
+                        isset($this->params['logoutUrl']) ? $this->params['logoutUrl'] : ['/site/logout'],
+                        ['data-method' => 'post']
+                    )
+                    . '</li>'
+
+                ],
+            ])
             . '</li>';
     }
     echo Nav::widget([

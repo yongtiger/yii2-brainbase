@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.9.2 (frontend\views\layouts\main.php:Dropdown Logout by `a` tag)
+
+
 ## v0.9.1 (customize application)
 
 
