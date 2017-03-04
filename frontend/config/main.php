@@ -169,11 +169,21 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+
         /*
         'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
+            //Whether enable urlManager. Defaults to false.   
+            "enablePrettyUrl" => true,    
+            // When enable `StrictParsing`, requires that the current request should match at least one routing rule. Otherwise it is considered invalid route.   
+            // This option is only available if `enablePrettyUrl` is enabled.    
+            "enableStrictParsing" => false,    
+            // Whether the entry script is displayed in the URL. Is a further complement to the beautification function.    
+            "showScriptName" => false,    
+            // Specifies a suffix after the URL, such as .html. Valid only if enablePrettyUrl is enabled.    
+            "suffix" => "",    
+            "rules" => [        
+                "<controller:\w+>/<id:\d+>"=>"<controller>/view",  
+                "<controller:\w+>/<action:\w+>"=>"<controller>/<action>"    
             ],
         ],
         */

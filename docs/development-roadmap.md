@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.9.5 (profile region widget)
+
+
 ## v0.9.4 (frontend layout:logo)
 
 

@@ -18,6 +18,10 @@ return [
         ],
         ///[http://www.brainbook.cc]
 
+        ///[yii2-brainbase v0.9.5 (profile region widget)]
+        'region' => [
+            'class' => 'yongtiger\region\Module',
+        ],
     ],
 
     'components' => [
@@ -49,7 +53,7 @@ return [
             'cache' => 'cache',
 
             "defaultRoles" => ["guest"],    ///[yii2-brainbase v0.3.0 (admin:defaultRoles)]
-        ]
+        ],
         ///[http://www.brainbook.cc]
 
     ],

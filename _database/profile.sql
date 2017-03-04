@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-03-02 13:41:12
+Date: 2017-03-03 20:46:06
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,16 +24,15 @@ CREATE TABLE `profile` (
   `fullname` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `firstname` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `lastname` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `gender` smallint(1) DEFAULT NULL,
+  `gender` tinyint(1) DEFAULT NULL,
   `language` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `avatar` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `link` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `birthyear` int(11) DEFAULT NULL,
-  `birthmonth` int(11) DEFAULT NULL,
-  `birthday` int(11) DEFAULT NULL,
+  `birthday` date DEFAULT NULL,
   `country` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `province` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `city` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `province` int(11) DEFAULT NULL,
+  `city` int(11) DEFAULT NULL,
+  `district` int(11) DEFAULT NULL,
   `address` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `telephone` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `mobile` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -52,6 +51,7 @@ CREATE TABLE `profile` (
 -- ----------------------------
 -- Records of profile
 -- ----------------------------
-INSERT INTO `profile` VALUES ('1', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '1', '1');
-INSERT INTO `profile` VALUES ('2', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '2', '2');
-INSERT INTO `profile` VALUES ('3', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '3', '3');
+INSERT INTO `profile` VALUES ('1', 'aaa', '', '', null, '', '', '', null, '', null, null, null, '', '', '', '', '', '', '', '', '1', '1488529248');
+INSERT INTO `profile` VALUES ('2', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '2', '2');
+INSERT INTO `profile` VALUES ('3', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '3', '3');
+INSERT INTO `profile` VALUES ('60', '', '', '', null, '', '', '', '2017-03-01', '', null, null, null, '', '', '', '', '', '', '', '', '1488508077', '1488600472');

@@ -520,12 +520,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
-                "reference": "3a538d9f1494340ebd0f858c8dd21685baca0199"
+                "reference": "20ca9e6025be5deb248d3bd7eeecbe3fa4db6b7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/3a538d9f1494340ebd0f858c8dd21685baca0199",
-                "reference": "3a538d9f1494340ebd0f858c8dd21685baca0199",
+                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/20ca9e6025be5deb248d3bd7eeecbe3fa4db6b7b",
+                "reference": "20ca9e6025be5deb248d3bd7eeecbe3fa4db6b7b",
                 "shasum": ""
             },
             "type": "library",
@@ -565,7 +565,7 @@
                 "progress",
                 "upload"
             ],
-            "time": "2017-03-02 19:11:20"
+            "time": "2017-03-03 16:58:11"
         },
         {
             "name": "kartik-v/bootstrap-star-rating",
@@ -2700,12 +2700,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-user.git",
-                "reference": "d8f4101039c9509955e2dbcb6063c85c98a5f4d9"
+                "reference": "e2d9950e5dc65f5ef74774c22f00eb06dbe616c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/d8f4101039c9509955e2dbcb6063c85c98a5f4d9",
-                "reference": "d8f4101039c9509955e2dbcb6063c85c98a5f4d9",
+                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/e2d9950e5dc65f5ef74774c22f00eb06dbe616c5",
+                "reference": "e2d9950e5dc65f5ef74774c22f00eb06dbe616c5",
                 "shasum": ""
             },
             "require": {
@@ -2746,7 +2746,7 @@
                 "user",
                 "yii2"
             ],
-            "time": "2017-03-03 09:11:28"
+            "time": "2017-03-03 22:09:59"
         }
     ],
     "packages-dev": [
@@ -3359,16 +3359,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.7.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "93d39f1f7f9326d746203c7c056f300f7f126073"
+                "reference": "abe41cb27f4e4207c6f54a09272969fe55e0bbff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/93d39f1f7f9326d746203c7c056f300f7f126073",
-                "reference": "93d39f1f7f9326d746203c7c056f300f7f126073",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/abe41cb27f4e4207c6f54a09272969fe55e0bbff",
+                "reference": "abe41cb27f4e4207c6f54a09272969fe55e0bbff",
                 "shasum": ""
             },
             "require": {
@@ -3385,7 +3385,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6.x-dev"
+                    "dev-master": "1.7.x-dev"
                 }
             },
             "autoload": {
@@ -3418,7 +3418,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2017-03-02T20:05:34+00:00"
+            "time": "2017-03-03 17:09:02"
         },
         {
             "name": "phpunit/php-code-coverage",
