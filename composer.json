@@ -23,6 +23,7 @@
         "yongtiger/yii2-setting": "*",
         "yongtiger/yii2-adminlte-asset": "*",
         "yongtiger/yii2-user": "*",
+        "yongtiger/yii2-theme-yii": "*",
 
         "yongtiger/yii2-fontawesome-alert": "*",
         "yongtiger/yii2-popup-alert": "*"

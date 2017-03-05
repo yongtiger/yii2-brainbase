@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "59556ec5caf453b010bf08fb4930e187",
+    "content-hash": "eaa084a93e4139a79e278496219daca9",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
-            "version": "v2.3.11",
+            "version": "v2.4.0-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/almasaeed2010/AdminLTE.git",
-                "reference": "2be703222af2edcb87e562d3da2299e4352bff8a"
+                "reference": "37c8bbb01998db487382e9d62cfb398511167f3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/2be703222af2edcb87e562d3da2299e4352bff8a",
-                "reference": "2be703222af2edcb87e562d3da2299e4352bff8a",
+                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/37c8bbb01998db487382e9d62cfb398511167f3a",
+                "reference": "37c8bbb01998db487382e9d62cfb398511167f3a",
                 "shasum": ""
             },
             "type": "library",
@@ -44,7 +44,7 @@
                 "theme",
                 "web"
             ],
-            "time": "2017-01-08T21:03:57+00:00"
+            "time": "2017-03-04T17:23:16+00:00"
         },
         {
             "name": "bower-asset/bootstrap",
@@ -1945,12 +1945,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "baf4b48c6f2fee30fa346ab5bb2fefe550814d4f"
+                "reference": "f832fdefd7da0d8857578f971af6df3d68edc7d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/baf4b48c6f2fee30fa346ab5bb2fefe550814d4f",
-                "reference": "baf4b48c6f2fee30fa346ab5bb2fefe550814d4f",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f832fdefd7da0d8857578f971af6df3d68edc7d8",
+                "reference": "f832fdefd7da0d8857578f971af6df3d68edc7d8",
                 "shasum": ""
             },
             "require": {
@@ -2037,7 +2037,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-03-03 07:30:03"
+            "time": "2017-03-04 15:55:17"
         },
         {
             "name": "yiisoft/yii2-authclient",
@@ -2648,6 +2648,51 @@
             "time": "2017-03-02 01:13:04"
         },
         {
+            "name": "yongtiger/yii2-region",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yongtiger/yii2-region.git",
+                "reference": "5177e7b2000cbc5bea302acf84dab061b01b0a0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yongtiger/yii2-region/zipball/5177e7b2000cbc5bea302acf84dab061b01b0a0e",
+                "reference": "5177e7b2000cbc5bea302acf84dab061b01b0a0e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yongtiger\\region\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yong Tiger",
+                    "email": "tigeryang.brainbook@outlook.com",
+                    "homepage": "http://www.branbook.cc/yongtiger"
+                }
+            ],
+            "homepage": "http://www.branbook.cc",
+            "keywords": [
+                "extension",
+                "province",
+                "region",
+                "yii2"
+            ],
+            "time": "2017-03-04 08:49:59"
+        },
+        {
             "name": "yongtiger/yii2-setting",
             "version": "dev-master",
             "source": {
@@ -2695,17 +2740,62 @@
             "time": "2017-03-02 23:14:30"
         },
         {
+            "name": "yongtiger/yii2-theme-yii",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yongtiger/yii2-theme-yii.git",
+                "reference": "e3a655265f0f5280b94188452f343a54d41e176b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yongtiger/yii2-theme-yii/zipball/e3a655265f0f5280b94188452f343a54d41e176b",
+                "reference": "e3a655265f0f5280b94188452f343a54d41e176b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yongtiger\\themeyii\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yong Tiger",
+                    "email": "tigeryang.brainbook@outlook.com",
+                    "homepage": "http://www.branbook.cc/yongtiger"
+                }
+            ],
+            "homepage": "http://www.branbook.cc",
+            "keywords": [
+                "extension",
+                "theme",
+                "yii",
+                "yii2"
+            ],
+            "time": "2017-03-04 23:06:21"
+        },
+        {
             "name": "yongtiger/yii2-user",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-user.git",
-                "reference": "e2d9950e5dc65f5ef74774c22f00eb06dbe616c5"
+                "reference": "355f58a2aeee9b43112070a8d5cb486169b1b15e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/e2d9950e5dc65f5ef74774c22f00eb06dbe616c5",
-                "reference": "e2d9950e5dc65f5ef74774c22f00eb06dbe616c5",
+                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/355f58a2aeee9b43112070a8d5cb486169b1b15e",
+                "reference": "355f58a2aeee9b43112070a8d5cb486169b1b15e",
                 "shasum": ""
             },
             "require": {
@@ -2716,7 +2806,8 @@
                 "yiisoft/yii2-bootstrap": "*",
                 "yiisoft/yii2-jui": "~2.0.0",
                 "yongtiger/yii2-authclient": "*",
-                "yongtiger/yii2-cropper-avatar": "*"
+                "yongtiger/yii2-cropper-avatar": "*",
+                "yongtiger/yii2-region": "*"
             },
             "type": "yii2-extension",
             "autoload": {
@@ -2746,7 +2837,7 @@
                 "user",
                 "yii2"
             ],
-            "time": "2017-03-03 22:09:59"
+            "time": "2017-03-04 09:16:18"
         }
     ],
     "packages-dev": [
@@ -3426,12 +3517,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "09e2277d14ea467e5a984010f501343ef29ffc69"
+                "reference": "d182a16e55b71d426305e958697bbf0ff2f77e8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/09e2277d14ea467e5a984010f501343ef29ffc69",
-                "reference": "09e2277d14ea467e5a984010f501343ef29ffc69",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/d182a16e55b71d426305e958697bbf0ff2f77e8a",
+                "reference": "d182a16e55b71d426305e958697bbf0ff2f77e8a",
                 "shasum": ""
             },
             "require": {
@@ -3481,7 +3572,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-01 09:12:17"
+            "time": "2017-03-04 06:23:20"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -3675,12 +3766,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "d6f7efc8d7445964782b45ab92115e50310f2ff1"
+                "reference": "3d1d0b866df4be8b1a846235f836a8b985833d04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d6f7efc8d7445964782b45ab92115e50310f2ff1",
-                "reference": "d6f7efc8d7445964782b45ab92115e50310f2ff1",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3d1d0b866df4be8b1a846235f836a8b985833d04",
+                "reference": "3d1d0b866df4be8b1a846235f836a8b985833d04",
                 "shasum": ""
             },
             "require": {
@@ -3749,7 +3840,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-02 16:53:36"
+            "time": "2017-03-04 08:38:26"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -3913,19 +4004,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git",
-                "reference": "777b1de96e984d0aa130ae1e1905963e6d488dc9"
+                "reference": "3488be0a7b346cd6e5361510ed07e88f9bea2e88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/777b1de96e984d0aa130ae1e1905963e6d488dc9",
-                "reference": "777b1de96e984d0aa130ae1e1905963e6d488dc9",
+                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/3488be0a7b346cd6e5361510ed07e88f9bea2e88",
+                "reference": "3488be0a7b346cd6e5361510ed07e88f9bea2e88",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.7"
+                "phpunit/phpunit": "^5.7 || ^6.0"
             },
             "type": "library",
             "extra": {
@@ -3950,7 +4041,7 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "time": "2017-02-28 13:44:42"
+            "time": "2017-03-04 10:23:55"
         },
         {
             "name": "sebastian/comparator",

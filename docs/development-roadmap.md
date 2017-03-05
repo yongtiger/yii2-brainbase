@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.9.6 (site-login)
+
+
 ## v0.9.5 (profile region widget)
 
 

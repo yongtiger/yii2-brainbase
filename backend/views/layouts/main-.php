@@ -29,7 +29,7 @@ AppAsset::register($this);
     <!--///[yii2-brainbase v0.4.0 (admin:login layout)]-->
     <?php if (\Yii::$app->controller->action->id === 'login'): ?> 
 
-        <div class="container">
+        <div class="container">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
             <?= $content ?>
         </div>
 
