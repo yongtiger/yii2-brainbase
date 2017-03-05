@@ -2745,12 +2745,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-theme-yii.git",
-                "reference": "e3a655265f0f5280b94188452f343a54d41e176b"
+                "reference": "30b2eade9e898a98edc989af34fea7c32c41c6c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-theme-yii/zipball/e3a655265f0f5280b94188452f343a54d41e176b",
-                "reference": "e3a655265f0f5280b94188452f343a54d41e176b",
+                "url": "https://api.github.com/repos/yongtiger/yii2-theme-yii/zipball/30b2eade9e898a98edc989af34fea7c32c41c6c8",
+                "reference": "30b2eade9e898a98edc989af34fea7c32c41c6c8",
                 "shasum": ""
             },
             "require": {
@@ -2782,7 +2782,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2017-03-04 23:06:21"
+            "time": "2017-03-05 02:16:14"
         },
         {
             "name": "yongtiger/yii2-user",

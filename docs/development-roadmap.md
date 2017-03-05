@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.10.1 (frontend theme:config module)
+
+
 ## v0.10.0 (frontend theme)
 
 
