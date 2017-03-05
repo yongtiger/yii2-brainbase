@@ -14,8 +14,6 @@ return [
     'controllerNamespace' => 'frontend\controllers',
 
     'modules' => [
-    ///
-        'themeyii' => 'yongtiger\themeyii\Module',
 
         ///[Yii2 uesr]
         'user' => [

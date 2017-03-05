@@ -2437,6 +2437,51 @@
             "time": "2017-03-02 22:24:39"
         },
         {
+            "name": "yongtiger/yii2-assetbundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yongtiger/yii2-assetbundle.git",
+                "reference": "111eccf97b601c96e0e10ab5161a00a188e65adb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yongtiger/yii2-assetbundle/zipball/111eccf97b601c96e0e10ab5161a00a188e65adb",
+                "reference": "111eccf97b601c96e0e10ab5161a00a188e65adb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yongtiger\\assetbundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yong Tiger",
+                    "email": "tigeryang.brainbook@outlook.com",
+                    "homepage": "http://www.branbook.cc/yongtiger"
+                }
+            ],
+            "homepage": "http://www.branbook.cc",
+            "keywords": [
+                "assetBundle",
+                "extension",
+                "theme",
+                "yii2"
+            ],
+            "time": "2017-03-05 21:28:22"
+        },
+        {
             "name": "yongtiger/yii2-authclient",
             "version": "dev-master",
             "source": {
@@ -2745,18 +2790,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-theme-yii.git",
-                "reference": "30b2eade9e898a98edc989af34fea7c32c41c6c8"
+                "reference": "4cf2e9ef7fae4cb2b3baf13413ed58a95449e65b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-theme-yii/zipball/30b2eade9e898a98edc989af34fea7c32c41c6c8",
-                "reference": "30b2eade9e898a98edc989af34fea7c32c41c6c8",
+                "url": "https://api.github.com/repos/yongtiger/yii2-theme-yii/zipball/4cf2e9ef7fae4cb2b3baf13413ed58a95449e65b",
+                "reference": "4cf2e9ef7fae4cb2b3baf13413ed58a95449e65b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5",
                 "yiisoft/yii2": "*",
-                "yiisoft/yii2-bootstrap": "*"
+                "yiisoft/yii2-bootstrap": "*",
+                "yongtiger/yii2-assetbundle": "*"
             },
             "type": "yii2-extension",
             "autoload": {
@@ -2782,7 +2828,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2017-03-05 02:16:14"
+            "time": "2017-03-05 21:33:02"
         },
         {
             "name": "yongtiger/yii2-user",
