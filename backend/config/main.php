@@ -116,12 +116,10 @@ return [
                 'pathMap' => [
 
                     ///Choose one in `yongtiger/admin` and `yongtiger/adminlteasset`:
-                    '@backend/views' => '@yongtiger/admin/views',   ///[yii2-admin:layout]
-                    // '@backend/views' => '@yongtiger/adminlteasset/views',   ///[yii2-adminlte-asset:layout]
-                    // '@yongtiger/user/views/security' => '@yongtiger/adminlteasset/views/site',  ///[yii2-adminlte-asset:login layout]Note: 'enableLoginWithCaptcha' must be false!
+                    // '@backend/views' => '@yongtiger/admin/views',   ///[yii2-admin:layout]
+                    '@backend/views' => '@yongtiger/adminlteasset/views',   ///[yii2-adminlte-asset:layout]
+                    '@yongtiger/user/views/security' => '@yongtiger/adminlteasset/views/site',  ///[yii2-adminlte-asset:login layout]Note: 'enableLoginWithCaptcha' must be false!
 
-                    ///[v0.10.0 (theme)]
-                    // '@backend/views' => '@yongtiger/themeyii/views',
                 ],
             ],
         ],

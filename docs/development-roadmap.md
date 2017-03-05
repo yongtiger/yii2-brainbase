@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.10.0 (frontend theme)
+
+
 ## v0.9.6 (site-login)
 
 

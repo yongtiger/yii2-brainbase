@@ -324,6 +324,15 @@ return [
                 'alertClassName' => 'yongtiger\popupalert\widgets\Alert',    ///[yii2-popup-alert]
 
             ],
+            ///[v0.10.0 (frontend theme)]
+            'theme' => [
+                'pathMap' => [
+
+                    ///[v0.10.0 (theme)]
+                    '@frontend/views' => '@yongtiger/themeyii/views',
+
+                ],
+            ],
         ],
 
     ],
