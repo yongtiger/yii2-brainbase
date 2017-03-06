@@ -1,6 +1,9 @@
 # Development roadmap
 
-## v0.10.1 (frontend theme:config module)
+## v0.10.2 (frontend theme:frontend\themes\yii2themeyii\src)
+
+
+## v0.10.1 (typo)
 
 
 ## v0.10.0 (frontend theme)
