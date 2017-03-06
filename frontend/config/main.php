@@ -11,7 +11,7 @@ return [
     'name' => 'My Application',  ///[yii2-brainbase]
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log',
-        'frontend\themes\yii2themeyii\src\Bootstrap',    ///[v0.10.2 (frontend theme:frontend\themes\yii2themeyii\src)]@see http://www.yiiframework.com/doc-2.0/guide-structure-applications.html#bootstrap
+        'themes\yii2themeyii\src\Bootstrap',    ///[v0.10.3 (frontend theme:themes\yii2themeyii\src)]@see http://www.yiiframework.com/doc-2.0/guide-structure-applications.html#bootstrap
     ],
     'controllerNamespace' => 'frontend\controllers',
 
@@ -332,7 +332,7 @@ return [
             'theme' => [
                 'pathMap' => [
                     // '@frontend/views' => '@yongtiger/themeyii/views',
-                '@frontend/views' => '@frontend/themes/yii2themeyii/src/views',  ///[v0.10.2 (frontend theme:frontend\themes\yii2themeyii\src)]
+                '@frontend/views' => '@themes/yii2themeyii/src/views',  ///[v0.10.3 (frontend theme:themes\yii2themeyii\src)]
                 ],
             ],
 

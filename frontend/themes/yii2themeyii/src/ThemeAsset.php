@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Yii2 theme yii2
+ * Yii2 theme yii
  *
  * @link        http://www.brainbook.cc
  * @see         https://github.com/yongtiger/yii2-theme-yii2
@@ -10,7 +10,7 @@
  * @license     http://opensource.org/licenses/MIT
  */
 
-namespace frontend\themes\yii2themeyii\src;
+namespace themes\yii2themeyii\src;
 
 use Yii;
 
