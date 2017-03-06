@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.10.2 (frontend theme:frontend\themes\yii2themeyii\src)
+# Yii2 Brainbase v0.10.3 (FIX# frontend theme:site.css logo class `.navbar-brand`)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 

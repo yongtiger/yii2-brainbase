@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.10.3 (FIX# frontend theme:site.css logo class `.navbar-brand`)
+
+
 ## v0.10.2 (frontend theme:frontend\themes\yii2themeyii\src)
 
 

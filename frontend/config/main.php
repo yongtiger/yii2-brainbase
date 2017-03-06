@@ -329,12 +329,12 @@ return [
             ],
 
             ///[v0.10.0 (frontend theme)]
-            'theme' => [
-                'pathMap' => [
-                    // '@frontend/views' => '@yongtiger/themeyii/views',
-                '@frontend/views' => '@themes/yii2themeyii/src/views',  ///[v0.10.3 (frontend theme:themes\yii2themeyii\src)]
-                ],
-            ],
+            // 'theme' => [
+            //     'pathMap' => [
+            //         // '@frontend/views' => '@yongtiger/themeyii/views',
+            //         '@frontend/views' => '@themes/yii2themeyii/src/views',  ///[v0.10.3 (frontend theme:themes\yii2themeyii\src)]
+            //     ],
+            // ],
 
         ],
 
