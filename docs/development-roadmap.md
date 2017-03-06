@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.10.4 (customize application:beforeInit)
+
+
 ## v0.10.3 (FIX# frontend theme:site.css logo class `.navbar-brand`)
 
 

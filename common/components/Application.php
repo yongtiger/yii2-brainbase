@@ -26,14 +26,15 @@ class Application extends \yii\web\Application
      * @inheritdoc
      */
     public function init() {
+        $this->beforeInit();
 	    parent::init();
 	    $this->afterInit();
     }
 
     /**
-     * Does some thing after application init().
+     * Do some thing before application init().
      */
-    protected function afterInit() {
+    public function beforeInit() {
 
     	// Code here ...
 		Yii::$app->name = Setting::get('site', 'name', Yii::$app->name);
@@ -42,6 +43,17 @@ class Application extends \yii\web\Application
 		Yii::$app->params['adminEmail'] = Setting::get('site', 'adminEmail', Yii::$app->params['adminEmail']);
 		Yii::$app->params['supportEmail'] = Setting::get('site', 'supportEmail', Yii::$app->params['supportEmail']);
 		Yii::$app->params['serviceEmail'] = Setting::get('site', 'serviceEmail', Yii::$app->params['serviceEmail']);
+
+        // adjust bootstrap
+        
+    }
+
+    /**
+     * Do some thing after application init().
+     */
+    public function afterInit() {
+
+        // Code here ...
 
     }
 }
