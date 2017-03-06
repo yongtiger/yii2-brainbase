@@ -27,8 +27,8 @@ class Application extends \yii\web\Application
      */
     public function init() {
         $this->beforeInit();
-	    parent::init();
-	    $this->afterInit();
+        parent::init();
+        $this->afterInit();
     }
 
     /**
