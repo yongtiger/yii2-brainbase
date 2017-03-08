@@ -14,22 +14,13 @@ namespace themes\yii2themeyii\src;
 
 use Yii;
 
-use yii\base\BootstrapInterface;
-use yii\base\Application;
-
 /**
  * Class Bootstrap
  *
  * @see http://www.yiiframework.com/doc-2.0/guide-structure-extensions.html#bootstrapping-classes
  * @package yongtiger\themeyii
  */
-class Bootstrap extends \yongtiger\theme\Bootstrap implements BootstrapInterface
+class Bootstrap extends \yongtiger\theme\Bootstrap
 {
-    /**
-     * @inheritdoc
-     */
-    public function bootstrap($app)
-    {
-        parent::bootstrap($app);
-    }
+
 }

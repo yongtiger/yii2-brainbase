@@ -6,7 +6,7 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\bootstrap\Dropdown;
 use yii\widgets\Breadcrumbs;
-use yongtiger\themeyii\ThemeAsset;
+use themes\yii2themeyii\src\ThemeAsset;
 
 ThemeAsset::register($this);
 
