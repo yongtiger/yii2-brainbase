@@ -21,7 +21,7 @@ use yongtiger\setting\Setting;
  *
  * @package frontend\components
  */
-class Application extends common\components\Application 
+class Application extends \common\components\Application 
 {
     /**
      * @inheritdoc

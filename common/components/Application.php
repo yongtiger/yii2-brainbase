@@ -1,4 +1,4 @@
-<?php ///[yii2-brainbase v0.10.6 (ADD# frontend\components\Application)]
+<?php
 
 /**
  * Yii2 Brainbase
@@ -13,8 +13,6 @@
 namespace common\components;
 
 use Yii;
-use yii\helpers\ArrayHelper;
-use yongtiger\setting\Setting;
 
 /**
  * Class Application
