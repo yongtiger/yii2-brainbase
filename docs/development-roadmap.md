@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.10.6 (ADD# frontend\components\Application)
+
+
 ## v0.10.5 (filter theme bootstrap)
 
 
