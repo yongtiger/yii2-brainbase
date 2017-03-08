@@ -42,8 +42,6 @@ class Application extends \common\components\Application
         ///Note: Cannot use `class_exists('yongtiger\\theme\\Bootstrap')` before application init!
         if (is_file($this->getVendorPath() . DIRECTORY_SEPARATOR . 'yongtiger'. DIRECTORY_SEPARATOR . 'yii2-theme' . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'Bootstrap.php')) {
 
-            \yongtiger\theme\Bootstrap::filterExtensionsBootstrap();
-            
             \yongtiger\theme\Bootstrap::filterThemesBootstrap(
                 Yii::$app->params['theme']['themesRootPath'], 
                 Yii::$app->params['theme']['bootstrapPathFile'], 
@@ -64,7 +62,7 @@ class Application extends \common\components\Application
         ///You can still run without yii2 extension `yongtiger/yii-theme`.
         if (class_exists('yongtiger\\theme\\Bootstrap')) {
 
-            $activeTheme = \yongtiger\theme\Bootstrap::getActiveTheme();
+            $activeTheme = \yongtiger\theme\ThemeManager::getActiveTheme(); ///[v0.11.0 (ADD# theme Module, ThemeManager)]
 
             if ($activeTheme !== false) {
                 foreach (Yii::$app->params['theme']['themePathMap'] as $key => $value) {

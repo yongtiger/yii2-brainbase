@@ -20,6 +20,11 @@ return [
             'class' => 'yongtiger\setting\Module',
         ],
 
+        ///[v0.11.0 (ADD# theme module)]
+        'theme' => [
+            'class' => 'yongtiger\theme\Module',
+        ],
+
         ///[Yii2 uesr]
         'user' => [
             'class' => 'yongtiger\user\Module',

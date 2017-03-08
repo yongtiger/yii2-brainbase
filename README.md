@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.10.7 (ADD# backend\components\Application)
+# Yii2 Brainbase v0.11.0 (ADD# theme Module, ThemeManager)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 

@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.11.0 (ADD# theme Module, ThemeManager)
+
+
 ## v0.10.7 (ADD# backend\components\Application)
 
 
