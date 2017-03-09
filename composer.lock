@@ -2343,12 +2343,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-admin.git",
-                "reference": "a7358d505d55ecb6fe99abaf378ff77aba9fd6fb"
+                "reference": "f193b35791560015b8183e0e6cbd31537362f483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-admin/zipball/a7358d505d55ecb6fe99abaf378ff77aba9fd6fb",
-                "reference": "a7358d505d55ecb6fe99abaf378ff77aba9fd6fb",
+                "url": "https://api.github.com/repos/yongtiger/yii2-admin/zipball/f193b35791560015b8183e0e6cbd31537362f483",
+                "reference": "f193b35791560015b8183e0e6cbd31537362f483",
                 "shasum": ""
             },
             "require": {
@@ -2382,7 +2382,7 @@
                 "rbac",
                 "yii2"
             ],
-            "time": "2017-03-05 01:19:35"
+            "time": "2017-03-08 09:22:36"
         },
         {
             "name": "yongtiger/yii2-adminlte-asset",
@@ -2390,12 +2390,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-adminlte-asset.git",
-                "reference": "077319048059e8be5c66b6483a09e1df21213ae9"
+                "reference": "4cd4fa4c45938d0ff2e2d9119839a26c0d0f8592"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-adminlte-asset/zipball/077319048059e8be5c66b6483a09e1df21213ae9",
-                "reference": "077319048059e8be5c66b6483a09e1df21213ae9",
+                "url": "https://api.github.com/repos/yongtiger/yii2-adminlte-asset/zipball/4cd4fa4c45938d0ff2e2d9119839a26c0d0f8592",
+                "reference": "4cd4fa4c45938d0ff2e2d9119839a26c0d0f8592",
                 "shasum": ""
             },
             "require": {
@@ -2437,7 +2437,7 @@
                 "theme",
                 "yii2"
             ],
-            "time": "2017-03-08 09:03:30"
+            "time": "2017-03-08 19:17:25"
         },
         {
             "name": "yongtiger/yii2-authclient",
@@ -3819,12 +3819,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "a9434b2c83896a32448ca839022c013c443cf441"
+                "reference": "1148a7a0dac58b1c3acabacd10aded41b2c9d9a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a9434b2c83896a32448ca839022c013c443cf441",
-                "reference": "a9434b2c83896a32448ca839022c013c443cf441",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1148a7a0dac58b1c3acabacd10aded41b2c9d9a2",
+                "reference": "1148a7a0dac58b1c3acabacd10aded41b2c9d9a2",
                 "shasum": ""
             },
             "require": {
@@ -3893,7 +3893,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-07 10:26:54"
+            "time": "2017-03-08T14:02:01+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -4477,7 +4477,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2017-03-08T08:21:15+00:00"
+            "time": "2017-03-08 08:21:15"
         },
         {
             "name": "sebastian/resource-operations",
