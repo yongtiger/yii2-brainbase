@@ -1,6 +1,6 @@
 # Development roadmap
 
-## v0.11.1 (CHG# $activeIndex, $activeTheme)
+## v0.11.1 (CHG# activeTheme)
 
 
 ## v0.11.0 (ADD# theme Module, ThemeManager)

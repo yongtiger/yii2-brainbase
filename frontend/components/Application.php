@@ -62,9 +62,10 @@ class Application extends \common\components\Application
         ///You can still run without yii2 extension `yongtiger/yii-theme`.
         if (class_exists('yongtiger\\theme\\Bootstrap')) {
 
-            list($activeIndex, $activeTheme) = \yongtiger\theme\ThemeManager::getActiveTheme(); ///[v0.11.0 (ADD# theme Module, ThemeManager)] ///[v0.11.1 (CHG# $activeIndex, $activeTheme)]
+            $activeTheme = \yongtiger\theme\ThemeManager::getActiveTheme(); ///[v0.11.0 (ADD# theme Module, ThemeManager)] ///[v0.11.1 (CHG# activeTheme)]
 
             if ($activeTheme !== false) {
+                $activeTheme = current($activeTheme);   ///[v0.11.1 (CHG# activeTheme)]
                 foreach (Yii::$app->params['theme']['themePathMap'] as $key => $value) {
                     Yii::$app->params['theme']['themePathMap'][$key] = str_replace('{active-theme-path}', $activeTheme['path'], Yii::$app->params['theme']['themePathMap'][$key]);
                 }
