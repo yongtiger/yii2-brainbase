@@ -62,7 +62,7 @@ class CacheController extends Controller
             $config = yii\helpers\ArrayHelper::merge($config, require (Yii::getAlias($configPath)));
         }
         // Create new app using the config array.
-        $app = new \common\components\Application($config); ///[2.6.6 (CHG# \common\components\Application)]
+        $app = new \yongtiger\application\Application($config); ///[v0.12.1 (UGD# replace component/application into yongtiger/appliaction)]
         ///
         if ($callback !== null && $callback instanceof \Closure) {
             call_user_func($callback, $app);

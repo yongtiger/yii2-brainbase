@@ -1,4 +1,4 @@
-<?php  ///[yii2-brainbase v0.10.7 (ADD# backend\components\Application)]
+<?php ///[v0.12.1 (UGD# replace component/application into yongtiger/appliaction)]
 
 /**
  * Yii2 Brainbase
@@ -19,7 +19,7 @@ use Yii;
  *
  * @package backend\components
  */
-class Application extends \common\components\Application 
+class Application extends \yongtiger\application\Application 
 {
     /**
      * @inheritdoc
@@ -35,7 +35,7 @@ class Application extends \common\components\Application
      */
     public function afterInit() {
         
-        parent::beforeInit();
+        parent::afterInit();
 
     }
 }

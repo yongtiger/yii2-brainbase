@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "eaa084a93e4139a79e278496219daca9",
+    "content-hash": "1b671ebcd7a9fbb51f945fc11bce8c2c",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -868,18 +868,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widget-alert.git",
-                "reference": "5706274f4d62e123586ae13479b303b088f02392"
+                "reference": "7348b0d047695a3e552888c481ce250cbc1f9d0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widget-alert/zipball/5706274f4d62e123586ae13479b303b088f02392",
-                "reference": "5706274f4d62e123586ae13479b303b088f02392",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-alert/zipball/7348b0d047695a3e552888c481ce250cbc1f9d0d",
+                "reference": "7348b0d047695a3e552888c481ce250cbc1f9d0d",
                 "shasum": ""
             },
             "require": {
                 "kartik-v/yii2-krajee-base": "*"
             },
             "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "kartik\\alert\\": ""
@@ -910,7 +915,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2015-04-21 15:32:57"
+            "time": "2017-03-10 17:08:52"
         },
         {
             "name": "kartik-v/yii2-widget-colorinput",
@@ -1948,12 +1953,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "b39cbbfd16ea6217dccea0a27a5d384381a16967"
+                "reference": "4c284a026e086d0105f381768f0804dbea78c976"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/b39cbbfd16ea6217dccea0a27a5d384381a16967",
-                "reference": "b39cbbfd16ea6217dccea0a27a5d384381a16967",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/4c284a026e086d0105f381768f0804dbea78c976",
+                "reference": "4c284a026e086d0105f381768f0804dbea78c976",
                 "shasum": ""
             },
             "require": {
@@ -2040,7 +2045,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-03-10 01:30:16"
+            "time": "2017-03-10 18:16:25"
         },
         {
             "name": "yiisoft/yii2-authclient",
@@ -2438,6 +2443,50 @@
                 "yii2"
             ],
             "time": "2017-03-08 19:47:46"
+        },
+        {
+            "name": "yongtiger/yii2-application",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yongtiger/yii2-application.git",
+                "reference": "96e1344295ec80904f4263d301b6d5b7b84548dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yongtiger/yii2-application/zipball/96e1344295ec80904f4263d301b6d5b7b84548dd",
+                "reference": "96e1344295ec80904f4263d301b6d5b7b84548dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yongtiger\\application\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yong Tiger",
+                    "email": "tigeryang.brainbook@outlook.com",
+                    "homepage": "http://www.branbook.cc/yongtiger"
+                }
+            ],
+            "homepage": "http://www.branbook.cc",
+            "keywords": [
+                "application",
+                "extension",
+                "yii2"
+            ],
+            "time": "2017-03-10 21:46:27"
         },
         {
             "name": "yongtiger/yii2-authclient",
@@ -3167,12 +3216,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "22a7cc3fa121aa6bf25c788fa9492bf7ac110687"
+                "reference": "470cf6f1d82143c93a15d456e9a5147ef3a29af8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/22a7cc3fa121aa6bf25c788fa9492bf7ac110687",
-                "reference": "22a7cc3fa121aa6bf25c788fa9492bf7ac110687",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/470cf6f1d82143c93a15d456e9a5147ef3a29af8",
+                "reference": "470cf6f1d82143c93a15d456e9a5147ef3a29af8",
                 "shasum": ""
             },
             "require": {
@@ -3209,7 +3258,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2017-03-06 08:47:54"
+            "time": "2017-03-10T16:14:39+00:00"
         },
         {
             "name": "guzzlehttp/psr7",

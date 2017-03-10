@@ -1,4 +1,4 @@
-<?php ///[yii2-brainbase v0.10.6 (ADD# frontend\components\Application)]
+<?php ///[v0.12.1 (UGD# replace component/application into yongtiger/appliaction)]
 
 /**
  * Yii2 Brainbase
@@ -21,7 +21,7 @@ use yongtiger\setting\Setting;
  *
  * @package frontend\components
  */
-class Application extends \common\components\Application 
+class Application extends \yongtiger\application\Application
 {
     /**
      * @inheritdoc
@@ -37,6 +37,15 @@ class Application extends \common\components\Application
         Yii::$app->params['supportEmail'] = Setting::get('site', 'supportEmail', Yii::$app->params['supportEmail']);
         Yii::$app->params['serviceEmail'] = Setting::get('site', 'serviceEmail', Yii::$app->params['serviceEmail']);
 
+        ///[v0.10.5 (filter theme bootstrap)]
+        ///You can still run without yii2 extension `yongtiger/yii-theme`.
+        ///Note: Cannot use `class_exists('yongtiger\\theme\\Bootstrap')` before application init!
+        if (is_file($this->getVendorPath() . DIRECTORY_SEPARATOR . 'yongtiger'. DIRECTORY_SEPARATOR . 'yii2-theme' . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'Bootstrap.php')) {
+
+            \yongtiger\theme\Bootstrap::filterExtensionsBootstrap();
+
+        }
+        
         ///[v0.10.5 (filter theme bootstrap)]
         ///You can still run without yii2 extension `yongtiger/yii-theme`.
         ///Note: Cannot use `class_exists('yongtiger\\theme\\Bootstrap')` before application init!
