@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-03-02 14:54:12
+Date: 2017-03-09 17:46:33
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -34,7 +34,7 @@ CREATE TABLE `menu` (
 -- ----------------------------
 -- Records of menu
 -- ----------------------------
-INSERT INTO `menu` VALUES ('1', '权限控制', null, null, '1', 0x7B2269636F6E223A202266612066612D6C6F636B222C202276697369626C65223A20747275657D);
+INSERT INTO `menu` VALUES ('1', '权限控制', null, null, '3', 0x7B2269636F6E223A202266612066612D6C6F636B222C202276697369626C65223A20747275657D);
 INSERT INTO `menu` VALUES ('2', '路由', '1', '@app-backend/admin/route/index', '1', null);
 INSERT INTO `menu` VALUES ('3', '权限', '1', '@app-backend/admin/permission/index', '2', null);
 INSERT INTO `menu` VALUES ('4', '角色', '1', '@app-backend/admin/role/index', '3', null);
@@ -42,6 +42,7 @@ INSERT INTO `menu` VALUES ('5', '规则', '1', '@app-backend/admin/rule/index', 
 INSERT INTO `menu` VALUES ('6', '分配', '1', '@app-backend/admin/assignment/index', '5', null);
 INSERT INTO `menu` VALUES ('7', '菜单', '1', '@app-backend/admin/menu/index', '6', null);
 INSERT INTO `menu` VALUES ('8', '用户管理', null, '@app-backend/user/user/index', '2', 0x7B2269636F6E223A202266612066612D75736572222C202276697369626C65223A20747275657D);
-INSERT INTO `menu` VALUES ('9', '网站设置', null, '@app-backend/setting/default/update&category=site', '3', 0x7B2269636F6E223A202266612066612D636F67222C202276697369626C65223A20747275657D);
+INSERT INTO `menu` VALUES ('9', '网站设置', null, '@app-backend/setting/default/update&category=site', '1', 0x7B2269636F6E223A202266612066612D636F67222C202276697369626C65223A20747275657D);
 INSERT INTO `menu` VALUES ('88', 'Gii', null, '@app-backend/gii/default/index', '88', 0x7B2269636F6E223A202266612066612D66696C652D636F64652D6F222C202276697369626C65223A20747275657D);
 INSERT INTO `menu` VALUES ('99', 'Debug', null, '@app-backend/debug/default/index', '99', 0x7B2269636F6E223A202266612066612D64617368626F617264222C202276697369626C65223A20747275657D);
+INSERT INTO `menu` VALUES ('100', '主题管理', null, '@app-backend/theme/default/update', '2', null);

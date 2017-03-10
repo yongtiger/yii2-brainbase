@@ -22,7 +22,7 @@ use Yii;
 class ThemeAsset extends \yongtiger\theme\AssetBundle
 {
     // static $themePath = '@yongtiger/themeyii2'; ///optional
-    // static $themeUrlReplace = '{theme}';    ///optional
+    // static $themeUrlReplace = '{themeurl}';    ///optional
 
     public $css = [
         'css/site.css',

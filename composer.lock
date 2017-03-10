@@ -523,12 +523,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
-                "reference": "9a3773ef56e3c5970c8c39ca13771ee9034062f1"
+                "reference": "06a2db023a290ce955421490b483fe6d1942973f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/9a3773ef56e3c5970c8c39ca13771ee9034062f1",
-                "reference": "9a3773ef56e3c5970c8c39ca13771ee9034062f1",
+                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/06a2db023a290ce955421490b483fe6d1942973f",
+                "reference": "06a2db023a290ce955421490b483fe6d1942973f",
                 "shasum": ""
             },
             "type": "library",
@@ -568,7 +568,7 @@
                 "progress",
                 "upload"
             ],
-            "time": "2017-03-07 04:31:22"
+            "time": "2017-03-09 17:11:07"
         },
         {
             "name": "kartik-v/bootstrap-star-rating",
@@ -918,12 +918,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widget-colorinput.git",
-                "reference": "1a10c5e9a528270e22dc8a5eba404c72f417665a"
+                "reference": "4dc75753ab88b37f6445d63dd7e79f3dbf4040f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widget-colorinput/zipball/1a10c5e9a528270e22dc8a5eba404c72f417665a",
-                "reference": "1a10c5e9a528270e22dc8a5eba404c72f417665a",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-colorinput/zipball/4dc75753ab88b37f6445d63dd7e79f3dbf4040f4",
+                "reference": "4dc75753ab88b37f6445d63dd7e79f3dbf4040f4",
                 "shasum": ""
             },
             "require": {
@@ -964,7 +964,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2016-04-07 11:58:28"
+            "time": "2017-03-09 14:26:42"
         },
         {
             "name": "kartik-v/yii2-widget-datepicker",
@@ -1948,12 +1948,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "55aef2ed39c7d04043e969b6d935f07df9c54aa4"
+                "reference": "b39cbbfd16ea6217dccea0a27a5d384381a16967"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/55aef2ed39c7d04043e969b6d935f07df9c54aa4",
-                "reference": "55aef2ed39c7d04043e969b6d935f07df9c54aa4",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/b39cbbfd16ea6217dccea0a27a5d384381a16967",
+                "reference": "b39cbbfd16ea6217dccea0a27a5d384381a16967",
                 "shasum": ""
             },
             "require": {
@@ -2040,7 +2040,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-03-07 07:15:28"
+            "time": "2017-03-10 01:30:16"
         },
         {
             "name": "yiisoft/yii2-authclient",
@@ -2096,12 +2096,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "6c46dce6217c022b18ecfbede7a9dd9a3b91e9e5"
+                "reference": "629087c34e652da54df26d27457ff71348059957"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/6c46dce6217c022b18ecfbede7a9dd9a3b91e9e5",
-                "reference": "6c46dce6217c022b18ecfbede7a9dd9a3b91e9e5",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/629087c34e652da54df26d27457ff71348059957",
+                "reference": "629087c34e652da54df26d27457ff71348059957",
                 "shasum": ""
             },
             "require": {
@@ -2138,7 +2138,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2017-02-25 21:12:18"
+            "time": "2017-03-09 19:06:29"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -2390,12 +2390,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-adminlte-asset.git",
-                "reference": "4cd4fa4c45938d0ff2e2d9119839a26c0d0f8592"
+                "reference": "cc6d58cd00adc3f9b75d6039506323f3d11825a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-adminlte-asset/zipball/4cd4fa4c45938d0ff2e2d9119839a26c0d0f8592",
-                "reference": "4cd4fa4c45938d0ff2e2d9119839a26c0d0f8592",
+                "url": "https://api.github.com/repos/yongtiger/yii2-adminlte-asset/zipball/cc6d58cd00adc3f9b75d6039506323f3d11825a0",
+                "reference": "cc6d58cd00adc3f9b75d6039506323f3d11825a0",
                 "shasum": ""
             },
             "require": {
@@ -2437,7 +2437,7 @@
                 "theme",
                 "yii2"
             ],
-            "time": "2017-03-08 19:17:25"
+            "time": "2017-03-08 19:47:46"
         },
         {
             "name": "yongtiger/yii2-authclient",
@@ -2748,18 +2748,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-theme.git",
-                "reference": "d449d58e002ecd3076c6e56fc7f1cd7d60e13e7f"
+                "reference": "ac61a0b5996223536382837ad4817bc8804ddc74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-theme/zipball/d449d58e002ecd3076c6e56fc7f1cd7d60e13e7f",
-                "reference": "d449d58e002ecd3076c6e56fc7f1cd7d60e13e7f",
+                "url": "https://api.github.com/repos/yongtiger/yii2-theme/zipball/ac61a0b5996223536382837ad4817bc8804ddc74",
+                "reference": "ac61a0b5996223536382837ad4817bc8804ddc74",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5",
                 "yiisoft/yii2": "*",
-                "yiisoft/yii2-bootstrap": "*"
+                "yiisoft/yii2-bootstrap": "*",
+                "yongtiger/yii2-setting": "*"
             },
             "type": "yii2-extension",
             "autoload": {
@@ -2785,7 +2786,7 @@
                 "theme",
                 "yii2"
             ],
-            "time": "2017-03-08 06:08:38"
+            "time": "2017-03-10 02:20:57"
         },
         {
             "name": "yongtiger/yii2-theme-yii",
@@ -2793,12 +2794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-theme-yii.git",
-                "reference": "3a969aa5ab9387c8ef3849f64b91204753e49331"
+                "reference": "459007efb12e18ebf23e16f1cc454251e7d556a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-theme-yii/zipball/3a969aa5ab9387c8ef3849f64b91204753e49331",
-                "reference": "3a969aa5ab9387c8ef3849f64b91204753e49331",
+                "url": "https://api.github.com/repos/yongtiger/yii2-theme-yii/zipball/459007efb12e18ebf23e16f1cc454251e7d556a5",
+                "reference": "459007efb12e18ebf23e16f1cc454251e7d556a5",
                 "shasum": ""
             },
             "require": {
@@ -2835,7 +2836,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2017-03-06 20:20:24"
+            "time": "2017-03-10 00:20:57"
         },
         {
             "name": "yongtiger/yii2-user",
@@ -3819,12 +3820,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1148a7a0dac58b1c3acabacd10aded41b2c9d9a2"
+                "reference": "d421807ce5f372ecaf0bff3a5d41f5c60a18329f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1148a7a0dac58b1c3acabacd10aded41b2c9d9a2",
-                "reference": "1148a7a0dac58b1c3acabacd10aded41b2c9d9a2",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d421807ce5f372ecaf0bff3a5d41f5c60a18329f",
+                "reference": "d421807ce5f372ecaf0bff3a5d41f5c60a18329f",
                 "shasum": ""
             },
             "require": {
@@ -3893,7 +3894,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-08T14:02:01+00:00"
+            "time": "2017-03-09 13:47:42"
         },
         {
             "name": "phpunit/phpunit-mock-objects",

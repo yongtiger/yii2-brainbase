@@ -22,5 +22,6 @@ use Yii;
  */
 class Bootstrap extends \yongtiger\theme\Bootstrap
 {
-
+	static $title = 'themes yii';
+	static $screenshot = 'screenshot.jpg';
 }
