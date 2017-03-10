@@ -25,6 +25,14 @@ return [
     ],
 
     'components' => [
+
+        // 'assetManager' => [
+        //     'linkAssets' => true,   ///@see http://www.yiiframework.com/doc-2.0/yii-web-assetmanager.html#$linkAssets-detail
+        //     ///Note, in case $forceCopy is false the method only checks the existence of the target directory to avoid repetitive copying (which is very expensive).
+        //     ///@see http://www.yiiframework.com/doc-2.0/yii-web-assetmanager.html#publish()-detail
+        //     'forceCopy' => true,   ///@see http://www.yiiframework.com/doc-2.0/yii-web-assetmanager.html#$forceCopy-detail
+        // ],
+
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],

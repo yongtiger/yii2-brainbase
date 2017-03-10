@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.11.1 (CHG# activeTheme)
+# Yii2 Brainbase v0.12.0 (ADD# backend:cache controller)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
