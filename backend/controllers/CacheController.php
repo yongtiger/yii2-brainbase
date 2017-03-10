@@ -45,7 +45,7 @@ class CacheController extends Controller
         Yii::$app->cache->flush();  
 
         $appFrontend = $this->remoteAppCall('app-frontend', function($app) {
-            // $app->cache->flush();
+            $app->cache->flush();
         });
 
         return $this->render('index');
@@ -53,7 +53,7 @@ class CacheController extends Controller
 
     public function remoteAppCall($appId, $callback = null) {
         // Save original app.
-        // $yiiApp = Yii::$app;
+        $yiiApp = Yii::$app;
         // Create empty config array.
         $config = [];
         // Assemble configuration for current app.
@@ -64,15 +64,15 @@ class CacheController extends Controller
         // Create new app using the config array.
         $app = new \common\components\Application($config); ///[2.6.6 (CHG# \common\components\Application)]
         ///
-        // if ($callback !== null && $callback instanceof \Closure) {
-        //     call_user_func($callback, $app);
-        // }
+        if ($callback !== null && $callback instanceof \Closure) {
+            call_user_func($callback, $app);
+        }
         
         // Dump new app
-        // unset($app);
+        unset($app);
         // Switch back to original app.
-        // Yii::$app = $yiiApp;
-        // unset($yiiApp);
+        Yii::$app = $yiiApp;
+        unset($yiiApp);
     }
 
     public function actionClearDirs() {
