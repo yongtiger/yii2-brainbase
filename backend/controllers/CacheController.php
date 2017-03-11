@@ -46,15 +46,16 @@ class CacheController extends Controller
         Yii::$app->cache->flush();  
 
         ///[v0.12.2 (CHG# yongtiger\application\Application::remoteAppCall)]
+        ///@see [yongtiger\application 1.0.1 (fix:bug:i18n is invalid after Application::remoteAppCall('app-frontend'))]
         Application::remoteAppCall('app-frontend', function($app) {
             $app->cache->flush();
         }, function ($config) {
             unset($config['bootstrap']);    ///[yii2-brainbase v0.3.0 (admin:rbac):fix Yii debug disappear in route]
             return $config;
-        });///?????bug:i18n is invalid!
+        });
 
         Yii::$app->session->setFlash('success', Yii::t('app', 'Clear caches succeed.'));
-        return $this->render('index');
+        return $this->redirect(['index']);
     }
 
     public function actionClearDirs() {
@@ -75,7 +76,7 @@ class CacheController extends Controller
             Yii::$app->session->setFlash('success', Yii::t('app', 'Clear dirs succeed.'));
         }
         
-        return $this->render('index');
+        return $this->redirect(['index']);
     }
 
     ///@see http://stackoverflow.com/questions/37723515/why-by-every-refreshing-page-cache-reload-anew/37729758#37729758

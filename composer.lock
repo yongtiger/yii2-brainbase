@@ -2451,12 +2451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-application.git",
-                "reference": "6835ff254cd8ed5d0190bcdc58309682148f8772"
+                "reference": "b0db8e6265bd2ab1e0e42753a819024dddd8eacc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-application/zipball/6835ff254cd8ed5d0190bcdc58309682148f8772",
-                "reference": "6835ff254cd8ed5d0190bcdc58309682148f8772",
+                "url": "https://api.github.com/repos/yongtiger/yii2-application/zipball/b0db8e6265bd2ab1e0e42753a819024dddd8eacc",
+                "reference": "b0db8e6265bd2ab1e0e42753a819024dddd8eacc",
                 "shasum": ""
             },
             "require": {
@@ -2487,7 +2487,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2017-03-11 01:55:31"
+            "time": "2017-03-11 03:53:18"
         },
         {
             "name": "yongtiger/yii2-authclient",

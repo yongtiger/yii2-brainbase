@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.12.3 (i18n at backend cache)
+# Yii2 Brainbase v0.12.4 (CHG# backend:cache controller:redirect(['index']))
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
