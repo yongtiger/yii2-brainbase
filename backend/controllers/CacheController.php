@@ -4,6 +4,7 @@ namespace backend\controllers;
 use Yii;
 use yii\web\Controller;
 use yii\filters\AccessControl;
+use yongtiger\application\Application;
 
 /**
  * Site controller
@@ -44,48 +45,36 @@ class CacheController extends Controller
         ///Clear backend cache
         Yii::$app->cache->flush();  
 
-        $appFrontend = $this->remoteAppCall('app-frontend', function($app) {
+        ///[v0.12.2 (CHG# yongtiger\application\Application::remoteAppCall)]
+        Application::remoteAppCall('app-frontend', function($app) {
             $app->cache->flush();
+        }, function ($config) {
+            unset($config['bootstrap']);    ///[yii2-brainbase v0.3.0 (admin:rbac):fix Yii debug disappear in route]
+            return $config;
         });
 
+        Yii::$app->session->setFlash('success', Yii::t('app', 'Clear caches succeed.'));
         return $this->render('index');
-    }
-
-    public function remoteAppCall($appId, $callback = null) {
-        // Save original app.
-        $yiiApp = Yii::$app;
-        // Create empty config array.
-        $config = [];
-        // Assemble configuration for current app.
-        foreach (Yii::$app->params['yongtiger.admin.configs']['advanced'][$appId] as $configPath) {
-            // Merge every new configuration with the old config array.
-            $config = yii\helpers\ArrayHelper::merge($config, require (Yii::getAlias($configPath)));
-        }
-        // Create new app using the config array.
-        $app = new \yongtiger\application\Application($config); ///[v0.12.1 (UGD# replace component/application into yongtiger/appliaction)]
-        ///
-        if ($callback !== null && $callback instanceof \Closure) {
-            call_user_func($callback, $app);
-        }
-        
-        // Dump new app
-        unset($app);
-        // Switch back to original app.
-        Yii::$app = $yiiApp;
-        unset($yiiApp);
     }
 
     public function actionClearDirs() {
         ///Clear dirs e.g. frontend/backend assets, data etc. 
         ///Note: Even if we add flush() to asset manager, you still need to write script to call this method and perform directory deletion, which isn't easier than you write directly a directory deletion script.
         ///@see https://github.com/yiisoft/yii2/issues/85
+        $failDirs = [];
         foreach (Yii::$app->params['clearDirs'] as $dir) {
             $dir = Yii::getAlias($dir);
             if (!$this->destroy_dir($dir, 0)) {
-                Yii::$app->session->setFlash('error', 'Failed clear cache: ' . $dir);
+                $failDirs[] = $dir;
             }
         }
 
+        if ($failDirs) {
+            Yii::$app->session->setFlash('error', Yii::t('app', 'Failed clear dirs: ') . implode("\n", $failDirs));
+        } else {
+            Yii::$app->session->setFlash('success', Yii::t('app', 'Clear dirs succeed.'));
+        }
+        
         return $this->render('index');
     }
 
