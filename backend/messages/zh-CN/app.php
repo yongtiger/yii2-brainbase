@@ -8,6 +8,11 @@ return [
 	///\backend\controllers\SiteController.php
 	'Error! No permission to access backend.' => '没有登陆后台权限',
 
+	///\backend\controllers\CacheController.php
+	'Clear caches succeed.' => '清除缓存成功。',
+	'Clear dirs succeed.' => '清除目录成功。',
+	'Failed clear dirs: ' => '清除以下的目录失败：',
+
 
 	/**
 	 * Views
@@ -28,5 +33,9 @@ return [
 	///\backend\views\site\error.php
 	'The above error occurred while the Web server was processing your request.' => '网络服务器处理您的请求时发生上述错误。',
 	'Please contact us if you think this is a server error. Thank you.' => '如果您认为是服务器错误，请联系我们。谢谢！',
+
+	///\backend\views\cache\index.php
+	'Clear Caches' => '清除缓存',
+	'Clear Dirs' => '清除目录',
 
 ];

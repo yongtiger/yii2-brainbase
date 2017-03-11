@@ -1953,12 +1953,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "4c284a026e086d0105f381768f0804dbea78c976"
+                "reference": "7f3c9b2f1dae9d387ac6269d7c12d4c684f8f16a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/4c284a026e086d0105f381768f0804dbea78c976",
-                "reference": "4c284a026e086d0105f381768f0804dbea78c976",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7f3c9b2f1dae9d387ac6269d7c12d4c684f8f16a",
+                "reference": "7f3c9b2f1dae9d387ac6269d7c12d4c684f8f16a",
                 "shasum": ""
             },
             "require": {
@@ -2045,7 +2045,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-03-10 18:16:25"
+            "time": "2017-03-10 22:44:05"
         },
         {
             "name": "yiisoft/yii2-authclient",
@@ -2348,19 +2348,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-admin.git",
-                "reference": "f193b35791560015b8183e0e6cbd31537362f483"
+                "reference": "caa3192b37247095ca19108768bae6bca5fd8d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-admin/zipball/f193b35791560015b8183e0e6cbd31537362f483",
-                "reference": "f193b35791560015b8183e0e6cbd31537362f483",
+                "url": "https://api.github.com/repos/yongtiger/yii2-admin/zipball/caa3192b37247095ca19108768bae6bca5fd8d14",
+                "reference": "caa3192b37247095ca19108768bae6bca5fd8d14",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5",
                 "yiisoft/yii2": "*",
                 "yiisoft/yii2-bootstrap": "*",
-                "yiisoft/yii2-jui": "~2.0.0"
+                "yiisoft/yii2-jui": "~2.0.0",
+                "yongtiger/yii2-application": "*"
             },
             "type": "yii2-extension",
             "autoload": {
@@ -2387,7 +2388,7 @@
                 "rbac",
                 "yii2"
             ],
-            "time": "2017-03-08 09:22:36"
+            "time": "2017-03-11 02:29:28"
         },
         {
             "name": "yongtiger/yii2-adminlte-asset",
@@ -2450,12 +2451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-application.git",
-                "reference": "96e1344295ec80904f4263d301b6d5b7b84548dd"
+                "reference": "6835ff254cd8ed5d0190bcdc58309682148f8772"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-application/zipball/96e1344295ec80904f4263d301b6d5b7b84548dd",
-                "reference": "96e1344295ec80904f4263d301b6d5b7b84548dd",
+                "url": "https://api.github.com/repos/yongtiger/yii2-application/zipball/6835ff254cd8ed5d0190bcdc58309682148f8772",
+                "reference": "6835ff254cd8ed5d0190bcdc58309682148f8772",
                 "shasum": ""
             },
             "require": {
@@ -2486,7 +2487,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2017-03-10 21:46:27"
+            "time": "2017-03-11 01:55:31"
         },
         {
             "name": "yongtiger/yii2-authclient",
@@ -3258,7 +3259,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2017-03-10T16:14:39+00:00"
+            "time": "2017-03-10 16:14:39"
         },
         {
             "name": "guzzlehttp/psr7",

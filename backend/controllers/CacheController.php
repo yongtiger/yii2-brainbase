@@ -51,7 +51,7 @@ class CacheController extends Controller
         }, function ($config) {
             unset($config['bootstrap']);    ///[yii2-brainbase v0.3.0 (admin:rbac):fix Yii debug disappear in route]
             return $config;
-        });
+        });///?????bug:i18n is invalid!
 
         Yii::$app->session->setFlash('success', Yii::t('app', 'Clear caches succeed.'));
         return $this->render('index');
