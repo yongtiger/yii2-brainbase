@@ -1,13 +1,13 @@
 <?php
+
 /**
- * SysInfoModel.php
- * =============================
- * 版权所有 http://www.brainbook.cc
- * =============================
- * 文件描述
+ * Yii2 Brainbase
  *
- * @date: 2016年9月6日 下午7:36:05
- * @author: "tiger"
+ * @link        http://www.brainbook.cc
+ * @see         https://github.com/yongtiger/yii2-brainbase
+ * @author      Tiger Yong <tigeryang.brainbook@outlook.com>
+ * @copyright   Copyright (c) 2017 BrainBook.CC
+ * @license     http://opensource.org/licenses/MIT
  */
 
 namespace backend\models;
@@ -15,9 +15,9 @@ namespace backend\models;
 use Yii;
 
 /**
- * 类描述
+ * Class SysInfo
  *
- * @property 类型 成员 说明
+ * @package backend\models
  */
 class SysInfo
 {

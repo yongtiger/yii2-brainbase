@@ -43,4 +43,11 @@ return [
 	'Clear Caches' => '清除缓存',
 	'Clear Dirs' => '清除目录',
 
+	///\backend\views\site\frontend-info.php
+	///\backend\views\site\backend-info.php
+	'Value' => '值',
+	'Constants' => '常量',
+	'Aliases' => '别名',
+	'Object Info' => '查看对象',
+
 ];

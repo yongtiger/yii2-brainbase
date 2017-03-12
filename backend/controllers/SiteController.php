@@ -1,4 +1,15 @@
 <?php
+
+/**
+ * Yii2 Brainbase
+ *
+ * @link        http://www.brainbook.cc
+ * @see         https://github.com/yongtiger/yii2-brainbase
+ * @author      Tiger Yong <tigeryang.brainbook@outlook.com>
+ * @copyright   Copyright (c) 2017 BrainBook.CC
+ * @license     http://opensource.org/licenses/MIT
+ */
+
 namespace backend\controllers;
 
 use Yii;
@@ -7,6 +18,8 @@ use yii\filters\AccessControl;
 
 /**
  * Site controller
+ *
+ * @package backend\controllers
  */
 class SiteController extends Controller
 {
@@ -62,7 +75,7 @@ class SiteController extends Controller
      */
     public function actionFrontendInfo()
     {
-        return $this->render('frontendInfo');
+        return $this->render('frontend-info');
     }
 
     /**
@@ -72,7 +85,7 @@ class SiteController extends Controller
      */
     public function actionBackendInfo()
     {
-        return $this->render('backendInfo');
+        return $this->render('backend-info');
     }
 
     /**
