@@ -24,7 +24,7 @@ class SiteController extends Controller
                         'allow' => true,
                     ],
                     [
-                        'actions' => ['index'],
+                        'actions' => ['index', 'phpinfo', 'frontend-info', 'backend-info'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -52,13 +52,36 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-
-        ///[yii2-adminlte-asset]Sets the params parameter `bodyClass` for the current view.
-        // Yii::$app->view->params['bodyClass'] = 'skin-blue sidebar-mini';
-
-        ///[yii2-adminlte-asset]Sets the params parameter `userAvatar` for the current view.
-        // Yii::$app->view->params['userAvatar'] = '/img/user2-160x160.jpg';    ///??????
-
         return $this->render('index');
+    }
+
+    /**
+     * Displays frontend info.
+     *
+     * @return mixed
+     */
+    public function actionFrontendInfo()
+    {
+        return $this->render('frontendInfo');
+    }
+
+    /**
+     * Displays backend info.
+     *
+     * @return mixed
+     */
+    public function actionBackendInfo()
+    {
+        return $this->render('backendInfo');
+    }
+
+    /**
+     * Displays phpinfpo().
+     *
+     * @return mixed
+     */
+    public function actionPhpinfo()
+    {
+        echo phpinfo();
     }
 }

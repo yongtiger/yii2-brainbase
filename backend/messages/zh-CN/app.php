@@ -18,14 +18,18 @@ return [
 	 * Views
 	 */
 	///\backend\views\site\index.php
-	'My Application' => '我的应用',
-	'Congratulations!' => '恭喜您！',
-	'You have successfully created your Yii-powered application.' => '您已经成功创建了您的Yii应用。',
-	'Get started with Yii' => '开始了解Yii',
-	'Heading' => '标题',
-	'Yii Documentation' => 'Yii 文档',
-	'Yii Forum' => 'Yii 社区',
-	'Yii Extensions' => 'Yii 扩展',
+	'System Info' => '系统信息',
+	'Frontend Info' => '前台信息',
+	'Backend Info' => '后台信息',
+	'Item' => '栏目',
+	'Info' => '信息',
+	'Note' => '说明',
+	'OS' => '操作系统',
+	'Web Service' => '网络服务',
+	'Version' => '版本',
+	'Database' => '数据库',
+	'Driver' => '驱动程序',
+	'Has already been the latest version, no need to update.' => '已经是最新版本，无需更新。',
 
 	///\backend\views\site\login.php
 	'Please fill out the following fields to login:' => '请填写下列内容：',
@@ -35,6 +39,7 @@ return [
 	'Please contact us if you think this is a server error. Thank you.' => '如果您认为是服务器错误，请联系我们。谢谢！',
 
 	///\backend\views\cache\index.php
+	'Caches' => '缓存管理',
 	'Clear Caches' => '清除缓存',
 	'Clear Dirs' => '清除目录',
 

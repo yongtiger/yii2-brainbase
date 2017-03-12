@@ -2,14 +2,24 @@
 return [
     'adminEmail' => 'admin@example.com',
     'supportEmail' => 'support@example.com',
-    'user.passwordResetTokenExpire' => 3600,
 
     ///[yii2-brainbase v0.0.0 (initial commit)]
     ///`serviceEmail` usually used for the system to automatically send mail.
     ///Note: Make sure that the mail sender must be a mailbox corresponding to SMTP! Please refer to `\common\config\main-local.php` in the mailer settings.
     'serviceEmail' => 'service@example.com',
 
+    'yii2-brainbase-email' => 'brainbook.cc@outlook.com',  ///yii2-brainbase contact email (Note: Not admin email!)
+    'yii2-brainbase-name' => 'yii2-brainbase',    ///yii2-brainbase name
+    'yii2-brainbase-version' => '1.0.0',           ///yii2-brainbase version
+    'yii2-brainbase-build' => '201610012344',      ///yii2-brainbase build version
+    'yii2-brainbase-copyright-url' => 'http://www.brainbook.cc',   ///yii2-brainbase copyright and support site url (Note: Not admin email!)
+    'yii2-brainbase-copyright-name' => 'brainbook.cc',             ///yii2-brainbase copyright and support site name
+    'yii2-brainbase-github-url' => 'https://github.com/yongtiger/yii2-brainbase',    ///yii2-brainbase GitHub url
+
+    'user.passwordResetTokenExpire' => 3600,
+
     ///[yii2-brainbase v0.3.0 (admin:rbac):fix Added multi app (frontend/backend)]@see https://github.com/mdmsoft/yii2-admin/pull/309/
+    ///Optional. `'yongtiger.admin.configs'=>'advanced'` will overrides 'yongtiger.application.remoteAppConfigs' as below.
     // 'yongtiger.admin.configs' => [
     //     'advanced' => [
     //         'app-backend' => [

@@ -40,6 +40,11 @@ class CacheController extends Controller
         return $this->render('index');
     }
 
+    /**
+     * Clears caches.
+     *
+     * @return mixed
+     */
      public function actionClearCaches() {
 
         ///Clear backend cache
@@ -58,6 +63,11 @@ class CacheController extends Controller
         return $this->redirect(['index']);
     }
 
+    /**
+     * Clears dirs.
+     *
+     * @return mixed
+     */
     public function actionClearDirs() {
         ///Clear dirs e.g. frontend/backend assets, data etc. 
         ///Note: Even if we add flush() to asset manager, you still need to write script to call this method and perform directory deletion, which isn't easier than you write directly a directory deletion script.
@@ -79,7 +89,12 @@ class CacheController extends Controller
         return $this->redirect(['index']);
     }
 
-    ///@see http://stackoverflow.com/questions/37723515/why-by-every-refreshing-page-cache-reload-anew/37729758#37729758
+    /**
+     * Destroys a dir.
+     *
+     * @see http://stackoverflow.com/questions/37723515/why-by-every-refreshing-page-cache-reload-anew/37729758#37729758
+     * @return mixed
+     */
     private function destroy_dir($dir, $i = 1) {
         if (!is_dir($dir) || is_link($dir))
             return unlink($dir);

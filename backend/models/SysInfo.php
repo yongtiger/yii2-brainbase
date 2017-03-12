@@ -1,5 +1,4 @@
 <?php
-///[yii2-admin-boot_v0.3.0_f0.2.0_sysinfo]
 /**
  * SysInfoModel.php
  * =============================
@@ -142,4 +141,3 @@ class SysInfo
     }
 
 }
-///[http://www.brainbook.cc]

@@ -10,24 +10,24 @@ return [
     'id' => 'app-backend',
     'basePath' => dirname(__DIR__),
     'name' => 'My Application',  ///[yii2-brainbase]
-    'controllerNamespace' => 'backend\controllers',
+    'controllerNamespace' => 'backend\\controllers',
     'bootstrap' => ['log'],
 
     'modules' => [
 
         ///[yii2-brainbase v0.2.0 (setting)]
         'setting' => [
-            'class' => 'yongtiger\setting\Module',
+            'class' => 'yongtiger\\setting\\Module',
         ],
 
         ///[v0.11.0 (ADD# theme module)]
         'theme' => [
-            'class' => 'yongtiger\theme\Module',
+            'class' => 'yongtiger\\theme\\Module',
         ],
 
         ///[Yii2 uesr]
         'user' => [
-            'class' => 'yongtiger\user\Module',
+            'class' => 'yongtiger\\user\\Module',
 
             ///Signup
             'enableSignup' => false,
@@ -70,7 +70,7 @@ return [
 
         ///[Yii2 uesr]
         'user' => [
-            'identityClass' => 'yongtiger\user\models\User',
+            'identityClass' => 'yongtiger\\user\\models\\User',
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity-backend', 'httpOnly' => true],
             'loginUrl' => ['/user/security/login'],
@@ -84,7 +84,7 @@ return [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
                 [
-                    'class' => 'yii\log\FileTarget',
+                    'class' => 'yii\\log\\FileTarget',
                     'levels' => ['error', 'warning'],
                 ],
             ],
@@ -102,6 +102,7 @@ return [
         */
 
         'view' => [
+            
             'params' => [
 
                 ///[yii2-admin release version 2.2.0 (view params)]///[yii2-adminlte-asset v0.0.8 (view params)]
@@ -113,20 +114,21 @@ return [
                 ///[Yii2 admin release version 2.6.1 (call_user_func([$alertClassName, 'widget']))]
                 ///[yii2-adminlte-asset v0.0.11 (call_user_func([$alertClassName, 'widget']))]
                 // 'alertClassName' => 'yongtiger\fontawesomealert\widgets\Alert',    ///[yii2-fontawesome-alert]
-                'alertClassName' => 'yongtiger\popupalert\widgets\Alert',    ///[yii2-popup-alert]
+                'alertClassName' => 'yongtiger\\popupalert\\widgets\\Alert',    ///[yii2-popup-alert]
 
             ],
 
-            'theme' => [
-                'pathMap' => [
+            // 'theme' => [
+            //     'pathMap' => [
 
-                    ///Choose one in `yongtiger/admin` and `yongtiger/adminlteasset`:
-                    '@backend/views' => '@yongtiger/admin/views',   ///[yii2-admin:layout]
-                    // '@backend/views' => '@yongtiger/adminlteasset/views',   ///[yii2-adminlte-asset:layout]
-                    // '@yongtiger/user/views/security' => '@yongtiger/adminlteasset/views/site',  ///[yii2-adminlte-asset:login layout]Note: 'enableLoginWithCaptcha' must be false!
+            //         ///Choose one in `yongtiger/admin` or `yongtiger/adminlteasset`:
+            //         '@backend/views' => '@yongtiger/admin/views',   ///[yii2-admin:layout]
+            //         // '@yongtiger/admin/views/layouts/footer.php' => '@backend/views/layouts/footer.php',
+            //         // '@backend/views' => '@yongtiger/adminlteasset/views',   ///[yii2-adminlte-asset:layout]
+            //         // '@yongtiger/user/views/security' => '@yongtiger/adminlteasset/views/site',  ///[yii2-adminlte-asset:login layout]Note: 'enableLoginWithCaptcha' must be false!
 
-                ],
-            ],
+            //     ],
+            // ],
         ],
 
     ],

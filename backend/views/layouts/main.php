@@ -69,7 +69,7 @@ AppAsset::register($this);
             <?= Breadcrumbs::widget([
                 'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
             ]) ?>
-            <?= call_user_func([isset($this->params['alertClassName']) ? $this->params['alertClassName'] : ['common/widgets/Alert'], 'widget']); ?>
+            <?= call_user_func([isset($this->params['alertClassName']) ? $this->params['alertClassName'] : ['common\\widgets\\Alert'], 'widget']); ?>
             <?= $content ?>
         </div>
 
@@ -77,13 +77,9 @@ AppAsset::register($this);
 
 </div>
 
-<footer class="footer">
-    <div class="container">
-        <p class="pull-left">&copy; <?= \Yii::$app->name ?> <?= date('Y') ?></p>
-
-        <p class="pull-right"><?= \Yii::powered() ?></p>
-    </div>
-</footer>
+<?= $this->render(
+    'footer.php'
+) ?>
 
 <?php $this->endBody() ?>
 </body>
