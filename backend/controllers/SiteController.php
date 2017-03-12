@@ -15,6 +15,7 @@ namespace backend\controllers;
 use Yii;
 use yii\web\Controller;
 use yii\filters\AccessControl;
+use yongtiger\application\Application;
 
 /**
  * Site controller
@@ -75,7 +76,15 @@ class SiteController extends Controller
      */
     public function actionFrontendInfo()
     {
-        return $this->render('frontend-info');
+        $frontendApp = null;
+        Application::remoteAppCall('app-frontend', function($app) use (&$frontendApp) {
+            $frontendApp = $app;
+        }, function ($config) {
+            unset($config['bootstrap']);    ///[yii2-brainbase v0.3.0 (admin:rbac):fix Yii debug disappear in route]
+            return $config;
+        });
+
+        return $this->render('frontend-info', ['app' => $frontendApp]);
     }
 
     /**

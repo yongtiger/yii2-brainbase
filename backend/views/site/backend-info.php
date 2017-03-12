@@ -154,7 +154,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </tr>
             <tr>
                 <td><code>Yii::$app->sourceLanguage</code></td>
-                <td><?= \Yii::$app->language ?></td>
+                <td><?= \Yii::$app->sourceLanguage ?></td>
                 <td></td>
             </tr>
             <tr>

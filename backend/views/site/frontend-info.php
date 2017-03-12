@@ -13,105 +13,6 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="table-responsive">
 
-    <!--///Yii Constants-->
-    <table class="table table-bordered table-striped">
-        <colgroup>
-            <col class="col-xs-3">
-            <col class="col-xs-6">
-            <col class="col-xs-3">
-        </colgroup>
-        <thead>
-            <tr>
-                <th>Yii <?= \Yii::t('app', 'Constants') ?></th>
-                <th><?= \Yii::t('app', 'Value') ?></th>
-                <th><?= \Yii::t('app', 'Note') ?></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><code>YII_DEBUG</code></td>
-                <td><?= YII_DEBUG ?></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><code>YII_ENV</code></td>
-                <td><?= YII_ENV ?></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><code>YII_ENV_PROD</code></td>
-                <td><?= YII_ENV_PROD ?></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><code>YII_ENV_DEV</code></td>
-                <td><?= YII_ENV_DEV ?></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><code>YII_ENV_TEST</code></td>
-                <td><?= YII_ENV_TEST ?></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><code>YII_ENABLE_ERROR_HANDLER</code></td>
-                <td><?= YII_ENABLE_ERROR_HANDLER ?></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><code>YII2_PATH</code></td>
-                <td><?= YII2_PATH ?></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><code>YII_BEGIN_TIME</code></td>
-                <td><?= YII_BEGIN_TIME ?> (<?=date('Y-m-d H:i:s', YII_BEGIN_TIME) . ' '. (YII_BEGIN_TIME - (int)(YII_BEGIN_TIME))?>)</td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-
-    <!--///Yii Aliases-->
-    <table class="table table-bordered table-striped">
-        <colgroup>
-            <col class="col-xs-3">
-            <col class="col-xs-6">
-            <col class="col-xs-3">
-        </colgroup>
-        <thead>
-            <tr>
-                <th>Yii <?= \Yii::t('app', 'Aliases') ?></th>
-                <th><?= \Yii::t('app', 'Value') ?></th>
-                <th><?= \Yii::t('app', 'Note') ?></th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php ///Show only two-dimensional arrays.
-            foreach (\Yii::$aliases as $key => $value) {
-                if (is_array($value)) {
-                    foreach ($value as $k => $v) {
-            ?>
-            <tr>
-                <td><code><?= $k ?></code></td>
-                <td><?= $v ?></td>
-                <td></td>
-            </tr>
-            <?php
-                    }
-                }else{
-            ?>
-            <tr>
-                <td><code><?= $key ?></code></td>
-                <td><?= $value ?></td>
-                <td></td>
-            </tr>
-            <?php
-                }
-            }
-            ?>
-        </tbody>
-    </table>
-
     <!--///Yii::$app (not includes object and array)-->
     <table class="table table-bordered table-striped">
         <colgroup>
@@ -129,47 +30,67 @@ $this->params['breadcrumbs'][] = $this->title;
         <tbody>
             <tr>
                 <td><code>Yii::$app->id</code></td>
-                <td><?= \Yii::$app->id ?></td>
+                <td><?= $app->id ?></td>
                 <td></td>
             </tr>
             <tr>
                 <td><code>Yii::$app->name</code></td>
-                <td><?= \Yii::$app->name ?></td>
+                <td><?= $app->name ?></td>
                 <td></td>
             </tr>
             <tr>
                 <td><code>Yii::$app->version</code></td>
-                <td><?= \Yii::$app->version ?></td>
+                <td><?= $app->version ?></td>
                 <td></td>
             </tr>
             <tr>
                 <td><code>Yii::$app->charset</code></td>
-                <td><?= \Yii::$app->charset ?></td>
+                <td><?= $app->charset ?></td>
                 <td></td>
             </tr>
             <tr>
                 <td><code>Yii::$app->language</code></td>
-                <td><?= \Yii::$app->language ?></td>
+                <td><?= $app->language ?></td>
                 <td></td>
             </tr>
             <tr>
                 <td><code>Yii::$app->sourceLanguage</code></td>
-                <td><?= \Yii::$app->language ?></td>
+                <td><?= $app->sourceLanguage ?></td>
                 <td></td>
             </tr>
             <tr>
                 <td><code>Yii::$app->defaultRoute</code></td>
-                <td><?= \Yii::$app->defaultRoute ?></td>
+                <td><?= $app->defaultRoute ?></td>
                 <td></td>
             </tr>
             <tr>
                 <td><code>Yii::$app->controllerNamespace</code></td>
-                <td><?= \Yii::$app->controllerNamespace ?></td>
+                <td><?= $app->controllerNamespace ?></td>
                 <td></td>
             </tr>
             <tr>
                 <td><code>Yii::$app->layout</code></td>
-                <td><?= \Yii::$app->layout ?></td>
+                <td><?= $app->layout ?></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><code>Yii::$app->basePath</code></td>
+                <td><?= $app->basePath ?></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><code>Yii::$app->vendorPath</code></td>
+                <td><?= $app->vendorPath ?></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><code>Yii::$app->runtimePath</code></td>
+                <td><?= $app->runtimePath ?></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><code>Yii::$app->timeZone</code></td>
+                <td><?= $app->timeZone ?></td>
                 <td></td>
             </tr>
         </tbody>
@@ -190,7 +111,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </tr>
         </thead>
         <tbody>
-            <?php foreach (\Yii::$app->params as $key => $value): ?>
+            <?php foreach ($app->params as $key => $value): ?>
             <tr>
                 <td><code><?= $key ?></code></td>
                 <td>
@@ -222,7 +143,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </tr>
         </thead>
         <tbody>
-            <?php foreach (\Yii::$app->bootstrap as $key => $value): ?>
+            <?php foreach ($app->bootstrap as $key => $value): ?>
             <tr>
                 <td><code><?= $key ?></code></td>
                 <td><?= $value ?></td>
@@ -247,7 +168,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </tr>
         </thead>
         <tbody>
-            <?php foreach (\Yii::$app->loadedModules as $key => $value): ?>
+            <?php foreach ($app->loadedModules as $key => $value): ?>
             <tr>
                 <td><code><?= $key ?></code></td>
                 <td>Object: <?= get_class($value) ?></td>
@@ -281,7 +202,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </tr>
         </thead>
         <tbody>
-            <?php foreach (\Yii::$app->extensions as $key => $value): ?>
+            <?php foreach ($app->extensions as $key => $value): ?>
             <tr>
                 <td><code><?= $key ?></code></td>
                 <td><?= var_dump($value) ?></td>
