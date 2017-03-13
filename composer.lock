@@ -2451,12 +2451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-application.git",
-                "reference": "b0db8e6265bd2ab1e0e42753a819024dddd8eacc"
+                "reference": "8e362c4b64293a667fef9ad0833d923412710a74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-application/zipball/b0db8e6265bd2ab1e0e42753a819024dddd8eacc",
-                "reference": "b0db8e6265bd2ab1e0e42753a819024dddd8eacc",
+                "url": "https://api.github.com/repos/yongtiger/yii2-application/zipball/8e362c4b64293a667fef9ad0833d923412710a74",
+                "reference": "8e362c4b64293a667fef9ad0833d923412710a74",
                 "shasum": ""
             },
             "require": {
@@ -2487,7 +2487,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2017-03-11 03:53:18"
+            "time": "2017-03-12 21:51:04"
         },
         {
             "name": "yongtiger/yii2-authclient",
@@ -2798,12 +2798,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-theme.git",
-                "reference": "ac61a0b5996223536382837ad4817bc8804ddc74"
+                "reference": "85a663601d6e16a660fe65c635ec3a2f3cc721ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-theme/zipball/ac61a0b5996223536382837ad4817bc8804ddc74",
-                "reference": "ac61a0b5996223536382837ad4817bc8804ddc74",
+                "url": "https://api.github.com/repos/yongtiger/yii2-theme/zipball/85a663601d6e16a660fe65c635ec3a2f3cc721ec",
+                "reference": "85a663601d6e16a660fe65c635ec3a2f3cc721ec",
                 "shasum": ""
             },
             "require": {
@@ -2836,7 +2836,7 @@
                 "theme",
                 "yii2"
             ],
-            "time": "2017-03-10 02:20:57"
+            "time": "2017-03-12 23:28:51"
         },
         {
             "name": "yongtiger/yii2-theme-yii",
@@ -2894,12 +2894,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-user.git",
-                "reference": "a9e5738e077260acd6ca6d1cb0216b25805e6dd7"
+                "reference": "1591ad629371a0d1335bc196834bd104c6c4ee00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/a9e5738e077260acd6ca6d1cb0216b25805e6dd7",
-                "reference": "a9e5738e077260acd6ca6d1cb0216b25805e6dd7",
+                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/1591ad629371a0d1335bc196834bd104c6c4ee00",
+                "reference": "1591ad629371a0d1335bc196834bd104c6c4ee00",
                 "shasum": ""
             },
             "require": {
@@ -2941,7 +2941,7 @@
                 "user",
                 "yii2"
             ],
-            "time": "2017-03-05 01:25:44"
+            "time": "2017-03-12 19:56:46"
         }
     ],
     "packages-dev": [

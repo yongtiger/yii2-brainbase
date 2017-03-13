@@ -76,6 +76,7 @@ class SiteController extends Controller
      */
     public function actionFrontendInfo()
     {
+        ///[v0.13.2 (backend:Frontend Info:Application::remoteAppCall)]
         $frontendApp = null;
         Application::remoteAppCall('app-frontend', function($app) use (&$frontendApp) {
             $frontendApp = $app;

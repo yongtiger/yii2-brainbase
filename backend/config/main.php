@@ -118,17 +118,19 @@ return [
 
             ],
 
-            // 'theme' => [
-            //     'pathMap' => [
+            'theme' => [
+                'class' => 'yongtiger\\theme\\Theme',   ///[v0.14.0 (UPG# extends yii\base\theme:theme pathMap supports view files)]
+                'pathMap' => [
 
-            //         ///Choose one in `yongtiger/admin` or `yongtiger/adminlteasset`:
-            //         '@backend/views' => '@yongtiger/admin/views',   ///[yii2-admin:layout]
-            //         // '@yongtiger/admin/views/layouts/footer.php' => '@backend/views/layouts/footer.php',
-            //         // '@backend/views' => '@yongtiger/adminlteasset/views',   ///[yii2-adminlte-asset:layout]
-            //         // '@yongtiger/user/views/security' => '@yongtiger/adminlteasset/views/site',  ///[yii2-adminlte-asset:login layout]Note: 'enableLoginWithCaptcha' must be false!
+                    ///Choose one in `yongtiger/admin` or `yongtiger/adminlteasset`:
+                    '@backend/views' => '@yongtiger/admin/views',   ///[yii2-admin:layout]
+                    '@yongtiger/admin/views/layouts/footer.php' => '@backend/views/layouts/footer.php', ///[v0.14.0 (UPG# extends yii\base\theme:theme pathMap supports view files)]
+                    // '@backend/views' => '@yongtiger/adminlteasset/views',   ///[yii2-adminlte-asset:layout]
+                    // '@yongtiger/user/views/security' => '@yongtiger/adminlteasset/views/site',  ///[yii2-adminlte-asset:login layout]Note: 'enableLoginWithCaptcha' must be false!
+                    // '@yongtiger/adminlteasset/views/layouts/footer.php' => '@backend/views/layouts/footer.php', ///[v0.14.0 (UPG# extends yii\base\theme:theme pathMap supports view files)]
 
-            //     ],
-            // ],
+                ],
+            ],
         ],
 
     ],
