@@ -2348,12 +2348,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-admin.git",
-                "reference": "433579d2bb5c083b485e95e3848b54dd66b47f01"
+                "reference": "3f355fb499f004f493ae07bbc12a541f74517107"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-admin/zipball/433579d2bb5c083b485e95e3848b54dd66b47f01",
-                "reference": "433579d2bb5c083b485e95e3848b54dd66b47f01",
+                "url": "https://api.github.com/repos/yongtiger/yii2-admin/zipball/3f355fb499f004f493ae07bbc12a541f74517107",
+                "reference": "3f355fb499f004f493ae07bbc12a541f74517107",
                 "shasum": ""
             },
             "require": {
@@ -2388,7 +2388,7 @@
                 "rbac",
                 "yii2"
             ],
-            "time": "2017-03-12 19:27:10"
+            "time": "2017-03-13 00:32:51"
         },
         {
             "name": "yongtiger/yii2-adminlte-asset",
@@ -2396,12 +2396,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-adminlte-asset.git",
-                "reference": "6749750cf9474f56cfdac4d7479b102701527312"
+                "reference": "0e0f27e08849516b979a383bc7ceb6d237eac76a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-adminlte-asset/zipball/6749750cf9474f56cfdac4d7479b102701527312",
-                "reference": "6749750cf9474f56cfdac4d7479b102701527312",
+                "url": "https://api.github.com/repos/yongtiger/yii2-adminlte-asset/zipball/0e0f27e08849516b979a383bc7ceb6d237eac76a",
+                "reference": "0e0f27e08849516b979a383bc7ceb6d237eac76a",
                 "shasum": ""
             },
             "require": {
@@ -2443,7 +2443,7 @@
                 "theme",
                 "yii2"
             ],
-            "time": "2017-03-12 19:25:05"
+            "time": "2017-03-13 00:35:02"
         },
         {
             "name": "yongtiger/yii2-application",

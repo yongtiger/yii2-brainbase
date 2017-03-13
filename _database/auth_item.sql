@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-03-02 13:40:17
+Date: 2017-03-12 19:44:38
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -38,13 +38,9 @@ CREATE TABLE `auth_item` (
 -- ----------------------------
 INSERT INTO `auth_item` VALUES ('@app-backend/*', '2', null, null, null, '1487147800', '1487147800');
 INSERT INTO `auth_item` VALUES ('@app-backend/admin/assignment/*', '2', null, null, null, '1488000067', '1488000067');
-INSERT INTO `auth_item` VALUES ('@app-backend/admin/default/*', '2', null, null, null, '1487149138', '1487149138');
-INSERT INTO `auth_item` VALUES ('@app-backend/admin/menu/index', '2', null, null, null, '1487998765', '1487998765');
-INSERT INTO `auth_item` VALUES ('@app-backend/debug/default/index', '2', null, null, null, '1487275204', '1487275204');
 INSERT INTO `auth_item` VALUES ('@app-backend/gii/*', '2', null, null, null, '1487237749', '1487237749');
-INSERT INTO `auth_item` VALUES ('@app-backend/gii/default/index', '2', null, null, null, '1487274736', '1487274736');
 INSERT INTO `auth_item` VALUES ('@app-backend/site/*', '2', null, null, null, '1487149138', '1487149138');
-INSERT INTO `auth_item` VALUES ('@app-backend/user/user/index', '2', null, null, null, '1488486928', '1488486928');
+INSERT INTO `auth_item` VALUES ('@app-backend/theme/default/update', '2', null, null, null, '1489108824', '1489108824');
 INSERT INTO `auth_item` VALUES ('@app-frontend/*', '2', null, null, null, '1487147641', '1487147641');
 INSERT INTO `auth_item` VALUES ('guest', '1', null, null, null, '1487146242', '1487146242');
 INSERT INTO `auth_item` VALUES ('permission_access_app-backend', '2', null, null, null, '1487232722', '1488228172');

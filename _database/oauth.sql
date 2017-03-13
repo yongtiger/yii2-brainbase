@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-03-02 13:41:01
+Date: 2017-03-12 19:45:10
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -38,8 +38,9 @@ CREATE TABLE `oauth` (
   UNIQUE KEY `account_unique` (`provider`,`openid`) USING BTREE,
   KEY `user_id_fk` (`user_id`) USING BTREE,
   CONSTRAINT `user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=73 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=74 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of oauth
 -- ----------------------------
+INSERT INTO `oauth` VALUES ('73', '60', 'google', '113544724474573231306', 'service.brainbook.cc@gmail.com', 'service brainbook', 'service', 'brainbook', null, 'zh_CN', 'https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50', null, '1488508077', '1488508077');

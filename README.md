@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.14.0 (UPG# extends yii\base\theme:theme pathMap supports view files)
+# Yii2 Brainbase v0.15.0 (admin log, typo)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 
