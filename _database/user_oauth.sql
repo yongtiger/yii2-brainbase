@@ -10,16 +10,16 @@ Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-03-12 19:45:10
+Date: 2017-03-14 00:15:18
 */
 
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for oauth
+-- Table structure for user_oauth
 -- ----------------------------
-DROP TABLE IF EXISTS `oauth`;
-CREATE TABLE `oauth` (
+DROP TABLE IF EXISTS `user_oauth`;
+CREATE TABLE `user_oauth` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) NOT NULL,
   `provider` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -41,6 +41,6 @@ CREATE TABLE `oauth` (
 ) ENGINE=InnoDB AUTO_INCREMENT=74 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
--- Records of oauth
+-- Records of user_oauth
 -- ----------------------------
-INSERT INTO `oauth` VALUES ('73', '60', 'google', '113544724474573231306', 'service.brainbook.cc@gmail.com', 'service brainbook', 'service', 'brainbook', null, 'zh_CN', 'https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50', null, '1488508077', '1488508077');
+INSERT INTO `user_oauth` VALUES ('73', '60', 'google', '113544724474573231306', 'service.brainbook.cc@gmail.com', 'service brainbook', 'service', 'brainbook', null, 'zh_CN', 'https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50', null, '1488508077', '1488508077');
