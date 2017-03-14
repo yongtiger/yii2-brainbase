@@ -330,7 +330,7 @@ return [
 
             ],
 
-            ///[v0.10.5 (filter theme bootstrap)]
+            ///[v0.10.5 (filter theme bootstrap)]Comment out the following. @see [[\frontend\components\Application.php:afterInit()]]
             ///[v0.10.0 (frontend theme)]
             // 'theme' => [
             //     'pathMap' => [

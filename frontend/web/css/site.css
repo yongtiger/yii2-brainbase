@@ -118,5 +118,3 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
-
-.navbar-brand { padding-top: 0; padding-right: 0; } /* ///[v0.10.3 (FIX# frontend theme:site.css logo class `.navbar-brand`)] */
