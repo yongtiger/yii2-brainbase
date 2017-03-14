@@ -44,8 +44,10 @@ return [
 	'Follow the link below to reset your password:' => '请点击下面的链接重置密码：',
 
 	///\frontend\views\layouts\main.php
-	'Account' => '账户信息',
-	'Verify' => '验证信息',
-	'Profile' => '个人资料',
+	'Account Security' => '账户安全',
+	'Account Preferences' => '账户偏好',
+	'User Status' => '用户状态',
+	'User Count' => '用户统计',
+	'User Profile' => '用户资料',
 
 ];
