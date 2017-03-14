@@ -28,10 +28,10 @@ return [
             // 'disableSignupMessage' => Yii::t('user', 'This site has been closed registration.'),
 
             // 'enableSignupWithUsername' => false,
-            // 'enableSignupWithRepassword' => false,
+            'enableSignupWithRepassword' => false,
             // 'enableSignupWithEmail' => false,
 
-            // 'enableSignupWithEmailActivation' => false,
+            'enableSignupWithEmailActivation' => false,
             // 'signupWithEmailActivationExpire' => 600,
             // 'signupWithEmailActivationComposeHtml' => '@yongtiger/user/mail/activate-status-html',
             // 'signupWithEmailActivationComposeText' => '@yongtiger/user/mail/activate-status-text',
@@ -42,7 +42,7 @@ return [
             // 'enableSignupValidateOnBlur' => false,
             // 'enableSignupValidateOnSubmit' => false,
 
-            // 'enableSignupWithCaptcha' => false,
+            'enableSignupWithCaptcha' => false,
 
             // ///Login
             // 'enableLogin' => false,
@@ -56,7 +56,7 @@ return [
             // 'enableLoginValidateOnBlur' => false,
             // 'enableLoginValidateOnSubmit' => false,
 
-            // 'enableLoginWithCaptcha' => false,
+            'enableLoginWithCaptcha' => false,
 
             // ///[Yii2 uesr:recovery]
             // 'enableRecoveryPassword' => false,  ///[v0.9.7 (backend:enableRecoveryPassword)]
