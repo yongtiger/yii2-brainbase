@@ -1953,12 +1953,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "6ba480a42609b2beac711ac2af37520132625f0c"
+                "reference": "5708f8ac0fc4032b91e5b549c716a83e95d0b170"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/6ba480a42609b2beac711ac2af37520132625f0c",
-                "reference": "6ba480a42609b2beac711ac2af37520132625f0c",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/5708f8ac0fc4032b91e5b549c716a83e95d0b170",
+                "reference": "5708f8ac0fc4032b91e5b549c716a83e95d0b170",
                 "shasum": ""
             },
             "require": {
@@ -2045,7 +2045,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-03-14 06:42:13"
+            "time": "2017-03-14 12:37:54"
         },
         {
             "name": "yiisoft/yii2-authclient",
@@ -2451,12 +2451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-application.git",
-                "reference": "8e362c4b64293a667fef9ad0833d923412710a74"
+                "reference": "6c03de973a3046ad67951d0a27cedfe9613e4042"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-application/zipball/8e362c4b64293a667fef9ad0833d923412710a74",
-                "reference": "8e362c4b64293a667fef9ad0833d923412710a74",
+                "url": "https://api.github.com/repos/yongtiger/yii2-application/zipball/6c03de973a3046ad67951d0a27cedfe9613e4042",
+                "reference": "6c03de973a3046ad67951d0a27cedfe9613e4042",
                 "shasum": ""
             },
             "require": {
@@ -2487,7 +2487,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2017-03-12 21:51:04"
+            "time": "2017-03-15 00:32:57"
         },
         {
             "name": "yongtiger/yii2-authclient",
@@ -2894,12 +2894,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-user.git",
-                "reference": "272377d501a026b9ae9540ed4de1db6f185cd1ee"
+                "reference": "85b3b062b894ab70ed33e42c8a288668be5cfdfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/272377d501a026b9ae9540ed4de1db6f185cd1ee",
-                "reference": "272377d501a026b9ae9540ed4de1db6f185cd1ee",
+                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/85b3b062b894ab70ed33e42c8a288668be5cfdfa",
+                "reference": "85b3b062b894ab70ed33e42c8a288668be5cfdfa",
                 "shasum": ""
             },
             "require": {
@@ -2941,7 +2941,7 @@
                 "user",
                 "yii2"
             ],
-            "time": "2017-03-14 07:09:13"
+            "time": "2017-03-15 06:27:41"
         }
     ],
     "packages-dev": [
@@ -4621,12 +4621,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
-                "reference": "8cabf6d7e7c19123576fe9eb20aae4ce94f728b6"
+                "reference": "6cc9a89c6b31c4a71bd0f2e2bc608c26b22de5f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/8cabf6d7e7c19123576fe9eb20aae4ce94f728b6",
-                "reference": "8cabf6d7e7c19123576fe9eb20aae4ce94f728b6",
+                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/6cc9a89c6b31c4a71bd0f2e2bc608c26b22de5f1",
+                "reference": "6cc9a89c6b31c4a71bd0f2e2bc608c26b22de5f1",
                 "shasum": ""
             },
             "require": {
@@ -4670,7 +4670,7 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-21 10:07:34"
+            "time": "2017-03-14 20:25:39"
         },
         {
             "name": "symfony/console",
@@ -5281,19 +5281,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "c66d897f4aa3bf99a0a1ff81c86ee984430fe5c9"
+                "reference": "68e7b2dc0bd7f3ecbe6b6075b434767fe3fd64ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/c66d897f4aa3bf99a0a1ff81c86ee984430fe5c9",
-                "reference": "c66d897f4aa3bf99a0a1ff81c86ee984430fe5c9",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/68e7b2dc0bd7f3ecbe6b6075b434767fe3fd64ae",
+                "reference": "68e7b2dc0bd7f3ecbe6b6075b434767fe3fd64ae",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/typeahead.js": "0.10.* | ~0.11.0",
                 "phpspec/php-diff": ">=1.0.2",
                 "yiisoft/yii2": "~2.0.4",
-                "yiisoft/yii2-bootstrap": "~2.0"
+                "yiisoft/yii2-bootstrap": "~2.0.0"
             },
             "type": "yii2-extension",
             "extra": {
@@ -5326,7 +5326,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2017-03-07 11:12:54"
+            "time": "2017-03-14 10:11:13"
         }
     ],
     "aliases": [],

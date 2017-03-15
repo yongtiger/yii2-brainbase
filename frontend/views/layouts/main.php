@@ -50,9 +50,9 @@ AppAsset::register($this);
             . Dropdown::widget([
                 'items' => [
                     ['label' => \Yii::t('common', 'Account Security'), 'url' => ['/user/account']],
-                    ['label' => \Yii::t('common', 'Account Preferences'), 'url' => ['/user/account/preference']],
                     ['label' => \Yii::t('common', 'User Status'), 'url' => ['/user/status/view', 'id' => \Yii::$app->user->id]],
                     ['label' => \Yii::t('common', 'User Count'), 'url' => ['/user/count/view', 'id' => \Yii::$app->user->id]],
+                    ['label' => \Yii::t('common', 'User Preference'), 'url' => ['/user/preference/update', 'id' => \Yii::$app->user->id]],//////[v0.17.0 (#ADD User Preference, formatter)]
                     ['label' => \Yii::t('common', 'User Profile'), 'url' => ['/user/profile/update', 'id' => \Yii::$app->user->id]],
                     
                     '<li class="divider"></li>',
@@ -88,7 +88,12 @@ AppAsset::register($this);
     <div class="container">
         <p class="pull-left">&copy; <?= \Yii::$app->name ?> <?= date('Y') ?></p>
 
-        <p class="pull-right"><?= \Yii::powered() ?></p>
+        <p class="pull-right"><?= \Yii::powered() ?>
+            (
+            <?= \Yii::$app->timeZone ?>, <?= date('Y-m-d H:i:s') ?> 
+            <?= \Yii::$app->formatter->asDateTime('now') ?>
+            )
+        </p>
     </div>
 </footer>
 

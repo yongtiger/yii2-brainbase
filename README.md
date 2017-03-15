@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.16.0 (#ADD backend:isAdminEnd)
+# Yii2 Brainbase v0.17.0 (#ADD User Preference, formatter)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 

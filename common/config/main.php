@@ -2,11 +2,14 @@
 return [
 
     ///[yii2-brainbase v0.1.0 (i18n)]
-    ///If commented out, the default language is `en-US`.
-    ///If set to `en-US`, Yii will look for the translation file \app\ messages\en-US. If there is no `en-US` translation file, Yii will try to find the `en` translation file.
+    ///If commented out, the default language will be `en-US`.
+    ///If set to `en-US`, Yii will look for the translation file `\app\messages\en-US`. If there is no `en-US` translation file, Yii will try to find the `en` translation file.
     ///Note: It is not recommended to comment out the language settings! Should be set to `en` or `zh-CN` or other languages, otherwise it will affect the brainbase `long text translation` function.
     // 'language' => 'en', ///[yii2-brainbase v0.1.0 (i18n)]long text translation
     'language' => 'zh-CN',
+
+    'timeZone' => 'America/Los_Angeles',/////??????
+    // 'timeZone' => 'PRC',
 
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
 
@@ -64,6 +67,25 @@ return [
         ],
         ///[http://www.brainbook.cc]
 
+        ///[v0.17.0 (#ADD User Preference, formatter)]
+        'formatter' => [
+            // 'locale' => 'en-US',
+            // 'locale' => 'zh-CN',
+            'timeFormat' => 'medium',
+            // 'defaultTimeZone' => 'America/Los_Angeles',///??????
+            // 'defaultTimeZone' => 'PRC',
+            'dateFormat' => 'yyyy-MM-dd',
+            'datetimeFormat' => 'long',////'yyyy-MM-dd HH:mm:ss',
+            'timeFormat' => 'HH:mm:ss',
+            'decimalSeparator' => '.',
+            'thousandSeparator' => ' ',
+            'currencyCode' => 'CNY',
+            'booleanFormat' => ['No', 'Yes'],
+            'nullDisplay' => '<span class="not-set">(not set)</span>',
+            'sizeFormatBase' => 1024,
+            // 'locale' => 'fa_IR@calendar=persian',
+            // 'calendar' => \IntlDateFormatter::TRADITIONAL,
+        ],
     ],
 
     ///[yii2-brainbase v0.3.0 (admin:rbac)]

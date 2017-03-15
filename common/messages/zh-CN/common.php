@@ -46,9 +46,9 @@ return [
 	///\frontend\views\layouts\main.php
 	'My Account' => '我的账户',
 	'Account Security' => '账户安全',
-	'Account Preferences' => '偏好设置',
-	'User Status' => '用户账户状态',
-	'User Count' => '用户统计数据',
-	'User Profile' => '用户个人资料',
+	'User Preference' => '偏好设置',
+	'User Status' => '账户状态',
+	'User Count' => '统计数据',
+	'User Profile' => '个人资料',
 
 ];
