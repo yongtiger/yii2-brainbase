@@ -24,10 +24,13 @@ class Application extends \yongtiger\application\Application
     /**
      * @inheritdoc
      */
+    public $isAdminEnd = true;   ///[v0.16.0 (#ADD backend:isAdminEnd)]
+
+    /**
+     * @inheritdoc
+     */
     public function beforeInit() {
 
-        $this->isAdminEnd = true;   ///[v0.16.0 (#ADD backend:isAdminEnd)]
-        
         parent::beforeInit();
 
         ///[v0.10.5 (filter theme bootstrap)]
