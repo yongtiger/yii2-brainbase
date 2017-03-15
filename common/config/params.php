@@ -42,14 +42,14 @@ return [
     ///[v0.12.2 (CHG# yongtiger\application\Application::remoteAppCall)]
 	'yongtiger.application.remoteAppConfigs' => [
         'app-backend' => [
-            'class' => 'backend\\components\\Application',  ///optional
+            'class' => 'backend\\components\\Application',  ///if omitted, `yongtiger\application\Application` will be used.
             '@common/config/main.php',
             '@common/config/main-local.php',
             '@backend/config/main.php',
             '@backend/config/main-local.php',
         ],
         'app-frontend' => [
-            'class' => 'frontend\\components\\Application', ///optional
+            'class' => 'frontend\\components\\Application', ///if omitted, `yongtiger\application\Application` will be used.
             '@common/config/main.php',
             '@common/config/main-local.php',
             '@frontend/config/main.php',

@@ -50,7 +50,7 @@ AppAsset::register($this);
             . Dropdown::widget([
                 'items' => [
                     ['label' => \Yii::t('common', 'Account Security'), 'url' => ['/user/account']],
-                    ['label' => \Yii::t('common', 'Account Preferences'), 'url' => ['/user/account']],
+                    ['label' => \Yii::t('common', 'Account Preferences'), 'url' => ['/user/account/preference']],
                     ['label' => \Yii::t('common', 'User Status'), 'url' => ['/user/status/view', 'id' => \Yii::$app->user->id]],
                     ['label' => \Yii::t('common', 'User Count'), 'url' => ['/user/count/view', 'id' => \Yii::$app->user->id]],
                     ['label' => \Yii::t('common', 'User Profile'), 'url' => ['/user/profile/update', 'id' => \Yii::$app->user->id]],

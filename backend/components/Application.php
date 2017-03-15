@@ -25,6 +25,8 @@ class Application extends \yongtiger\application\Application
      * @inheritdoc
      */
     public function beforeInit() {
+
+        $this->isAdminEnd = true;   ///[v0.16.0 (#ADD backend:isAdminEnd)]
         
         parent::beforeInit();
 

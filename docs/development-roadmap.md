@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.16.0 (#ADD backend:isAdminEnd)
+
+
 ## v0.15.0 (admin log, typo)
 
 

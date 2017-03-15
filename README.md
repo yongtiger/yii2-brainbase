@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.15.0 (admin log, typo)
+# Yii2 Brainbase v0.16.0 (#ADD backend:isAdminEnd)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 

@@ -31,7 +31,7 @@ return [
             'enableSignupWithRepassword' => false,
             // 'enableSignupWithEmail' => false,
 
-            'enableSignupWithEmailActivation' => false,
+            // 'enableSignupWithEmailActivation' => false,
             // 'signupWithEmailActivationExpire' => 600,
             // 'signupWithEmailActivationComposeHtml' => '@yongtiger/user/mail/activate-status-html',
             // 'signupWithEmailActivationComposeText' => '@yongtiger/user/mail/activate-status-text',
