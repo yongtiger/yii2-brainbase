@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.17.1 (frontend\views\layouts\main.php:TimeZone::timezone_format(\Yii::$app->timeZone))
+
+
 ## v0.17.0 (#ADD User Preference, formatter)
 
 

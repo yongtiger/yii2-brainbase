@@ -1953,12 +1953,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "5708f8ac0fc4032b91e5b549c716a83e95d0b170"
+                "reference": "a9d25c8278fe7f57847cee665683b1a01f1f942d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/5708f8ac0fc4032b91e5b549c716a83e95d0b170",
-                "reference": "5708f8ac0fc4032b91e5b549c716a83e95d0b170",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/a9d25c8278fe7f57847cee665683b1a01f1f942d",
+                "reference": "a9d25c8278fe7f57847cee665683b1a01f1f942d",
                 "shasum": ""
             },
             "require": {
@@ -2045,7 +2045,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-03-14 12:37:54"
+            "time": "2017-03-15 13:19:06"
         },
         {
             "name": "yiisoft/yii2-authclient",
@@ -2341,6 +2341,46 @@
                 "yii2"
             ],
             "time": "2016-11-30T11:55:45+00:00"
+        },
+        {
+            "name": "yongtiger/timezone",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yongtiger/timezone.git",
+                "reference": "9a1cd9647e922d00007331f0f569b2d742e7a8a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yongtiger/timezone/zipball/9a1cd9647e922d00007331f0f569b2d742e7a8a4",
+                "reference": "9a1cd9647e922d00007331f0f569b2d742e7a8a4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "type": "php",
+            "autoload": {
+                "psr-4": {
+                    "yongtiger\\timezone\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yong Tiger",
+                    "email": "tigeryang.brainbook@outlook.com",
+                    "homepage": "http://www.branbook.cc/yongtiger"
+                }
+            ],
+            "homepage": "http://www.branbook.cc",
+            "keywords": [
+                "timezone"
+            ],
+            "time": "2017-03-16 07:32:41"
         },
         {
             "name": "yongtiger/yii2-admin",
@@ -2894,12 +2934,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-user.git",
-                "reference": "85b3b062b894ab70ed33e42c8a288668be5cfdfa"
+                "reference": "41339eb04aa6352fe4bd462d4c8872753deb1d0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/85b3b062b894ab70ed33e42c8a288668be5cfdfa",
-                "reference": "85b3b062b894ab70ed33e42c8a288668be5cfdfa",
+                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/41339eb04aa6352fe4bd462d4c8872753deb1d0f",
+                "reference": "41339eb04aa6352fe4bd462d4c8872753deb1d0f",
                 "shasum": ""
             },
             "require": {
@@ -2909,6 +2949,7 @@
                 "yiisoft/yii2": "*",
                 "yiisoft/yii2-bootstrap": "*",
                 "yiisoft/yii2-jui": "~2.0.0",
+                "yongtiger/timezone": "*",
                 "yongtiger/yii2-authclient": "*",
                 "yongtiger/yii2-cropper-avatar": "*",
                 "yongtiger/yii2-region": "*"
@@ -2941,7 +2982,7 @@
                 "user",
                 "yii2"
             ],
-            "time": "2017-03-15 06:27:41"
+            "time": "2017-03-16 07:39:42"
         }
     ],
     "packages-dev": [
@@ -3217,12 +3258,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "83b309872529472b4b6c92ca67ca6edbadfabb36"
+                "reference": "b8ab87fdfe0350e81804bde20ab5b9199d0bfc09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/83b309872529472b4b6c92ca67ca6edbadfabb36",
-                "reference": "83b309872529472b4b6c92ca67ca6edbadfabb36",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/b8ab87fdfe0350e81804bde20ab5b9199d0bfc09",
+                "reference": "b8ab87fdfe0350e81804bde20ab5b9199d0bfc09",
                 "shasum": ""
             },
             "require": {
@@ -3259,7 +3300,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2017-03-13 13:37:38"
+            "time": "2017-03-15T16:09:27+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -3870,12 +3911,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "d421807ce5f372ecaf0bff3a5d41f5c60a18329f"
+                "reference": "dafc78e2a7d12139b0e97078d1082326bd09363d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d421807ce5f372ecaf0bff3a5d41f5c60a18329f",
-                "reference": "d421807ce5f372ecaf0bff3a5d41f5c60a18329f",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/dafc78e2a7d12139b0e97078d1082326bd09363d",
+                "reference": "dafc78e2a7d12139b0e97078d1082326bd09363d",
                 "shasum": ""
             },
             "require": {
@@ -3944,7 +3985,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-09 13:47:42"
+            "time": "2017-03-15T13:02:34+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",

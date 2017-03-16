@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-03-15 13:48:22
+Date: 2017-03-16 10:30:03
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `user_preference`;
 CREATE TABLE `user_preference` (
   `user_id` int(11) NOT NULL,
   `locale` varchar(255) DEFAULT NULL,
-  `time_offset` smallint(6) DEFAULT NULL,
+  `time_zone` varchar(255) DEFAULT NULL,
   `datetime_format` varchar(255) DEFAULT NULL,
   `created_at` int(11) NOT NULL,
   `updated_at` int(11) NOT NULL,
@@ -32,3 +32,4 @@ CREATE TABLE `user_preference` (
 -- ----------------------------
 -- Records of user_preference
 -- ----------------------------
+INSERT INTO `user_preference` VALUES ('61', '', null, 'aaa', '11', '1489615656');

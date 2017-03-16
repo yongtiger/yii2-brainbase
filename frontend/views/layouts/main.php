@@ -7,6 +7,7 @@ use yii\bootstrap\NavBar;
 use yii\bootstrap\Dropdown;
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
+use yongtiger\timezone\TimeZone;
 
 AppAsset::register($this);
 
@@ -89,10 +90,7 @@ AppAsset::register($this);
         <p class="pull-left">&copy; <?= \Yii::$app->name ?> <?= date('Y') ?></p>
 
         <p class="pull-right"><?= \Yii::powered() ?>
-            (
-            <?= \Yii::$app->timeZone ?>, <?= date('Y-m-d H:i:s') ?> 
-            <?= \Yii::$app->formatter->asDateTime('now') ?>
-            )
+            <?= TimeZone::timezone_format(\Yii::$app->timeZone) ?>, <?= date('Y-m-d H:i:s') ?>
         </p>
     </div>
 </footer>
