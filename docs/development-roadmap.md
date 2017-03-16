@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.17.2 (frontend\components\Application.php:Yii::$app->timeZone = Yii::$app->user->identity->preference->time_zone)
+
+
 ## v0.17.1 (frontend\views\layouts\main.php:TimeZone::timezone_format(\Yii::$app->timeZone))
 
 

@@ -89,5 +89,10 @@ class Application extends \yongtiger\application\Application
 
         }
 
+        ///////
+        if (isset(Yii::$app->user->identity->preference->time_zone)) {
+            Yii::$app->timeZone = Yii::$app->user->identity->preference->time_zone;
+        }
+
     }
 }

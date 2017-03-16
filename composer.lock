@@ -1953,12 +1953,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "a9d25c8278fe7f57847cee665683b1a01f1f942d"
+                "reference": "dc33307f7f3cb9fda7db3bd50c2e2a0c3d49cd35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/a9d25c8278fe7f57847cee665683b1a01f1f942d",
-                "reference": "a9d25c8278fe7f57847cee665683b1a01f1f942d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/dc33307f7f3cb9fda7db3bd50c2e2a0c3d49cd35",
+                "reference": "dc33307f7f3cb9fda7db3bd50c2e2a0c3d49cd35",
                 "shasum": ""
             },
             "require": {
@@ -2045,7 +2045,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-03-15 13:19:06"
+            "time": "2017-03-16 16:38:56"
         },
         {
             "name": "yiisoft/yii2-authclient",
@@ -2348,12 +2348,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/timezone.git",
-                "reference": "9a1cd9647e922d00007331f0f569b2d742e7a8a4"
+                "reference": "200255b898254e9c0351b6ff2811f9f48868b156"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/timezone/zipball/9a1cd9647e922d00007331f0f569b2d742e7a8a4",
-                "reference": "9a1cd9647e922d00007331f0f569b2d742e7a8a4",
+                "url": "https://api.github.com/repos/yongtiger/timezone/zipball/200255b898254e9c0351b6ff2811f9f48868b156",
+                "reference": "200255b898254e9c0351b6ff2811f9f48868b156",
                 "shasum": ""
             },
             "require": {
@@ -2380,7 +2380,7 @@
             "keywords": [
                 "timezone"
             ],
-            "time": "2017-03-16 07:32:41"
+            "time": "2017-03-16 18:15:20"
         },
         {
             "name": "yongtiger/yii2-admin",
@@ -2934,12 +2934,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yongtiger/yii2-user.git",
-                "reference": "41339eb04aa6352fe4bd462d4c8872753deb1d0f"
+                "reference": "2fba2ce73d125ccd2d5a0c00d9285c303fcf9963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/41339eb04aa6352fe4bd462d4c8872753deb1d0f",
-                "reference": "41339eb04aa6352fe4bd462d4c8872753deb1d0f",
+                "url": "https://api.github.com/repos/yongtiger/yii2-user/zipball/2fba2ce73d125ccd2d5a0c00d9285c303fcf9963",
+                "reference": "2fba2ce73d125ccd2d5a0c00d9285c303fcf9963",
                 "shasum": ""
             },
             "require": {
@@ -2982,7 +2982,7 @@
                 "user",
                 "yii2"
             ],
-            "time": "2017-03-16 07:39:42"
+            "time": "2017-03-16 17:37:43"
         }
     ],
     "packages-dev": [
@@ -3300,7 +3300,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2017-03-15T16:09:27+00:00"
+            "time": "2017-03-15 16:09:27"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -3985,7 +3985,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-15T13:02:34+00:00"
+            "time": "2017-03-15 13:02:34"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
