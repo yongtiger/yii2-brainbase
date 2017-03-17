@@ -89,9 +89,20 @@ class Application extends \yongtiger\application\Application
 
         }
 
-        ///////
-        if (isset(Yii::$app->user->identity->preference->time_zone)) {
+        ///[v0.17.2 (frontend\components\Application.php:Yii::$app->timeZone = Yii::$app->user->identity->preference->time_zone)]
+        if (!empty(Yii::$app->user->identity->preference->time_zone)) {
             Yii::$app->timeZone = Yii::$app->user->identity->preference->time_zone;
+        }
+
+        ///[v0.17.3 (frontend\components\Application.php:datetimeFormat, dateFormat, timeFormat)]
+        if (!empty(Yii::$app->user->identity->preference->datetime_format)) {
+            Yii::$app->formatter->datetimeFormat = Yii::$app->user->identity->preference->datetime_format;
+        }
+        if (!empty(Yii::$app->user->identity->preference->date_format)) {
+            Yii::$app->formatter->dateFormat = Yii::$app->user->identity->preference->date_format;
+        }
+        if (!empty(Yii::$app->user->identity->preference->time_format)) {
+            Yii::$app->formatter->timeFormat = Yii::$app->user->identity->preference->time_format;
         }
 
     }

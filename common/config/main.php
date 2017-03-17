@@ -5,8 +5,8 @@ return [
     ///If commented out, the default language will be `en-US`.
     ///If set to `en-US`, Yii will look for the translation file `\app\messages\en-US`. If there is no `en-US` translation file, Yii will try to find the `en` translation file.
     ///Note: It is not recommended to comment out the language settings! Should be set to `en` or `zh-CN` or other languages, otherwise it will affect the brainbase `long text translation` function.
-    // 'language' => 'en', ///[yii2-brainbase v0.1.0 (i18n)]long text translation
-    'language' => 'zh-CN',
+    'language' => 'en', ///[yii2-brainbase v0.1.0 (i18n)]long text translation
+    // 'language' => 'zh-CN',
 
     'timeZone' => 'America/Los_Angeles',/////??????
     // 'timeZone' => 'PRC',
@@ -71,12 +71,16 @@ return [
         'formatter' => [
             // 'locale' => 'en-US',
             // 'locale' => 'zh-CN',
-            'timeFormat' => 'medium',
             // 'defaultTimeZone' => 'America/Los_Angeles',///??????
             // 'defaultTimeZone' => 'PRC',
-            'dateFormat' => 'yyyy-MM-dd',
-            'datetimeFormat' => 'long',////'yyyy-MM-dd HH:mm:ss',
+
+            // 'datetimeFormat' => 'yyyy-MM-dd HH:mm:ss',
+            'datetimeFormat' => 'short',
+            // 'dateFormat' => 'yyyy-MM-dd',
+            'dateFormat' => 'long',
             'timeFormat' => 'HH:mm:ss',
+            // 'timeFormat' => 'medium',
+
             'decimalSeparator' => '.',
             'thousandSeparator' => ' ',
             'currencyCode' => 'CNY',
