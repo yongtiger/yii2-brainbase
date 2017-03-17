@@ -69,17 +69,14 @@ return [
 
         ///[v0.17.0 (#ADD User Preference, formatter)]
         'formatter' => [
-            // 'locale' => 'en-US',
-            // 'locale' => 'zh-CN',
-            // 'defaultTimeZone' => 'America/Los_Angeles',///??????
-            // 'defaultTimeZone' => 'PRC',
+            // 'locale' => 'en-US', ///'zh-CN', ///If not set, [[\yii\base\Application::language]] will be used.
 
-            // 'datetimeFormat' => 'yyyy-MM-dd HH:mm:ss',
-            'datetimeFormat' => 'short',
-            // 'dateFormat' => 'yyyy-MM-dd',
-            'dateFormat' => 'long',
-            'timeFormat' => 'HH:mm:ss',
-            // 'timeFormat' => 'medium',
+            //'timeZone' => 'America/Los_Angeles',  ///If not set, [[\yii\base\Application::timeZone]] will be used.
+            // 'defaultTimeZone' => 'UTC',  ///It defaults to `UTC` so you only have to adjust this value if you store datetime values in another time zone in your database.
+
+            'datetimeFormat' => 'yyyy-MM-dd HH:mm:ss',   ///'full', 'long', 'medium', 'short'
+            'dateFormat' => 'yyyy-MM-dd',   ///'full', 'long', 'medium', 'short'
+            'timeFormat' => 'HH:mm:ss',   ///'full', 'long', 'medium', 'short'
 
             'decimalSeparator' => '.',
             'thousandSeparator' => ' ',
@@ -87,7 +84,8 @@ return [
             'booleanFormat' => ['No', 'Yes'],
             'nullDisplay' => '<span class="not-set">(not set)</span>',
             'sizeFormatBase' => 1024,
-            // 'locale' => 'fa_IR@calendar=persian',
+            
+            // 'locale' => 'fa_IR@calendar=persian',    ///?????
             // 'calendar' => \IntlDateFormatter::TRADITIONAL,
         ],
     ],

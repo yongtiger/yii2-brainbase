@@ -89,6 +89,11 @@ class Application extends \yongtiger\application\Application
 
         }
 
+        ///[v0.17.4 (frontend\components\Application.php:Yii::$app->language = Yii::$app->user->identity->preference->locale)]
+        if (!empty(Yii::$app->user->identity->preference->locale)) {
+            Yii::$app->language = Yii::$app->user->identity->preference->locale;
+        }
+
         ///[v0.17.2 (frontend\components\Application.php:Yii::$app->timeZone = Yii::$app->user->identity->preference->time_zone)]
         if (!empty(Yii::$app->user->identity->preference->time_zone)) {
             Yii::$app->timeZone = Yii::$app->user->identity->preference->time_zone;

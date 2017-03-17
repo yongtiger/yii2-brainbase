@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.17.4 (frontend\components\Application.php:Yii::$app->language = Yii::$app->user->identity->preference->locale)
+
+
 ## v0.17.3 (frontend\components\Application.php:datetimeFormat, dateFormat, timeFormat)
 
 
