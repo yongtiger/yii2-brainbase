@@ -20,24 +20,28 @@ return [
 
     ///[yii2-brainbase v0.3.0 (admin:rbac):fix Added multi app (frontend/backend)]@see https://github.com/mdmsoft/yii2-admin/pull/309/
     ///Optional. `'yongtiger.admin.configs'=>'advanced'` will overrides 'yongtiger.application.remoteAppConfigs' as below.
-    // 'yongtiger.admin.configs' => [
-    //     'advanced' => [
-    //         'app-backend' => [
-    //             'class' => 'backend\\components\\Application',
-    //             '@common/config/main.php',
-    //             '@common/config/main-local.php',
-    //             '@backend/config/main.php',
-    //             '@backend/config/main-local.php',
-    //         ],
-    //         'app-frontend' => [
-    //             'class' => 'frontend\\components\\Application',
-    //             '@common/config/main.php',
-    //             '@common/config/main-local.php',
-    //             '@frontend/config/main.php',
-    //             '@frontend/config/main-local.php',
-    //         ],
-    //     ],
-    // ],
+    'yongtiger.admin.configs' => [
+        'log' => [  ///[2.7.2 (CHG# yongtiger.admin.configs:log)]
+            // 'app-backend',
+            // 'app-frontend',
+        ],
+        // 'advanced' => [
+        //     'app-backend' => [
+        //         'class' => 'backend11111\\components\\Application',
+        //         '@common/config/main.php',
+        //         '@common/config/main-local.php',
+        //         '@backend/config/main.php',
+        //         '@backend/config/main-local.php',
+        //     ],
+        //     'app-frontend' => [
+        //         'class' => 'frontend\\components\\Application',
+        //         '@common/config/main.php',
+        //         '@common/config/main-local.php',
+        //         '@frontend/config/main.php',
+        //         '@frontend/config/main-local.php',
+        //     ],
+        // ],
+    ],
 
     ///[v0.12.2 (CHG# yongtiger\application\Application::remoteAppCall)]
 	'yongtiger.application.remoteAppConfigs' => [

@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.17.4 (frontend\components\Application.php:Yii::$app->language = Yii::$app->user->identity->preference->locale)
+# Yii2 Brainbase v0.17.5 (CHG# yongtiger.admin.configs:log)]
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 

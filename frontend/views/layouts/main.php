@@ -90,7 +90,7 @@ AppAsset::register($this);
         <p class="pull-left">&copy; <?= \Yii::$app->name ?> <?= date('Y') ?></p>
 
         <p class="pull-right"><?= \Yii::powered() ?>
-            <?= TimeZone::timezone_format(\Yii::$app->timeZone) ?>, <?= date('Y-m-d H:i:s') ?>
+            <?= TimeZone::timezone_format(\Yii::$app->timeZone) ?>, <?= \Yii::$app->formatter->asDatetime(time()) ?>
         </p>
     </div>
 </footer>
