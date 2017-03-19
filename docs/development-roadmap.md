@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.18.0 (FIX# i18n:long text translation)
+
+
 ## v0.17.5 (CHG# yongtiger.admin.configs:log)]
 
 
