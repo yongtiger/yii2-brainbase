@@ -1,4 +1,4 @@
-# Yii2 Brainbase v0.18.0 (FIX# i18n:long text translation)
+# Yii2 Brainbase v0.19.0 (regionTableName, settingTableName)
 
 [![Latest Stable Version](https://poser.pugx.org/yongtiger/yii2-brainbase/v/stable)](https://packagist.org/packages/yongtiger/yii2-brainbase)
 [![Total Downloads](https://poser.pugx.org/yongtiger/yii2-brainbase/downloads)](https://packagist.org/packages/yongtiger/yii2-brainbase) 

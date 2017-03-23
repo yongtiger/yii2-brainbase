@@ -8,7 +8,7 @@ return [
     // 'language' => 'en', ///[yii2-brainbase v0.1.0 (i18n)]long text translation
     'language' => 'zh-CN',
 
-    'timeZone' => 'America/Los_Angeles',/////??????
+    'timeZone' => 'America/Los_Angeles',
     // 'timeZone' => 'PRC',
 
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
@@ -24,6 +24,7 @@ return [
         ///[yii2-brainbase v0.9.5 (profile region widget)]
         'region' => [
             'class' => 'yongtiger\region\Module',
+            'regionTableName' => '{{%region_china}}',  ///[Yii2 Region 1.1.0 (CHG# tableName)]
         ],
     ],
 

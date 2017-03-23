@@ -18,6 +18,7 @@ return [
         ///[yii2-brainbase v0.2.0 (setting)]
         'setting' => [
             'class' => 'yongtiger\\setting\\Module',
+            'settingTableName' => '{{%setting}}',  ///[Yii2 Setting 1.2.0 (CHG# tableName)]
         ],
 
         ///[v0.11.0 (ADD# theme module)]

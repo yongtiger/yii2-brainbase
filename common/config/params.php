@@ -27,7 +27,7 @@ return [
         ],
         // 'advanced' => [
         //     'app-backend' => [
-        //         'class' => 'backend11111\\components\\Application',
+        //         'class' => 'backend\\components\\Application',
         //         '@common/config/main.php',
         //         '@common/config/main-local.php',
         //         '@backend/config/main.php',
