@@ -12,22 +12,23 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yongtiger/yii2-brainbase"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.6",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
 
-        "sergeymakinen/yii2-php-file-cache": "^1.0",
-        "yongtiger/yii2-setting": "*",
-        "yongtiger/yii2-adminlte-asset": "*",
-        "yongtiger/yii2-user": "*",
-        "yongtiger/yii2-theme-yii": "*",
         "yongtiger/yii2-application": "*",
+        "yongtiger/yii2-setting": "*",
+        "yongtiger/yii2-user": "*",
 
+
+        "yongtiger/yii2-adminlte-asset": "*",
+        "yongtiger/yii2-theme-yii": "*",
         "yongtiger/yii2-fontawesome-alert": "*",
         "yongtiger/yii2-popup-alert": "*"
+
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
