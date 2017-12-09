@@ -1,9 +1,9 @@
 <?php
 $params = array_merge(
-    require(__DIR__ . '/../../common/config/params.php'),
-    require(__DIR__ . '/../../common/config/params-local.php'),
-    require(__DIR__ . '/params.php'),
-    require(__DIR__ . '/params-local.php')
+    require __DIR__ . '/../../common/config/params.php',
+    require __DIR__ . '/../../common/config/params-local.php',
+    require __DIR__ . '/params.php',
+    require __DIR__ . '/params-local.php'
 );
 
 return [
@@ -19,11 +19,6 @@ return [
         'setting' => [
             'class' => 'yongtiger\\setting\\Module',
             'settingTableName' => '{{%setting}}',  ///[Yii2 Setting 1.2.0 (CHG# tableName)]
-        ],
-
-        ///[v0.11.0 (ADD# theme module)]
-        'theme' => [
-            'class' => 'yongtiger\\theme\\Module',
         ],
 
         ///[Yii2 uesr]

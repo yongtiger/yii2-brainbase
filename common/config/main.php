@@ -1,5 +1,9 @@
 <?php
 return [
+    'aliases' => [
+        '@bower' => '@vendor/bower-asset',
+        '@npm'   => '@vendor/npm-asset',
+    ],
 
     ///[yii2-brainbase v0.1.0 (i18n)]
     ///If commented out, the default language will be `en-US`.
@@ -14,7 +18,18 @@ return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
 
     'modules' => [
-    
+
+        ///[v0.11.0 (ADD# theme module)]
+        'thememanager' => [
+            'class' => 'yongtiger\\theme\\Module',
+            'getThemesCallback' => function () {
+                return \yongtiger\setting\Setting::get('theme', 'themes', []);   ///get the themes table `theme/thems` from setting
+            },
+            'setThemesCallback' => function ($themes) {
+                \yongtiger\setting\Setting::set('theme', 'themes', $themes);
+            },
+        ],
+
         ///[yii2-brainbase v0.8.0 (admin&user:code reconstruction)]
         'admin' => [
             'class' => 'yongtiger\admin\Module',

@@ -1,5 +1,8 @@
 # Development roadmap
 
+## v0.19.2 (UPG# Yii2 advanced v2.0.13)
+
+
 ## v0.19.1 (CHG# composer.json)
 
 
