@@ -15,4 +15,6 @@ require __DIR__ . '/../config/bootstrap.php';
 
 $config = require __DIR__ . '/../config/test-local.php';
 
-(new yii\web\Application($config))->run();
+///[v0.10.6 (ADD# frontend\components\Application)]
+// (new yii\web\Application($config))->run();
+(new frontend\components\Application($config))->run();
