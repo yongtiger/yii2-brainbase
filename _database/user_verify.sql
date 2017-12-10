@@ -29,15 +29,3 @@ CREATE TABLE `user_verify` (
   KEY `user_id` (`user_id`) USING BTREE,
   CONSTRAINT `fk_verify_user_id_user_id` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
--- ----------------------------
--- Records of user_verify
--- ----------------------------
-INSERT INTO `user_verify` VALUES ('1', null, null, '1', '1');
-INSERT INTO `user_verify` VALUES ('2', null, null, '2', '2');
-INSERT INTO `user_verify` VALUES ('3', null, null, '3', '3');
-INSERT INTO `user_verify` VALUES ('60', '1488508077', '1488508136', '1488508077', '1488508136');
-INSERT INTO `user_verify` VALUES ('61', '1489439467', null, '1489439467', '1489439467');
-INSERT INTO `user_verify` VALUES ('62', '1489439825', null, '1489439825', '1489439825');
-INSERT INTO `user_verify` VALUES ('63', '1489440345', null, '1489440345', '1489440345');
-INSERT INTO `user_verify` VALUES ('64', '1489440375', null, '1489440375', '1489440375');

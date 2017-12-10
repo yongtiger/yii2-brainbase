@@ -28,8 +28,3 @@ CREATE TABLE `user_preference` (
   `updated_at` int(11) NOT NULL,
   PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of user_preference
--- ----------------------------
-INSERT INTO `user_preference` VALUES ('61', '', null, 'aaa', '11', '1489615656');

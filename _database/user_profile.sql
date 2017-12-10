@@ -47,15 +47,3 @@ CREATE TABLE `user_profile` (
   KEY `user_id` (`user_id`) USING BTREE,
   CONSTRAINT `fk_profile_user_id_user_id` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
--- ----------------------------
--- Records of user_profile
--- ----------------------------
-INSERT INTO `user_profile` VALUES ('1', 'aaa', '', '', null, '', '', '', null, '', null, null, null, '', '', '', '', '', '', '', '', '1', '1488529248');
-INSERT INTO `user_profile` VALUES ('2', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '2', '2');
-INSERT INTO `user_profile` VALUES ('3', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '3', '3');
-INSERT INTO `user_profile` VALUES ('60', '', '', '', null, '', '', '', '2017-03-17', '', '4', '85', '1309', '', '', '', '', '', '', '', '', '1488508077', '1488618348');
-INSERT INTO `user_profile` VALUES ('61', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '1489439467', '1489439467');
-INSERT INTO `user_profile` VALUES ('62', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '1489439825', '1489439825');
-INSERT INTO `user_profile` VALUES ('63', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '1489440345', '1489440345');
-INSERT INTO `user_profile` VALUES ('64', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '1489440375', '1489440375');

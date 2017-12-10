@@ -30,11 +30,3 @@ CREATE TABLE `user_status` (
   `updated_at` int(11) NOT NULL,
   PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of user_status
--- ----------------------------
-INSERT INTO `user_status` VALUES ('1', null, '127.0.0.1', '1489468877', null, null, '1489444316', '1489468877');
-INSERT INTO `user_status` VALUES ('15', '1111', '127.0.0.1', null, null, null, '1489439963', '1489442878');
-INSERT INTO `user_status` VALUES ('63', '127.0.0.1', null, null, null, null, '1489440345', '1489440345');
-INSERT INTO `user_status` VALUES ('64', '127.0.0.1', 'safaf', null, null, '', '1489440375', '1489449287');

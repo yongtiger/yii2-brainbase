@@ -39,8 +39,3 @@ CREATE TABLE `user_oauth` (
   KEY `user_id_fk` (`user_id`) USING BTREE,
   CONSTRAINT `user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=74 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
--- ----------------------------
--- Records of user_oauth
--- ----------------------------
-INSERT INTO `user_oauth` VALUES ('73', '60', 'google', '113544724474573231306', 'service.brainbook.cc@gmail.com', 'service brainbook', 'service', 'brainbook', null, 'zh_CN', 'https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50', null, '1488508077', '1488508077');

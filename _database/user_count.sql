@@ -27,8 +27,3 @@ CREATE TABLE `user_count` (
   `updated_at` int(11) NOT NULL,
   PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of user_count
--- ----------------------------
-INSERT INTO `user_count` VALUES ('1', '3', null, '1489445276', '1489468877');
