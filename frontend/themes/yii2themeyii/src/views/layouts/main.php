@@ -89,8 +89,8 @@ JS
             . '<a href="#" data-toggle="dropdown" class="dropdown-toggle">(' . \Yii::$app->user->identity->username . ')<b class="caret"></b></a>'    ///?????caret
             . Dropdown::widget([
                 'items' => [
-                    ['label' => \Yii::t('common', 'Account'), 'url' => ['/user/account']],
-                    ['label' => \Yii::t('common', 'Profile'), 'url' => ['/user/profile/update', 'id' => \Yii::$app->user->id]],
+                    ['label' => \Yii::t('common', 'My Account'), 'url' => ['/user/account']],
+                    ['label' => \Yii::t('common', 'User Profile'), 'url' => ['/user/profile/update', 'id' => \Yii::$app->user->id]],
                     
                     '<li class="divider"></li>',
                     '<li>'

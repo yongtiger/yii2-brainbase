@@ -1,5 +1,10 @@
 # Development roadmap
 
+## v0.20.0 (FIX# i18n:typo)
+
+* `\frontend\themes\yii2themeyii\src\views\layouts\main.php`
+
+
 ## v0.19.4 (UPG# Yii2 advanced v2.0.13 Reorganize:database)
 
 

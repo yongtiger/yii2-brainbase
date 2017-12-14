@@ -4,13 +4,13 @@ Navicat MySQL Data Transfer
 Source Server         : MySQL55
 Source Server Version : 50523
 Source Host           : localhost:3399
-Source Database       : yii2-brainbase
+Source Database       : yii2-brainblog
 
 Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-04-07 16:25:15
+Date: 2017-12-13 16:55:09
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -41,7 +41,7 @@ INSERT INTO `admin_menu` VALUES ('4', '后台信息', '1', '@app-backend/site/ba
 INSERT INTO `admin_menu` VALUES ('5', '系统操作记录', null, '@app-backend/admin/log/index', '5', null);
 INSERT INTO `admin_menu` VALUES ('6', '缓存管理', null, '@app-backend/cache/index', '6', null);
 INSERT INTO `admin_menu` VALUES ('10', '网站设置', null, '@app-backend/setting/default/update&category=site', '10', 0x7B2269636F6E223A202266612066612D636F67222C202276697369626C65223A20747275657D);
-INSERT INTO `admin_menu` VALUES ('20', '主题管理', null, '@app-backend/theme/default/update', '20', null);
+INSERT INTO `admin_menu` VALUES ('20', '主题管理', null, '@app-backend/thememanager/default/update', '20', null);
 INSERT INTO `admin_menu` VALUES ('30', '权限控制', null, null, '30', 0x7B2269636F6E223A202266612066612D6C6F636B222C202276697369626C65223A20747275657D);
 INSERT INTO `admin_menu` VALUES ('31', '路由', '30', '@app-backend/admin/route/index', '1', null);
 INSERT INTO `admin_menu` VALUES ('32', '权限', '30', '@app-backend/admin/permission/index', '2', null);

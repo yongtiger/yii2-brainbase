@@ -4,13 +4,13 @@ Navicat MySQL Data Transfer
 Source Server         : MySQL55
 Source Server Version : 50523
 Source Host           : localhost:3399
-Source Database       : yii2-brainbase
+Source Database       : yii2-brainblog
 
 Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-03-14 00:16:11
+Date: 2017-12-13 16:55:19
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -40,7 +40,7 @@ INSERT INTO `auth_item` VALUES ('@app-backend/*', '2', null, null, null, '148714
 INSERT INTO `auth_item` VALUES ('@app-backend/admin/assignment/*', '2', null, null, null, '1488000067', '1488000067');
 INSERT INTO `auth_item` VALUES ('@app-backend/gii/*', '2', null, null, null, '1487237749', '1487237749');
 INSERT INTO `auth_item` VALUES ('@app-backend/site/*', '2', null, null, null, '1487149138', '1487149138');
-INSERT INTO `auth_item` VALUES ('@app-backend/theme/default/update', '2', null, null, null, '1489108824', '1489108824');
+INSERT INTO `auth_item` VALUES ('@app-backend/thememanager/default/update', '2', null, null, null, '1489108824', '1489108824');
 INSERT INTO `auth_item` VALUES ('@app-frontend/*', '2', null, null, null, '1487147641', '1487147641');
 INSERT INTO `auth_item` VALUES ('guest', '1', null, null, null, '1487146242', '1487146242');
 INSERT INTO `auth_item` VALUES ('permission_access_app-backend', '2', null, null, null, '1487232722', '1488228172');
