@@ -142,6 +142,49 @@ return [
             //     'successUrl' => new \yii\helpers\ReplaceArrayValue(['user/account/index']),
             //     'cancelUrl' => new \yii\helpers\ReplaceArrayValue(['user/security/login']),
             // ]
+
+            ///[Yii2-user v0.24.4 (ADD# cropAvatar)]
+            'cropAvatar' => [
+                'class' => 'yongtiger\cropperavatar\actions\CropAvatarAction',
+                // 'config'=> [
+                //     // Default width of the destination image
+                //     'dstImageWidth' => 200,
+                //     // Default height of the destination image
+                //     'dstImageHeight' => 200,
+                //     // Default width of the middle image, empty means no generating
+                //     'middleImageWidth'=> 100,
+                //     // Default height of the middle image, empty means no generating
+                //     'middleImageHeight'=> 100,
+                //     // Default width of the small image, empty means no generating
+                //     'smallImageWidth' => 50,
+                //     // Default height of the small image, empty means no generating 
+                //     'smallImageHeight' => 50,
+                //     // Avatar upload path
+                //     'dstImageFilepath' => '@webroot/upload/avatar',
+                //     // Avatar uri
+                //     'dstImageUri' => '@web/upload/avatar',
+                //     // Avatar upload file name  (no file suffix!)
+                //     // 'dstImageFilename' => Yii::$app->user->id,  ///alternative `date('YmdHis')` ///Cannot use `Yii::$app` here!
+                //     // The file name suffix of the original image, empty means no generating
+                //     'original' => 'original',
+                // ],
+                ///Cannot configure 'successCallback' here because of `$this`!!!
+                // 'successCallback' => new \yii\helpers\ReplaceArrayValue(['anyFunc', 'saveAvatar']),///can be any callable function that called by `call_user_func()`
+            ],
+
+            ///[Yii2-user v0.24.5 (ADD# avatarWidgetConfig)]
+            'avatarWidgetConfig' => [
+                'enableCrop' => true,   ///alternative `Yii::$app->user->id == $model->user_id` ///[v0.22.1 (ADD# enableCrop)]
+                'dstImageUri' => '@web/upload/avatar',  ////????bug# show avatar issue at backend!
+                // 'noImageUrl' => 'http://oxfordchamber.org/images/board/NoPhotoAvailableMale.jpg',
+                // 'isRounded' => true,
+                'isModal' => false,
+                // 'enableRotateButtons' => false,
+                // 'enablePreviewLargelImage' => false,
+                // 'enablePreviewMiddlelImage' => false,
+                // 'enablePreviewSmalllImage' => false,
+            ],
+
         ],
     ],
 

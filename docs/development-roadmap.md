@@ -1,5 +1,10 @@
 # Development roadmap
 
+## v0.20.2 (ADD# cropAvatar)
+
+- `\frontend\config\main.php`
+
+
 ## v0.20.1 (ADD# poweredBy)
 
 - `\common\config\params.php`
