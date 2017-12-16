@@ -2,15 +2,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 text-center">Powered by 
-                <a href="<?= \Yii::$app->params['yii2-brainbase-github-url'] ?>" target="_blank"> <?= \Yii::$app->params['yii2-brainbase-name'] ?>
-                    <?= \Yii::$app->params['yii2-brainbase-version'] ?> build <?= \Yii::$app->params['yii2-brainbase-build'] ?>
+                <a href="<?= \Yii::$app->params['poweredByUrl'] ?>" target="_blank"> <?= \Yii::$app->params['poweredByName'] ?>
+                    <?= \Yii::$app->params['poweredByVersion'] ?> build <?= \Yii::$app->params['poweredByBuild'] ?>
                 </a>
+                <?= \Yii::$app->params['poweredBySourceLabel'] ?>
             </div>
             <div class="col-md-4 text-center">Email: 
-                <a href="mailto:<?= \Yii::$app->params['yii2-brainbase-email'] ?>"><?= \Yii::$app->params['yii2-brainbase-email'] ?></a>
+                <a href="mailto:<?= \Yii::$app->params['poweredByEmail'] ?>"><?= \Yii::$app->params['poweredByEmail'] ?></a>
             </div>
-            <div class="col-md-4 text-center">Copyright &copy; 
-                <a href="<?= \Yii::$app->params['yii2-brainbase-copyright-url'] ?>" target="_blank"><?= \Yii::$app->params['yii2-brainbase-name'] ?></a>
+            <div class="col-md-4 text-center">Copyright &copy; <?= \Yii::$app->params['poweredByCopyrightLabel'] ?>
             </div>
         </div>
     </div>

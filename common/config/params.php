@@ -8,13 +8,14 @@ return [
     ///Note: Make sure that the mail sender must be a mailbox corresponding to SMTP! Please refer to `\common\config\main-local.php` in the mailer settings.
     'serviceEmail' => 'service@example.com',
 
-    'yii2-brainbase-email' => 'brainbook.cc@outlook.com',  ///yii2-brainbase contact email (Note: Not admin email!)
-    'yii2-brainbase-name' => 'yii2-brainbase',    ///yii2-brainbase name
-    'yii2-brainbase-version' => '1.0.0',           ///yii2-brainbase version
-    'yii2-brainbase-build' => '201610012344',      ///yii2-brainbase build version
-    'yii2-brainbase-copyright-url' => 'http://www.brainbook.cc',   ///yii2-brainbase copyright and support site url (Note: Not admin email!)
-    'yii2-brainbase-copyright-name' => 'brainbook.cc',             ///yii2-brainbase copyright and support site name
-    'yii2-brainbase-github-url' => 'https://github.com/yongtiger/yii2-brainbase',    ///yii2-brainbase GitHub url
+    ///[Yii2 Brainbase v0.20.1 (ADD# poweredBy)]
+    'poweredByUrl' => 'http://www.brainbook.cc',     ///powered by Yii2 application url
+    'poweredByName' => 'yii2-brainbase',     ///powered by Yii2 application name
+    'poweredByVersion' => '1.0.0',           ///powered by Yii2 application version
+    'poweredByBuild' => '201610012344',      ///powered by Yii2 application build version
+    'poweredByCopyrightLabel' => '<a href="http://www.brainbook.cc" target="_blank">brainbook.cc</a>',   ///powered by copyright and support site label
+    'poweredBySourceLabel' => '<a href="https://github.com/yongtiger/yii2-brainbase" target="_blank">[git]</a>',    ///powered by source code label, e.g. github url
+    'poweredByEmail' => 'brainbook.cc@outlook.com',  ///powered by contact email (Note: Not admin email!)
 
     'user.passwordResetTokenExpire' => 3600,
 

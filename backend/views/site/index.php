@@ -63,8 +63,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 <td></td>
             </tr>
             <tr>
-                <td>Yii2 Brainbase <?= \Yii::t('app', 'Version') ?></td>
-                <td><?= \Yii::$app->params['yii2-brainbase-version'] ?> build <?= \Yii::$app->params['yii2-brainbase-build'] ?></td>
+                <td><?= \Yii::$app->params['poweredByName'] ?></td>
+                <td><?= \Yii::$app->params['poweredByVersion'] ?> build <?= \Yii::$app->params['poweredByBuild'] ?></td>
                 <td><?= \Yii::t('app', 'Has already been the latest version, no need to update.') ?></td>
             </tr>
         </tbody>

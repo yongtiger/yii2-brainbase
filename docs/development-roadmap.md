@@ -1,5 +1,12 @@
 # Development roadmap
 
+## v0.20.1 (ADD# poweredBy)
+
+- `\common\config\params.php`
+- `\backend\views\layouts\footer.php`
+- `\backend\views\site\index.php`
+
+
 ## v0.20.0 (FIX# i18n:typo)
 
 * `\frontend\themes\yii2themeyii\src\views\layouts\main.php`
