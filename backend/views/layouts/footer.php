@@ -10,7 +10,7 @@
             <div class="col-md-4 text-center">Email: 
                 <a href="mailto:<?= \Yii::$app->params['poweredByEmail'] ?>"><?= \Yii::$app->params['poweredByEmail'] ?></a>
             </div>
-            <div class="col-md-4 text-center">Copyright &copy; <?= \Yii::$app->params['poweredByCopyrightLabel'] ?>
+            <div class="col-md-4 text-center">Copyright &copy; <?= \Yii::$app->params['CopyrightLabel'] ?> <?= date('Y') ?>
             </div>
         </div>
     </div>

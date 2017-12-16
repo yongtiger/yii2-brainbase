@@ -1,5 +1,10 @@
 # Development roadmap
 
+## v0.20.3 (TYPO# CopyrightLabel)
+
+- `\common\config\params.php`
+
+
 ## v0.20.2 (ADD# cropAvatar)
 
 - `\frontend\config\main.php`
